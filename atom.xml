@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://https://mj5219054.github.io</id>
+    <id>https://mj5219054.github.io/moyu.life-Hve-Notes/</id>
     <title>Gridea</title>
-    <updated>2021-03-19T15:59:58.001Z</updated>
+    <updated>2021-03-19T16:14:16.567Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://https://mj5219054.github.io"/>
-    <link rel="self" href="https://https://mj5219054.github.io/atom.xml"/>
+    <link rel="alternate" href="https://mj5219054.github.io/moyu.life-Hve-Notes/"/>
+    <link rel="self" href="https://mj5219054.github.io/moyu.life-Hve-Notes/atom.xml"/>
     <subtitle>个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</subtitle>
-    <logo>https://https://mj5219054.github.io/images/avatar.png</logo>
-    <icon>https://https://mj5219054.github.io/favicon.ico</icon>
+    <logo>https://mj5219054.github.io/moyu.life-Hve-Notes/images/avatar.png</logo>
+    <icon>https://mj5219054.github.io/moyu.life-Hve-Notes/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://https://mj5219054.github.io/post/hello-gridea/</id>
-        <link href="https://https://mj5219054.github.io/post/hello-gridea/">
+        <id>https://mj5219054.github.io/moyu.life-Hve-Notes/post/hello-gridea/</id>
+        <link href="https://mj5219054.github.io/moyu.life-Hve-Notes/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
