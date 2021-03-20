@@ -12,10 +12,16 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="http://mj5219054.github.io/moyu.life-Hve-Notes/favicon.ico?v=1616171647677">
+<link rel="shortcut icon" href="http://mj5219054.github.io/moyu.life-Hve-Notes/favicon.ico?v=1616226482003">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="http://mj5219054.github.io/moyu.life-Hve-Notes/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -30,7 +36,7 @@
   <div class="site-header">
     <div class="left">
       <a href="http://mj5219054.github.io/moyu.life-Hve-Notes">
-        <img class="avatar" src="http://mj5219054.github.io/moyu.life-Hve-Notes/images/avatar.png?v=1616171647677" alt="" width="32px" height="32px">
+        <img class="avatar" src="http://mj5219054.github.io/moyu.life-Hve-Notes/images/avatar.png?v=1616226482003" alt="" width="32px" height="32px">
       </a>
       <a href="http://mj5219054.github.io/moyu.life-Hve-Notes">
         <h1 class="site-title">Gridea</h1>
@@ -80,12 +86,12 @@
       <div class="content-container">
         <div class="post-detail">
           
-            <div class="feature-container" style="background-image: url('http://mj5219054.github.io/moyu.life-Hve-Notes/post-images/hello-gridea.png')">
+            <div class="feature-container" style="background-image: url('http://mj5219054.github.io/moyu.life-Hve-Notes/post-images/hello-gridea.jpg')">
             </div>
           
           <h2 class="post-title">Hello Gridea</h2>
           <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2018-12-12</span>
+            <span><i class="icon-calendar-outline"></i> 2021-12-12</span>
             
               <span>
                 <i class="icon-pricetags-outline"></i>
@@ -99,7 +105,7 @@
             
           </div>
           <div class="post-content">
-            <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+            <p><img src="http://mj5219054.github.io/moyu.life-Hve-Notes/post-images/1616172015199.jpg" alt="" loading="lazy">👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
 <!-- more -->
 <p><a href="https://github.com/getgridea/gridea">Github</a><br>
@@ -127,6 +133,12 @@
         
       </div>
 
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
       
 
       <div class="site-footer">
@@ -161,6 +173,29 @@ var app = new Vue({
 })
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
