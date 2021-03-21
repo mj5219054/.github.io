@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://github.com/mj5219054</id>
+    <id>http://mj5219054.github.io/Brick713.github.io</id>
     <title>Gridea</title>
-    <updated>2021-03-21T00:26:04.258Z</updated>
+    <updated>2021-03-21T00:31:20.870Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://github.com/mj5219054"/>
-    <link rel="self" href="http://github.com/mj5219054/atom.xml"/>
+    <link rel="alternate" href="http://mj5219054.github.io/Brick713.github.io"/>
+    <link rel="self" href="http://mj5219054.github.io/Brick713.github.io/atom.xml"/>
     <subtitle>个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</subtitle>
-    <logo>http://github.com/mj5219054/images/avatar.png</logo>
-    <icon>http://github.com/mj5219054/favicon.ico</icon>
+    <logo>http://mj5219054.github.io/Brick713.github.io/images/avatar.png</logo>
+    <icon>http://mj5219054.github.io/Brick713.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>http://github.com/mj5219054/post/hello-gridea/</id>
-        <link href="http://github.com/mj5219054/post/hello-gridea/">
+        <id>http://mj5219054.github.io/Brick713.github.io/post/hello-gridea/</id>
+        <link href="http://mj5219054.github.io/Brick713.github.io/post/hello-gridea/">
         </link>
         <updated>2021-12-11T16:41:41.000Z</updated>
         <summary type="html"><![CDATA[<p><img src="http://mj5219054.github.io/moyu.life-Hve-Notes/post-images/1616172015199.jpg" alt="" loading="lazy">👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p><img src="http://github.com/mj5219054/post-images/1616172015199.jpg" alt="" loading="lazy">👏  欢迎使用 <strong>Gridea</strong> ！<br>
+        <content type="html"><![CDATA[<p><img src="http://mj5219054.github.io/Brick713.github.io/post-images/1616172015199.jpg" alt="" loading="lazy">👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
 <!-- more -->
 <p><a href="https://github.com/getgridea/gridea">Github</a><br>
