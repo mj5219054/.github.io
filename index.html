@@ -1,153 +1,140 @@
-
+<!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
+    <meta charset="utf-8" >
 
 <title>Gridea</title>
-<meta name="description" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="http://mj5219054/.github.io.git/favicon.ico?v=1616739903319">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="http://mj5219054/.github.io.git/favicon.ico?v=1616942043040">
 <link rel="stylesheet" href="http://mj5219054/.github.io.git/styles/main.css">
 
 
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=commentSetting: {   commentPlatform: &#39;disqus&#39;,   disqusSetting: {     api: &#39;&#39;,     apikey: &#39;Dme6Hy8bOI2xxxxUtdY8V&#39;,     shortname: &#39;gridea&#39;,   },   gitalkSetting: {     clientId: &#39;d92dxxxxxxxxxx9b4&#39;,     clientSecret: &#39;861947exxxx365d33&#39;,     owner: &#39;EryouHao&#39;,     repository: &#39;EryouHao.github.io&#39;   },   showComment: false // 是否显示评论，可根据此字段进行评论的展示与否 }"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'commentSetting: {   commentPlatform: &#39;disqus&#39;,   disqusSetting: {     api: &#39;&#39;,     apikey: &#39;Dme6Hy8bOI2xxxxUtdY8V&#39;,     shortname: &#39;gridea&#39;,   },   gitalkSetting: {     clientId: &#39;d92dxxxxxxxxxx9b4&#39;,     clientSecret: &#39;861947exxxx365d33&#39;,     owner: &#39;EryouHao&#39;,     repository: &#39;EryouHao.github.io&#39;   },   showComment: false // 是否显示评论，可根据此字段进行评论的展示与否 }');
+</script>
+
+
+    <meta name="description" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。">
+    
   </head>
   <body>
     <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="http://mj5219054/.github.io.git">
-        <img class="avatar" src="http://mj5219054/.github.io.git/images/avatar.png?v=1616739903319" alt="" width="32px" height="32px">
-      </a>
-      <a href="http://mj5219054/.github.io.git">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="http://mj5219054/.github.io.git">
+        <img src="http://mj5219054/.github.io.git/images/avatar.png?v=1616942043040" class="site-logo">
         <h1 class="site-title">Gridea</h1>
       </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
+    <div>
       
         
-          <a href="/" class="menu purple-link">
+          <a href="/" class="site-nav" target="_blank">
             首页
           </a>
         
       
         
-          <a href="/archives" class="menu purple-link">
+          <a href="/archives" class="site-nav">
             归档
           </a>
         
       
         
-          <a href="/tags" class="menu purple-link">
+          <a href="/tags" class="site-nav">
             标签
           </a>
         
       
         
-          <a href="/post/about" class="menu purple-link">
+          <a href="/post/about" class="site-nav">
             关于
           </a>
         
       
     </div>
   </div>
-</transition>
-
-
-      <div class="content-container">
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
         
+      
         
-<section class="post-item">
-    <div class="content">
-      <a href="http://mj5219054/.github.io.git/post/hello-gridea/">
-        <h2 class="post-title">Hello Gridea</h2>
-      </a>
-      <div class="post-abstract">
-        <p><img src="http://mj5219054/.github.io.git/post-images/1616172015199.jpg" alt="" loading="lazy">👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2021-3-27</span>
+      
         
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="http://mj5219054/.github.io.git/tag/f7uvvrkDK/">
-                Gridea
-                
-              </a>
-            
-          </span>
+      
         
-      </div>
+      
+        
+      
     </div>
-    
-      <a href="http://mj5219054/.github.io.git/post/hello-gridea/">
-        <div class="feature-container" style="background-image: url('http://mj5219054/.github.io.git/post-images/hello-gridea.jpg')">
-        </div>
-      </a>
-    
-  </section>
-
-
-<div class="pagination-container">
-  
-  
-</div>
-
-
-      </div>
-
-      <div class="site-footer">
-  <div class="slogan">个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</div>
-  <div class="social-container">
-    
-      
-        <a href="https://github.com/https-github-com-mj521905" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+    <div class="site-description">
+      个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="http://mj5219054/.github.io.git/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="http://mj5219054/.github.io.git/atom.xml" target="_blank">RSS</a>
 </div>
 
 
-    </div>
-    <script type="application/javascript">
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="http://mj5219054/.github.io.git/post/hello-gridea/">
+                  <h2 class="post-title">holle ye zi </h2>
+                </a>
+                <div class="post-date">
+                  2021-3-27
+                </div>
+                <div class="post-abstract">
+                  <p>👏  欢迎使用 <strong>叶子</strong> ！<br>
+✍️  <strong>叶子</strong>记录你的生活、心情、知识、笔记、创意... ...</p>
 
-hljs.initHighlightingOnLoad()
+                </div>
+              </div>
+              
+                <a class="right" href="http://mj5219054/.github.io.git/post/hello-gridea/">
+                  <div class="feature-container" style="background-image: url('http://mj5219054/.github.io.git/post-images/hello-gridea.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+
+          <div class="pagination-container">
+  
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
 
 var app = new Vue({
   el: '#app',
@@ -157,6 +144,8 @@ var app = new Vue({
 })
 
 </script>
+
+
 
 
 

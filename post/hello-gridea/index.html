@@ -1,19 +1,14 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
+    <meta charset="utf-8" >
 
-<title>Hello Gridea | Gridea</title>
-<meta name="description" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。">
+<title>holle ye zi  | Gridea</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="http://mj5219054/.github.io.git/favicon.ico?v=1616739903319">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="http://mj5219054/.github.io.git/favicon.ico?v=1616942043040">
 <link rel="stylesheet" href="http://mj5219054/.github.io.git/styles/main.css">
 
 
@@ -24,150 +19,206 @@
   
 
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=commentSetting: {   commentPlatform: &#39;disqus&#39;,   disqusSetting: {     api: &#39;&#39;,     apikey: &#39;Dme6Hy8bOI2xxxxUtdY8V&#39;,     shortname: &#39;gridea&#39;,   },   gitalkSetting: {     clientId: &#39;d92dxxxxxxxxxx9b4&#39;,     clientSecret: &#39;861947exxxx365d33&#39;,     owner: &#39;EryouHao&#39;,     repository: &#39;EryouHao.github.io&#39;   },   showComment: false // 是否显示评论，可根据此字段进行评论的展示与否 }"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'commentSetting: {   commentPlatform: &#39;disqus&#39;,   disqusSetting: {     api: &#39;&#39;,     apikey: &#39;Dme6Hy8bOI2xxxxUtdY8V&#39;,     shortname: &#39;gridea&#39;,   },   gitalkSetting: {     clientId: &#39;d92dxxxxxxxxxx9b4&#39;,     clientSecret: &#39;861947exxxx365d33&#39;,     owner: &#39;EryouHao&#39;,     repository: &#39;EryouHao.github.io&#39;   },   showComment: false // 是否显示评论，可根据此字段进行评论的展示与否 }');
+</script>
+
+
+    <meta name="description" content="👏  欢迎使用 叶子 ！
+✍️  叶子记录你的生活、心情、知识、笔记、创意... ...
+
+                                                            工作选择
+
+
+}选择北上广..." />
+    <meta name="keywords" content="Gridea" />
   </head>
   <body>
     <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="http://mj5219054/.github.io.git">
-        <img class="avatar" src="http://mj5219054/.github.io.git/images/avatar.png?v=1616739903319" alt="" width="32px" height="32px">
-      </a>
-      <a href="http://mj5219054/.github.io.git">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="http://mj5219054/.github.io.git">
+        <img src="http://mj5219054/.github.io.git/images/avatar.png?v=1616942043040" class="site-logo">
         <h1 class="site-title">Gridea</h1>
       </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
+    <div>
       
         
-          <a href="/" class="menu purple-link">
+          <a href="/" class="site-nav" target="_blank">
             首页
           </a>
         
       
         
-          <a href="/archives" class="menu purple-link">
+          <a href="/archives" class="site-nav">
             归档
           </a>
         
       
         
-          <a href="/tags" class="menu purple-link">
+          <a href="/tags" class="site-nav">
             标签
           </a>
         
       
         
-          <a href="/post/about" class="menu purple-link">
+          <a href="/post/about" class="site-nav">
             关于
           </a>
         
       
     </div>
   </div>
-</transition>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="http://mj5219054/.github.io.git/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
 
-      <div class="content-container">
-        <div class="post-detail">
-          
-            <div class="feature-container" style="background-image: url('http://mj5219054/.github.io.git/post-images/hello-gridea.jpg')">
-            </div>
-          
-          <h2 class="post-title">Hello Gridea</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2021-3-27</span>
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">holle ye zi </h2>
+            <div class="post-date">2021-3-27</div>
             
-              <span>
-                <i class="icon-pricetags-outline"></i>
-                
-                  <a href="http://mj5219054/.github.io.git/tag/f7uvvrkDK/">
-                    Gridea
-                    
-                  </a>
-                
-              </span>
+              <div class="feature-container" style="background-image: url('http://mj5219054/.github.io.git/post-images/hello-gridea.jpg')">
+              </div>
             
-          </div>
-          <div class="post-content">
-            <p><img src="http://mj5219054/.github.io.git/post-images/1616172015199.jpg" alt="" loading="lazy">👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+            <div class="post-content" v-pre>
+              <p>👏  欢迎使用 <strong>叶子</strong> ！<br>
+✍️  <strong>叶子</strong>记录你的生活、心情、知识、笔记、创意... ...</p>
 <!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
+<pre><code>                                                            工作选择
+</code></pre>
+<figure data-type="image" tabindex="1"><img src="http://mj5219054/.github.io.git/post-images/1616740423786.jpg" alt="" loading="lazy"></figure>
+<p>}选择北上广深还是中小城市?<br>
+大城市好处:<br>
+A.大城市里竞争激烈,生活压力大,成本高,<br>
+人必须不断学习才能进步,从外界环境上来说,<br>
+会对人的上进有较大的促进作用;<br>
+B.身边的人普遍来说素质会比小城市高,积极上进的人多,也会受到他们的影响,<br>
+新鲜事物多,对人造成的冲击力较大<br>
+C.收入较高,机会较多,实现梦想的可能性更大坏处:<br>
+A.竞争激烈,压力巨大,调适不好容易产生各种包括身体疾病和心理问题;<br>
+B.努力不见得有预期的回报,看不到前景的生活会让人感觉绝望;C.房价高,生活成本高;D.人际关系可能比较冷漠2.小城市好处:<br>
+A.环境好,不像大城市里污染严重;B.人际关系简单融洽C.房价相对便宜,生活成本低坏处:<br>
+A.地方小、观念落后,生活缺少质感,可能比较单调;B.事业发展、眼界都容易受到地方人际关系网等的制约;C.不自由,不宽容,人会被环境同化,在安逸中磨掉抱负在了解以上利弊之后,再分析自己。<br>
+看学校、专业、兴趣和抱负。<br>
+有些专业,在大城市里才能找到对口的工小城市里只能转换跑道。<br>
+自己的专业比较执着,希望根据专业来选择,那就要看在哪样的城市里更有发展前途二看性格和经历。有些人喜欢冒险,就像秋叶这样,太安逸了反而是种危险,有可能封闭了未来的发展道路,那就不如到大城市闯闯,看看自己能够走多远。<br>
+有些人性格比较胆小怕事,承受风险的能力弱,在大城市里可能会举步维艰,喜欢安逸生活的人,可能更适合小城市生活看家庭。有些父母非常开明,支持自己的孩子在外地工作,而有些父母可能会坚决禁止,甚至采用极端手段要求孩子回来。<br>
+好沟通,而又比较在意父母的意见,可能你还是要把这个作为重要的考虑因素。<br>
+吃苦，本质是期望值，自控能力、自制能力和坚持能力，以及深度思考。<br>
+聚焦能力以及，为了长时间聚焦的做一件事的过程中.<br>
+穷，对不同人理解有不感受，有人是智穷有些人是自控有些人是能力。<br>
+有经济有精神世界.不及时止损、亏损抗压。<br>
+趋势，是大的时间和空间范围内，机会。<br>
+时机，是小的时间和空间范围内，视机。<br>
+对待“穷”逐渐脱离对自我剖析和对待外界的能力。<br>
+购买行为是否浪费:这笔消费的功能有没有和己有物品成合?<br>
+比如在我已经有两台键盘的况下,价格再低的键盘其实都没有购买的必要型要<br>
+购买的理t:这笔消费能在多人程度上提高生活率福感?<br>
+不买会有什么后果?比如新款 iPhone的确能带来幸福感,但咬咬牙不买似乎也不会怎么样,日子还是一样过可以不购买的理由:反问自己不头的理巾也很五要,决策就是个存利弊问权衡的过程。<br>
+比如 Switch健身环大冒险很香,价格也回到了正常水准,但买来在宿舍其实并没有用武之地<br>
+行业:行业发展前景,是夕阳产业、新兴产业还是已经成热规模化的产业<br>
+企业:企业在该赛道内的地位,独角兽企业是加分项<br>
+职业:在企业做什么,属于什么序列,该序列的发展前景<br>
+城市:个人喜好与城市发展前景,偏主观待遇:包括总包薪水与隐性福利<br>
+第一,要提前递交书面申请,至少提前一个月。这样,方便公司安排接替工作的人,一个月的时间也足够进行工作交接,尤其是涉及一些复杂项目的时候<br>
+第二,完整的工作交接。要把自己的工作进行细致地整理,有些进展中的项目,要详细说明目前的情况,涉及客户的,最好带着接替者一起拜访客户,也对客户的关照表示感谢。纸质文档和电子文档都要做好整理,最好还做岀资料列表,逐项说淸楚。公司的财物也要交还,正规的公司其实也都会有离职流程,根据检查表,一项一项地进行,这样可以保证不会遗漏。不要私自带走公司的资源,包括客户资源和机密资料等,就算没有签保密协议等,职业道德也是要遵守的。关于退出工作群,我们前面已经说了。最好再群发一封邮件向同事们道别,只是需要注意千万不要在邮件里包含个人情绪,礼貌地道谢就好了。<br>
+即使离了职,大家还可以做朋友第三,给出好看的辞职理由。离开原公司,可能不是愉快的事,但最好要给双方留个台阶下,即使你跟现在的领导不共戴天,也不要跟领导撕破脸扬长而去,这样固然痛快,但是也会给人际关系造成伤害。可以给自己编个身体不好或照顾家庭的理由。职场圈子不大,来来回回就那么些人,口碑有时比经验更重要,凡事都要给自己留条后路。这不是虚伪,是为人处事的基本原则第四,安排好自己的个人档案和五险一金。这些知识在百度都可以搜到,各地具体政策不尽相同,根据当地的政策办就好了。如果离职前已经找到下家,立刻就有新的单位接收,那么这些事情就不用自己费心,在新单位开份调离函,将档案提走,剩下的五险一金公司人力自然会帮你办好移交手续。如果暂时没有找到工作,就需要注意:办理辞职手续15天内去劳动保障部门报到,这样可以领到最长不超过24个月的失业补贴。这段时间,你的医疗保险也是劳动保障部门在帮你交,而且劳动保障部门会提供很多免費培训,如果你有好的项目,可以获得免息的银行货款和孵化园的免费场地使用权。<br>
+找工作期间,个人档案可以一直放在劳动保障部门,而不需要转到人才市场,这样可以免交档案保管费五险一金中,养老保险需要自己去交,五个档位按照自己能力自由选择,最少缴费15年。<br>
+医疗保险在领宗失业补贴之后自己去医保中心交,最少缴费25年。千万别因为麻烦,而擅自转成城镇居民医疗,报销比例和保障范围是不一样的。不交养老保险的事情<br>
+教导及提拔你的人,你的老师和在单位重要你的领导,是这样的贵人。<br>
+2.愿意欣赏你的长处的人,像你的培训合作伙伴,你的编辑,是这样的贵人<br>
+3.为你打开眼界,提供新的工作可能的人,像找你做推广的同事,是这样的贵人但是我觉得你还忽略了3类贵人。<br>
+1.愿意和你分担分享的人。可以陪同你分担一切的苦,分享一切的乐,这是贵人。新年我问你为什么能从小地方的凤凰男逆袭,你回答“我老婆好”,我觉得这个答案很对,她是你生命中的贵人。<br>
+2.愿意唠叨你的人。因为关心,所以唠叨!这说的是我们的父母,秋叶,其实你的父母在你的职业生涯里没有让你多操心,你买房时他们还支持你出首付,这也是你生命中不能忘记的贵人3,愿意无条件力挺你的人。我和你交往这么久,<br>
+不管别人怎样议论你,我相信“你”这个人,我接受你,你遇到困难和麻烦,我一定挺你我们很多人做职业规划,总想得到有能力的人,有权势的人帮助,其实重视身边些普通人对你的支持,才是让自己职业生涯顺利发展的关键。<br>
+.重要会议用“罗转事法N”<br>
+組织一场重要会议,除了提前群发会议议題给参会者,还要确定3个鮑色记录人:会议记录主持人:让会议公平,顺利地进行参与者:提议,说论,表决领导在会议中的角色,要么是公正但不表态的主持人,要么是沉默但不发言的参与者一只在会议结束时板决策2)会议开始时,主持人要当众宣布会议规则·文明表达规则:禁止人身攻击,禁止怀疑动机。习惯和煸好时一件规则:同一时间只计论同一议题限时限次规则:同一何题,每个人尺能发言x次,每次y分钟发言完整规则:不得打断别人的正常发言(3)主持人宣布议题,交由仪題人迹4持人宜布针对一个议题开始讨论,参会者举手逐个发言5)#人官布开始对议讲行表决,并记录替成,反对,弃权.缺席6)主持人宣布议题讨论结果,并进入下一个议题。<br>
+7)会议尾声,领导总结和决策互动:请问,按照罗的特议事法则,下面这条议题表决通过了吗?<br>
+望所有人必须参与的时候,你们不仅要参与,还要表现得很快乐很融洽你能不参加吗?如果需要所有人参与,你却特立独行,对自己有啥好处借用五月天的一首歌“叫你又不来,来了你又不山g!’不能打成一片,群众基础不好,升职就有障碍。不食人岡烟火,领导给你的评价只能是:不合群反之,饭桌上表现好又怎么样?如果你点菜又快又好,、妙语连珠笑点不断、敬酒礼数周到、能喁不客套,酒后品性好,领导给你的评价是:人才,下次我的饭局你参加职场需要这力面才能的人吗?<br>
+需要,非常需要,这也是一种业务技能])对,还有一种对内饭局,就只有领导身边的红人可以参与了,参与说明领导拿你当自己人,没参与则还没够资格。<br>
+(3)对外饭局的目的是拉近关系,达成合作,如果你不是领导跟前的“红人”,或者不是跟项目相关的技术骨干,或者不是有“特殊本领”的饭桌达人,才没机会组织和参加对外饭嗣呐。<br>
+当然,升职加薪的好事更轮不到你这是一个人情社会,平时在办公室都端着架子严肃紧张,各各的事,饭局无非是营造一个不那么严肃,更容易起兴的氛围,酒也是这个作用不参与饭局怎么和领导在业务之外沟通感情呢?<br>
+如果我是新人,我会期待能多爹加这3种饭局号一被领导得上,很开心的好好表现吧<br>
+<img src="http://mj5219054/.github.io.git/post-images/1616743183964.jpg" alt="" loading="lazy"></p>
+<!-- more -->
+<!-- more -->
+<p>[Github]（https://github.com/https-github-com-mj521905）<br>
+<a href="http://fehey.com/">示例网站</a><br>
+<img src="http://mj5219054/.github.io.git/post-images/1616741309016.png" alt="" loading="lazy"><br>
+QQ：379706045</p>
 <h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>🌱 当然 <strong>叶子</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
 <p>未来，它一定会成为你离不开的伙伴</p>
 <p>尽情发挥你的才华吧！</p>
 <p>😘 Enjoy~</p>
 
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="http://mj5219054/.github.io.git/tag/f7uvvrkDK/" class="tag">
+                    Gridea
+                  </a>
+                
+              </div>
+            
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
           </div>
+
         </div>
-
-        
       </div>
-
-      
-        
-          <div id="gitalk-container"></div>
-        
-
-        
-      
-
-      <div class="site-footer">
-  <div class="slogan">个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</div>
-  <div class="social-container">
-    
-      
-        <a href="https://github.com/https-github-com-mj521905" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="http://mj5219054/.github.io.git/atom.xml" target="_blank">RSS</a>
-</div>
-
-
     </div>
-    <script type="application/javascript">
 
-hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
 
 var app = new Vue({
   el: '#app',
@@ -177,6 +228,8 @@ var app = new Vue({
 })
 
 </script>
+
+
 
 
 
