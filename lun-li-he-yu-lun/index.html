@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>标签列表 | 叶子</title>
+<title>                         伦理和舆论 | 叶子</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,13 +12,21 @@
 <link rel="stylesheet" href="http://mj5219054/.github.io.git/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。">
+    <meta name="description" content="
+不良的意图和欲望是应该受到道德谴责的。在某些情况下，对于那些怀有一些负面欲望的人，认为要比那些只有正面欲望的人更高尚。一个真正道德的行为中必然要包含一些不道德的欲望，而一个恰好产生了正面结果的快乐行为是称不上道德的。在这个意义上，  只有..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -92,16 +100,41 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <h2 class="tag-list-title">标签列表</h2>
-          <div class="tags-container">
+          <div class="post-detail">
+            <h2 class="post-title">                         伦理和舆论</h2>
+            <div class="post-date">2021-03-30</div>
             
-              <a class="tag" href="http://mj5219054/.github.io.git/cheng-chang-de-de-xuan-ze/">成长的的选择</a>
+            <div class="post-content" v-pre>
+              <p><img src="http://mj5219054/.github.io.git/post-images/1617102021181.png" alt="" loading="lazy"><br>
+不良的意图和欲望是应该受到道德谴责的。在某些情况下，对于那些怀有一些负面欲望的人，认为要比那些只有正面欲望的人更高尚。一个真正道德的行为中必然要包含一些不道德的欲望，而一个恰好产生了正面结果的快乐行为是称不上道德的。在这个意义上，  只有具备对恶的向往，能做什么是出善的选择。<br>
+“战争中我们流尽鲜血，和平中幸福我们寸步难行”。<br>
+没有永远的敌人。在热闹的节点，大家一哄而上地造势；在脆弱的时刻，大家心照不宣地稳盘。<br>
+与投资落在纸面、照章办事不同，大多投资行为，都是原始的“口头协议”，核心圈子喜欢拍着胸脯讲，靠的就是信誉，玩得就是共识。<br>
+而这个共识，是也永远只是，利益二字。生活总想磨去一个人的棱角，扣上平庸的帽子，自以为是对这个世界很重要的时候，这才刚刚准备原谅幼稚时刻。总在生活或者人要一个答案，心里面的不安，多到无法计算，别笑我太悲观，脸上总是带着伤感，走过的时光给了太多遗憾。</p>
+
+            </div>
             
-              <a class="tag" href="http://mj5219054/.github.io.git/f7uvvrkDK/">Gridea</a>
             
-              <a class="tag" href="http://mj5219054/.github.io.git/fan-nao-he-jue-ze/">烦恼和抉择</a>
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="http://mj5219054/.github.io.git/cheng-shi/">
+                  <h3 class="post-title">
+                                                                  城市
+                  </h3>
+                </a>
+              </div>
             
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
           </div>
+
         </div>
       </div>
     </div>
@@ -121,6 +154,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 

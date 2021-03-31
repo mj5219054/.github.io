@@ -758,3 +758,61 @@ a {
   font-size: 16px;
   margin: 4px 8px;
 }
+
+      .login {
+    background: url("../images/login.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+ 
+.register {
+    background-image: url("../images/login.jpg");
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+}
+.rent {
+    background: url("../images/bike.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+ 
+.running {
+    background: url("../images/running.gif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+ 
+.input-group-addon-kaptcha {
+    display: table-cell;
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 0px 0px;
+}
+ 
+/*页面屏蔽不可点击*/
+.hidebox {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #202020;
+    width: 100%; /*宽度设置为100%，这样才能使隐藏背景层覆盖原页面*/
+    filter: alpha(opacity=30); /*设置透明度为60%*/
+    opacity: 0.3; /*非IE浏览器下设置透明度为60%*/
+    display: none; /* http://www.jb51.net */
+    z-Index: 2;
+}
+
+    
