@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>Gridea | 叶子</title>
+<title>           都试图清醒，却又都醉在一些梦中。 | 叶子</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,13 +12,20 @@
 <link rel="stylesheet" href="http://mj5219054/.github.io.git/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。">
+    <meta name="description" content="总期望活着时候看得到一生纯粹，其实死亡才是永恒。有一天，我们会发现，那么努力活着，最后都是对抗死亡的消逝而已。有一天，我们会发现，那么努力活着，最后都是对抗死亡的消逝而已。最易懂是规则，最难拿是人心，什么叫爱情。凡是能斩钉截铁回答上来的人要..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -92,34 +99,37 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <h2 class="current-tag">标签: Gridea</h2>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="http://mj5219054/.github.io.git/ding-wei/">
-                  <h2 class="post-title">定位</h2>
-                </a>
-                <div class="post-date">
-                  2021-03-29
-                </div>
-                <div class="post-abstract">
-                  <p>誓言这种东西无法衡量坚贞，也不能判断对错，它只能证明，在说出来的那一刻，彼此曾经真诚过。</p>
+          <div class="post-detail">
+            <h2 class="post-title">           都试图清醒，却又都醉在一些梦中。</h2>
+            <div class="post-date">2021-04-02</div>
+            
+            <div class="post-content" v-pre>
+              <p>总期望活着时候看得到一生纯粹，其实死亡才是永恒。有一天，我们会发现，那么努力活着，最后都是对抗死亡的消逝而已。有一天，我们会发现，那么努力活着，最后都是对抗死亡的消逝而已。最易懂是规则，最难拿是人心，什么叫爱情。凡是能斩钉截铁回答上来的人要么是蠢蛋，要么他这一生将无法拥有。<br>
+自尊=成功+虚荣   失望=期望-现实        真实性=自我觉知*勇气<br>
+醉眼看人间，人人都温柔，醒时看事态，事事都炎凉</p>
 
-                </div>
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="http://mj5219054/.github.io.git/ren-ji-guan-xi/">
+                  <h3 class="post-title">
+                                                  人际关系 
+                  </h3>
+                </a>
               </div>
-              
-                <a class="right" href="http://mj5219054/.github.io.git/ding-wei/">
-                  <div class="feature-container" style="background-image: url('http://mj5219054/.github.io.git/post-images/ding-wei.webp')">
-                  </div>
-                </a>
-              
-            </article>
-          
+            
 
-          <div class="pagination-container">
-  
-  
-</div>
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
 
         </div>
       </div>
@@ -140,6 +150,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
