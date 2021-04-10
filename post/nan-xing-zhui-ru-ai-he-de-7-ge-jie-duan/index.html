@@ -1,134 +1,204 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>爱河 | 叶子</title>
+<title>叶子</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。"/>
+<meta name="keywords" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。"/>
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="http://mj5219054/.github.io.git/favicon.ico?v=1617169367597">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="shortcut icon" href="http://mj5219054/.github.io.git/favicon.ico">
+
 <link rel="stylesheet" href="http://mj5219054/.github.io.git/styles/main.css">
 
+<!-- Modernizr JS -->
+<script src="http://mj5219054/.github.io.git/media/scripts/modernizr-2.6.2.min.js"></script>
+<!-- FOR IE9 below -->
+<!--[if lt IE 9]>
+<scripts src="http://mj5219054/.github.io.git/media/scripts/respond.min.js"></scripts>
+<![endif]-->
 
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
+<!-- Comment -->
 
-  
+    
+        <link href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css" rel="stylesheet">
+    
 
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=commentSetting: {   commentPlatform: &#39;disqus&#39;,   disqusSetting: {     api: &#39;&#39;,     apikey: &#39;Dme6Hy8bOI2xxxxUtdY8V&#39;,     shortname: &#39;gridea&#39;,   },   gitalkSetting: {     clientId: &#39;d92dxxxxxxxxxx9b4&#39;,     clientSecret: &#39;861947exxxx365d33&#39;,     owner: &#39;EryouHao&#39;,     repository: &#39;EryouHao.github.io&#39;   },   showComment: false // 是否显示评论，可根据此字段进行评论的展示与否 }"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'commentSetting: {   commentPlatform: &#39;disqus&#39;,   disqusSetting: {     api: &#39;&#39;,     apikey: &#39;Dme6Hy8bOI2xxxxUtdY8V&#39;,     shortname: &#39;gridea&#39;,   },   gitalkSetting: {     clientId: &#39;d92dxxxxxxxxxx9b4&#39;,     clientSecret: &#39;861947exxxx365d33&#39;,     owner: &#39;EryouHao&#39;,     repository: &#39;EryouHao.github.io&#39;   },   showComment: false // 是否显示评论，可根据此字段进行评论的展示与否 }');
-</script>
+    
 
 
-    <meta name="description" content="
 
-恋爱的时候总是以自欺欺人开始，而以欺骗别人告终，所说的罗曼史。
-几乎所有女孩子都会在小时候很喜欢粉红色，然后在某一个时期突然喜欢黑白灰，然后等她们再老一些，又会喜欢上艳丽的颜色，同样，几乎所有女孩子都会在某段时间非常讨厌尖头的鞋子，又会..." />
-    <meta name="keywords" content="烦恼和抉择" />
-  </head>
-  <body>
-    <div id="app" class="main">
+<!-- katex -->
+<!--<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet">-->
 
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="http://mj5219054/.github.io.git">
-        <img src="http://mj5219054/.github.io.git/images/avatar.png?v=1617169367597" class="site-logo">
-        <h1 class="site-title">叶子</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <div id="fh5co-offcanvas">
+    <a href="#!" class="fh5co-close-offcanvas js-fh5co-close-offcanvas">
+        <span><i class="icon-cross3"></i> <span>Close</span></span>
+    </a>
+    <div class="fh5co-bio">
+        <figure>
+            <img src="http://mj5219054/.github.io.git/images/avatar.png" alt="叶子"
+                 class="img-responsive">
+        </figure>
+        <a href="http://mj5219054/.github.io.git/post/about/"><h3 class="heading">ABOUT ME</h3></a>
+        <h2>叶子</h2>
+        <p>个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</p>
+        <ul class="fh5co-social">
+            
+                <li>
+                    
+                        <a href="https://github.com/https-github-com-mj521905" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+        </ul>
     </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav" target="_blank">
-            首页
-          </a>
-        
-      
-        
-          <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
+
+    <div class="fh5co-menu">
+
+        <!-- 标签 -->
+        <div class="fh5co-box">
+            <a href="http://mj5219054/.github.io.git/tags/"><h3 class="heading">👉标签</h3></a>
+            <ul>
+                
+                    <li><a href="http://mj5219054/.github.io.git/tag/cheng-chang-de-de-xuan-ze/">成长的的选择</a></li>
+                
+                    <li><a href="http://mj5219054/.github.io.git/tag/f7uvvrkDK/">Gridea</a></li>
+                
+                    <li><a href="http://mj5219054/.github.io.git/tag/fan-nao-he-jue-ze/">烦恼和抉择</a></li>
+                
+            </ul>
+        </div>
     </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="http://mj5219054/.github.io.git/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
 </div>
 
+<header id="fh5co-header">
+    <div class="container-fluid">
+        <div class="row">
+            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+            <ul class="fh5co-social">
+                
+                    <li>
+                        <a href="/"
+                        
+                           target="_blank"
+                                
+                        >
+                            首页
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan"
+                        
+                        >
+                            归档
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags"
+                        
+                        >
+                            标签
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/post/about"
+                        
+                        >
+                            关于
+                        </a>
+                    </li>
+                
+            </ul>
+            <div class="col-lg-12 col-md-12 text-center">
+                <h1 id="fh5co-logo">
+                    <a href="http://mj5219054/.github.io.git">叶子 </a>
+                </h1>
+            </div>
+        </div>
+    </div>
+</header>
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">爱河</h2>
-            <div class="post-date">2021-03-29</div>
-            
-              <div class="feature-container" style="background-image: url('http://mj5219054/.github.io.git/post-images/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan.jpg')">
-              </div>
-            
-            <div class="post-content" v-pre>
-              <figure data-type="image" tabindex="1"><img src="http://mj5219054/.github.io.git/post-images/1617021975834.jpg" alt="" loading="lazy"></figure>
+
+    <!--  <a href="#" class="fh5co-post-prev"><span>👈 Prev</span></a>-->
+    <!--  <a href="#" class="fh5co-post-next"><span>Next 👉</span></a>-->
+
+    <!-- 等gridea出自定义页面功能再优化一下 -->
+    
+        <div class="container-fluid">
+    <div class="row fh5co-post-entry single-entry">
+        <article class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+            <figure class="animate-box">
+                
+                    <img src="http://mj5219054/.github.io.git/post-images/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan.jpg" alt="爱河" class="img-responsive">
+                
+            </figure>
+            <span class="fh5co-meta animate-box">
+                
+                    <div class="tag-container">
+                        
+                            <a href="http://mj5219054/.github.io.git/tag/fan-nao-he-jue-ze/" class="tag">烦恼和抉择, </a>
+                        
+                    </div>
+                
+            </span>
+            <h2 class="fh5co-article-title animate-box">爱河</h2>
+            <ol class="breadcrumb fh5co-meta fh5co-date animate-box" style="margin-bottom:0; background-color:#f8f9fa">
+                <li>2021-03-29</li>
+                <li>8046字</li>
+                <li>28 min read</li>
+            </ol>
+
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-left content-article">
+                <div class="row">
+                    <div class="col-md-12 animate-box post-content">
+                        <p> <figure data-type="image" tabindex="1"><img src="http://mj5219054/.github.io.git/post-images/1617021975834.jpg" alt="" loading="lazy"></figure>
 <!-- more -->
 <pre><code>恋爱的时候总是以自欺欺人开始，而以欺骗别人告终，所说的罗曼史。
 几乎所有女孩子都会在小时候很喜欢粉红色，然后在某一个时期突然喜欢黑白灰，然后等她们再老一些，又会喜欢上艳丽的颜色，同样，几乎所有女孩子都会在某段时间非常讨厌尖头的鞋子，又会突然在某一个时期疯狂的迷上尖头鞋的魅力。
 </code></pre>
-<p>美丽是美容、美图、面膜、爽肤水、精华液、乳液、粉底液、BB霜、CC霜、隔离霜、防晒霜、蜜粉、眉粉，阴影粉、高光粉、睫毛膏、唇膏、唇彩，双眼皮贴、眉毛夹、睫毛夹和卸妆油是女性代言词。<br>
-如果您想彻底地拥有一个女人，那么，您就要学着像她那样去思考，因为，最重要的是能不能虏获她的芳心，至于那诱人的婚姻的价值，其实体现在人生的暗面，<br>
+<p>**   美丽是美容、美图、面膜、爽肤水、精华液、乳液、粉底液、BB霜、CC霜、隔离霜、防晒霜、蜜粉、眉粉，阴影粉、高光粉、睫毛膏、唇膏、唇彩，双眼皮贴、眉毛夹、睫毛夹和卸妆油是女性代言词。<br>
+****  如果您想彻底地拥有一个女人，那么，您就要学着像她那样去思考，因为，最重要的是能不能虏获她的芳心，至于那诱人的婚姻的价值，其实体现在人生的暗面，**<br>
 在你寂寞的时候旁边有一个人听着你的讫语，陪着你无所事事；<br>
 在你空虚的时候心头会突然出现一个眼神，让你觉得要改变一些什么；<br>
+<img src="http://mj5219054/.github.io.git/post-images/1617633582737.jpg" alt="" loading="lazy"><br>
 而当你被打倒在地踩上一只脚的时候，有一扇门依然为你敞开着，里面的人不但对你没有那么苛责，甚至还会尝试抚平你的伤口，为你的悲伤而悲伤。胴体，虽然让人神魂颠倒，也不过是额外的赠品罢了。<br>
 恋爱中最心酸的事大概是：对方已经决定跟你分手了，只是还没想好充分的理由，而你却还在计划着两个人下一步。也可能是我随意演绎这个众所公认的事实，我总觉得朝夕相处、耳鬓厮磨的男女之间，已经失去了激发恋情所需要的新鲜感。嗅得香气只限于刚焚香的那一瞬间；品出酒味只在于乍饮酒的那一刹那。同样，爱的冲动也在时间上存在这么间不容发的一点。找了一晚上钢笔 ，几乎流泪写出回忆，<br>
 与你，我，他三人分别后，好像属于我们的故事淡得只剩下梗概，一支笔的意义都珍贵到可以支撑起怀缅。<br>
 可是它还是被我丢了，像你一样从此杳然于我的世界。心里奔涌出热泪，无奈分别太久心内已然没有缺口，<br>
 留着那翻滚被辜负感觉涤荡在心壁，这份心殇从何说起。<br>
+<img src="http://mj5219054/.github.io.git/post-images/1617633702352.jpg" alt="" loading="lazy"><br>
 父母，除了养我们有恩，其他跟你半毛钱关系，在我们幼小的时候不给感情总是爱把受过的气往我们这撒，是不限的梦想往我们身上安，没玩没了的约束你，批评你，贬低你，我恨这样的父母，长大后发现父母其实很平凡也有做错事于是选择原谅，为了幸福感，就是沉入悲哀之河的河底的那些闪着微光的金砂，经历过悲伤的极限，心情不可思议地，朦胧地明亮起来，假如那就是幸福的感觉，走好自己的世界穿透一切高墙的东西，它就在我们的内心深处，他们无法达到，也接触不到，那就是希望，抑郁是爱的附属。爱情就从灵魂开始，到肉体结束。 不在寂寞中恋爱，就在寂寞中变态。<br>
 尴尬在于当我们对“真相”孜孜以求的时候，并不懂得这道理。<br>
 而了解之后，道理或者真相又显得无足轻重。<br>
@@ -214,85 +284,169 @@
 三年之后：锅碗瓢盆，鸡飞狗跳，奶粉尿布，没法睡觉；<br>
 七年一到：看到就烦，一说就吵，只求清净，不求相好；<br>
 能活过七年婚姻的战友，都是生死兄弟。<br>
-年轻的自己是对的，年老的自己也是对的，只是你在不同的时间，执着的东西不同，有个能陪我聊聊天的人，比看电视吃饭更重要。比如今天天气不错，我就能对他说，天气不错啊。如果天冷了，我就让他添件衣服。可惜这样简单的交流却也无法进行。这个世界上有这么多人，但每个人都是孤独的我的确是个不懂察言观色的笨蛋，被人欺负也要坚持哗众取宠的小丑，但我想留下自己曾经存在过证明。——【十六岁少年书】</li>
+NT理性者：我寻求的是思想伴侣，一本读不完的书。<br>
+选择一个合适的终身伴侣是非常困难而且危险的事情。我需要经过详细的研究以及冷静而严格的筛选，才能毫无保留的许下承诺。择偶可是终身大事，不能草率行事，不允许出现错误。对我来说，能和另一半分享我所关心的事物是非常重要的。我希望我的恋人是聪明的，卓越的，有思想的。如果不能周期性或者稍微长时间的讨论一些抽象性的话题，我会觉得若有所失，空洞洞的。所以我择偶的一个主要标准就是那个人的思维能力，比如洞察力和想象力。我希望那个人能不要在具体和世俗的问题上纠缠不清，而是更多的和我一同探讨抽象性的知识。比如政治学和经济学原理，语言学认识论等问题，或者科学技术方面的成就，创新与变革等等。所以，也许NT理性者和NF理想主义者对我来说更适合。但我也注重实效，所以也许有时候我也会从伴侣身上寻求照顾和安全，那我会喜欢SJ护卫者；也许我也会被SP艺术家的热情和丰富所吸引，产生火花。</li>
 </ol>
+<p>总的来说，我寻求的思想伴侣。一本读不完的书。<br>
+NF理想主义者：我寻求的是精神伴侣，一个深邃的空间。<br>
+我真心希望那个人是一个不用需要我解释和表达就能清楚的洞悉我的内在感受的人。他/她是爱慕我的，欣赏我的，相信我是独特的。我希望婚姻能够神秘而意味深长而不是爱情的坟墓和沼泽。精神性的交流对我来说是很重要的，同时我希望另一半能感受到我的浪漫和激情，同时也能够以同样的热情来回应我。也许这种要求对很多人来说是抽象的而且过于深邃的，但是这就是爱情的意义吧，我寻求的不是游戏伴侣，也不是合作伴侣，而是内心底的一种相互联结的感觉。我知道找到合适伴侣的概率是很低的，也许我对恋人的要求过于理想主义了吧。很多时候我甚至没法把自己的要求表达出来，因为我的要求是大多数人都不明白而且不知道该怎么去做的。<br>
+总的来说，我寻求的是精神伴侣。一个深邃的空间。<br>
+SJ护卫者：我寻求的是合作伴侣，一个安静的港湾。<br>
+我崇尚传统和礼仪，重视安全和稳定。我希望我能和我的另一半共同努力，建立一个温馨舒适而稳定的家庭。也许每段感情刚开始我就会在脑海中构造和那个人一同共建温暖巢穴的美好图景，游戏的态度对我来说是不可取的。对方是否能给我安全感和信赖感也很重要。我觉得我对伴侣是非常忠诚的，也希望在伴侣遇到任何困难的时候都能给与支持或者照顾。我也更能在恋人陷于困境的时候给与心理上的救助，用我的无微不至的关怀。其他人在这个问题上似乎不如我那么认真。我相信我是一个爱妻/助夫的人。<br>
+总的来说，我寻求的是合作伴侣。一个安静的港湾。<br>
+SP艺术创造者：我寻求的是游戏伴侣，一趟激动的旅程。<br>
+虽然我情绪容易波动，但是我觉得我是活得最为逍遥而且快乐的人。我希望我能感染我的另一半，让他/她也感受到生活的愉悦和兴奋。我是那么纵情，那么敏感，那么浪漫。要是对方能够和我一同去旅游去探险去享受生活的所有的美，我就足矣了。我好像很少厌倦什么，也不太喜欢和恋人长时间的去争论那些抽象世界的理论，那对我来说意义不大。最重要的就是享受当下的生活啊！人生苦短。同时，虽然我是一个热情的人，但是我也是敏感温柔的，我希望对方能够看到我的这一面，在我最脆弱的时候安慰我。婚姻对我来说是那么激动人心而且饶有趣味的。我也是一个最有包容性的人了。<br>
+总的来说，我寻求的是游戏伴侣。一趟激动的旅程。<br>
+不同性格类型习惯的表达感情的方式和感觉舒服的相处方式会很不同，这种差异会带来新奇和火花，同时也会带来冲突和痛苦（特别是热恋期的化学反应随着时间渐渐失去作用时，磨合期就悄然登场了）。如果你对MBTI各个维度和字母所代表的含义还很生疏，请先看《读懂自己，读懂他人（一）MBTI性格分析是什么》和《读懂自己，读懂他人（二）如何短时间内识别他人的性格类型》。<br>
+当你了解了自己的性格类型和恋人的性格类型之后，甚至在感情还刚刚开始的时候，你就能预见到未来你们之间潜在的矛盾可能会是什么，根源是什么；同时也能够理解对方，明白即便对方表达感情的手段和希望从一段感情中索取的东西不同，但是那都是表达爱的方式。<br>
+I （Introversive 内向）：I类型的人坚信，话不投机半句多。太多的社交活动和长时间的广泛交谈会让I类型的人觉得疲惫。如果自己的恋人总是拉着自己参加各种聚会和活动的话，I类型的人会觉得自己没有独立思考和休息的空间了。如果对方能够理解并且尊重他对宁静和独立的渴望和需求，他也会用感激和爱惜来回报恋人。</p>
+<p>无论是约会还是日后相处，I类型的人可能更享受的是两个人在一个相对安静和深邃的环境中的亲密感。</p>
+<p>E（Extroversive 外向）：E类型的人希望自己的恋人看到自己在社交场合的魅力，也只有在镁光灯下，他们才能感觉自己精神抖擞。如果长时间的和恋人被束缚在一个狭小而隐蔽的空间内，E类型的人会觉得自己的能量在逐渐被消耗光。</p>
+<p>E类型的人也很享受言谈，和恋人来一场兴奋而饱满的交谈或者带着对方在公共场合大放异彩是E类型最渴望的表达感情的方式。</p>
+<p>S（Sensing 知觉）：S类型的人喜欢和恋人享受当下的每时每刻。S类型的人怀念的会是和恋人曾经一同漫步的漂亮海滩，还有对方在阳光下熠熠发光的发梢，所有具体的琐碎的小细节。S类型的人会觉得那些形而上的抽象话题过于枯燥和无趣，为什么要沉溺于那些不能用五官感觉到的不真实的东西呢。过多的讨论抽象话题的要求会让他们喘不过气。</p>
+<p>N（Intuitive 直觉）：N类型的人看待这个世界和汲取信息的方式都是抽象化的。他们喜欢和人讨论形而上的话题，觉得那才是有意义的、特别的、深刻的。如果对方不能够和自己在精神世界和灵魂世界中畅游，他们会觉得很失望。</p>
+<p>N类型人的爱情需要想象和梦幻来构建，这会让他们努力打造最有意义和最特别的感情，但不切实际的幻想和对现实生活细节上的忽略也许会使得他们极难从琐碎平凡的两人相处中感到满足。</p>
+<p>F（Feeling 感情）：F类型的人喜欢以任何方式来向对方表达自己的疼爱之情，甜言蜜语、缠绵不休，“我爱你”说多少遍听多少遍都不会腻味，同时也不喜欢对方操控自己和过于强势的作风。</p>
+<p>当爱情降临的时候，F类型的人会听从自己心灵的呼唤，愿意按照自己的感觉来投入那段关系之中，事后再慢慢根据逻辑来做出调整。</p>
+<p>F类型的人会避免和他人起冲突，要是对方刚开始就迫不及待的把F类型的人拉入有争议性话题的辩驳之中，F类型的人可能会感觉害怕，因为他们可能不喜欢把不和谐的气氛带入一段亲密关系里。</p>
+<p>T （Thinking 思维）：T类型的人重视另一半的聪敏的幽默、机智的言谈、果敢的作风。虽然对过度的多愁善感和感情泛滥带着排斥的心理，但是却能用冷静的态度尊重另一半那独特的个性。虽然很多时候刻薄的天性会波及关系最亲密的那个人，让对方感到无比沮丧，但是T类型的人同时也时刻想着如何用更实际而有效的方式让自己、对方以及这段关系变得更美好。</p>
+<p>在感情开始之前，T类型的人可能就已经从各个角度计算好这段感情的各种可能性，然后再用自己的感觉和价值观来推动感情向前发展。</p>
+<p>J（Judging 判断）：J类型的人认为，对生活缺乏计划会是自己最大的噩梦。即便偶尔会把计划搁置一旁，但那也不会减少自己对按部就班的行事的渴望。感情上也是如此。J类型的人可能会对自己恋人那随性的作风忍无可忍，定好的约会时间临时更改会让J类型的人很不安，绝大部分时候，相比于出其不意的惊喜所带来新鲜，J类型的人还是更享受如己所愿所带来的舒适感。所以适当的提前告知J类型的人，约会时你有什么安排，你对彼此未来生活的构想，会给他们带来安全感。</p>
+<p>P（Perceiving 感知）：P类型的人也许会在职场上循规蹈矩，但是一到私生活领域，他们还是更喜欢让一切自然而为。如果要选择自由随意还是有条有理，他们一定会选择前者。感情生活上也无时无刻在为自己和他人留一个空间，也喜欢制造惊喜和变化让对方开心。过多的计划感情的走向会让他们觉得不安甚至害怕。如果有人非要在P类型的人在自己还没有先确定的时候就讨要一个承诺，那他们很可能会逃之夭夭，即便不得已的接受那也不可能使心甘情愿的。</p>
+<p>总有人会忍不住好奇的问：那最适合我这种性格类型的人是哪种呢？</p>
+<p>遗憾的是，寻找最合适的那一半是没有捷径的。没有哪两种性格就是绝配，也没有哪两种性格就是天敌。一般来说，第二个维度，就是沟通方式的这个维度相对来说比其它维度在感情关系上更重要，大部分人会选择和自己沟通方式相同的人做恋人。当两种完全迥异的性格，比如INTJ和ESFP相处的时候，冲突和摩擦也许会比其它性格类型都多得多。但是，要记住的是，MBTI性格类型永远只是一种倾向，四个字母的不同不一定代表彼此的差异很大，可能双方都是偏中间的中和的性格，所以很可能相处愉快。<br>
+年轻的自己是对的，年老的自己也是对的，只是你在不同的时间，执着的东西不同，有个能陪我聊聊天的人，比看电视吃饭更重要。比如今天天气不错，我就能对他说，天气不错啊。如果天冷了，我就让他添件衣服。可惜这样简单的交流却也无法进行。这个世界上有这么多人，但每个人都是孤独的我的确是个不懂察言观色的笨蛋，被人欺负也要坚持哗众取宠的小丑，但我想留下自己曾经存在过证明。——【十六岁少年书】</p>
+ </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 animate-box">
+                        
+                            <div class="next-post">
+                                <div class="next">下一篇</div>
+                                <a href="http://mj5219054/.github.io.git/post/ju-chi/">
+                                    <h3 class="post-title">
+                                                                                距离
+                                    </h3>
+                                </a>
+                            </div>
+                        
+                    </div>
+                </div>
+
+                <div class="row">
+    <div class="col-md-12 animate-box">
+        
+            
+                <div id="gitalk-container"></div>
+            
+
+            
+        
+    </div>
+</div>
 
             </div>
-            
-              <div class="tag-container">
-                
-                  <a href="http://mj5219054/.github.io.git/tag/fan-nao-he-jue-ze/" class="tag">
-                    烦恼和抉择
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="http://mj5219054/.github.io.git/post/ju-chi/">
-                  <h3 class="post-title">
-                                                            距离
-                  </h3>
-                </a>
-              </div>
-            
 
-            
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
-
-              
-            
-
-          </div>
-
-        </div>
-      </div>
+        </article>
     </div>
+</div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+
+    <!-- 返回顶部 -->
+    <div class="back-to-top">
+    
+    <a href="#top" class="hidden-xs hidden-sm"><i class="fa fa-paper-plane"></i></a>
+</div>
+
+<div class="post-toc animated fadeInRight hidden-xs hidden-sm" style="display: none;">
+    
+</div>
+
+
+    
+<footer id="fh5co-footer">
+  <p>Powered by Gridea, © 2016 - 2019 Copyright 叶子. All Rights Reserved. </p>
+</footer>
+
+
+    <!-- jQuery -->
+<script src="http://mj5219054/.github.io.git/media/scripts/jquery.min.js"></script>
+<!-- img lazy load -->
+<script src="http://mj5219054/.github.io.git/media/scripts/jquery.lazyload.min.js"></script>
+<!-- jQuery Easing -->
+<script src="http://mj5219054/.github.io.git/media/scripts/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="http://mj5219054/.github.io.git/media/scripts/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="http://mj5219054/.github.io.git/media/scripts/jquery.waypoints.min.js"></script>
+<!-- Main JS -->
+<script src="http://mj5219054/.github.io.git/media/scripts/main.js"></script>
+<!-- Md5 Min JS -->
+<script src="http://mj5219054/.github.io.git/media/scripts/md5.min.js"></script>
+<!-- katex -->
+<!--<script src="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.js"></script>-->
+<!-- highlight -->
+<script src="https://cdn.bootcss.com/highlight.js/9.15.8/highlight.min.js"></script>
+
+
 <script type="application/javascript">
+    // 代码高亮
+    hljs.initHighlightingOnLoad();
 
-AOS.init();
+    // img 懒加载
+    $(function () {
+        $("img.lazy").lazyload({
+            effect: "fadeIn",  // 懒加载动画
+            threshold: 180  // 在图片距离屏幕180px时提前载入
+        });
+        // tooltip
+        $('[data-toggle="tooltip"]').tooltip();
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+        // 目录
+        $('#tool-toc').click(function () {
+            $('.post-toc').toggle();
+        });
+    });
 
+    
+        var allImg = $("img");
+        allImg.on("contextmenu", function () {
+            return false;
+        });
+        allImg.on("dragstart", function () {
+            return false;
+        });
+    
 </script>
 
 
 
+    
+        <script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+        <script>
 
+            var gitalk = new Gitalk({
+                clientID: '',
+                clientSecret: '',
+                repo: '',
+                owner: '',
+                admin: [''],
+                id: md5(location.pathname),      // Ensure uniqueness and length less than 50
+                distractionFreeMode: false  // Facebook-like distraction free mode
+            })
 
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script>
+            gitalk.render('gitalk-container')
 
-      var gitalk = new Gitalk({
-        clientID: '',
-        clientSecret: '',
-        repo: '',
-        owner: '',
-        admin: [''],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
+        </script>
+    
 
-      gitalk.render('gitalk-container')
-
-    </script>
-  
-
-  
+    
 
 
 
 
-  </body>
+</body>
 </html>

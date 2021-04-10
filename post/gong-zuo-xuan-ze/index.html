@@ -1,125 +1,192 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>   工作选择 | 叶子</title>
+<title>叶子</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。"/>
+<meta name="keywords" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。"/>
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="http://mj5219054/.github.io.git/favicon.ico?v=1617169367597">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="shortcut icon" href="http://mj5219054/.github.io.git/favicon.ico">
+
 <link rel="stylesheet" href="http://mj5219054/.github.io.git/styles/main.css">
 
+<!-- Modernizr JS -->
+<script src="http://mj5219054/.github.io.git/media/scripts/modernizr-2.6.2.min.js"></script>
+<!-- FOR IE9 below -->
+<!--[if lt IE 9]>
+<scripts src="http://mj5219054/.github.io.git/media/scripts/respond.min.js"></scripts>
+<![endif]-->
 
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
+<!-- Comment -->
 
-  
+    
+        <link href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css" rel="stylesheet">
+    
 
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=commentSetting: {   commentPlatform: &#39;disqus&#39;,   disqusSetting: {     api: &#39;&#39;,     apikey: &#39;Dme6Hy8bOI2xxxxUtdY8V&#39;,     shortname: &#39;gridea&#39;,   },   gitalkSetting: {     clientId: &#39;d92dxxxxxxxxxx9b4&#39;,     clientSecret: &#39;861947exxxx365d33&#39;,     owner: &#39;EryouHao&#39;,     repository: &#39;EryouHao.github.io&#39;   },   showComment: false // 是否显示评论，可根据此字段进行评论的展示与否 }"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'commentSetting: {   commentPlatform: &#39;disqus&#39;,   disqusSetting: {     api: &#39;&#39;,     apikey: &#39;Dme6Hy8bOI2xxxxUtdY8V&#39;,     shortname: &#39;gridea&#39;,   },   gitalkSetting: {     clientId: &#39;d92dxxxxxxxxxx9b4&#39;,     clientSecret: &#39;861947exxxx365d33&#39;,     owner: &#39;EryouHao&#39;,     repository: &#39;EryouHao.github.io&#39;   },   showComment: false // 是否显示评论，可根据此字段进行评论的展示与否 }');
-</script>
+    
 
 
-    <meta name="description" content="
-}选择北上广深还是中小城市?
-大城市好处:
-A.大城市里竞争激烈,生活压力大,成本高,
-人必须不断学习才能进步,从外界环境上来说,
-会对人的上进有较大的促进作用;
-B.身边的人普遍来说素质会比小城市高,积极上进的人多,也会受到他们的影响,..." />
-    <meta name="keywords" content="成长的的选择" />
-  </head>
-  <body>
-    <div id="app" class="main">
 
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="http://mj5219054/.github.io.git">
-        <img src="http://mj5219054/.github.io.git/images/avatar.png?v=1617169367597" class="site-logo">
-        <h1 class="site-title">叶子</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
+<!-- katex -->
+<!--<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet">-->
+
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <div id="fh5co-offcanvas">
+    <a href="#!" class="fh5co-close-offcanvas js-fh5co-close-offcanvas">
+        <span><i class="icon-cross3"></i> <span>Close</span></span>
+    </a>
+    <div class="fh5co-bio">
+        <figure>
+            <img src="http://mj5219054/.github.io.git/images/avatar.png" alt="叶子"
+                 class="img-responsive">
+        </figure>
+        <a href="http://mj5219054/.github.io.git/post/about/"><h3 class="heading">ABOUT ME</h3></a>
+        <h2>叶子</h2>
+        <p>个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</p>
+        <ul class="fh5co-social">
+            
+                <li>
+                    
+                        <a href="https://github.com/https-github-com-mj521905" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+        </ul>
     </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav" target="_blank">
-            首页
-          </a>
-        
-      
-        
-          <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
+
+    <div class="fh5co-menu">
+
+        <!-- 标签 -->
+        <div class="fh5co-box">
+            <a href="http://mj5219054/.github.io.git/tags/"><h3 class="heading">👉标签</h3></a>
+            <ul>
+                
+                    <li><a href="http://mj5219054/.github.io.git/tag/cheng-chang-de-de-xuan-ze/">成长的的选择</a></li>
+                
+                    <li><a href="http://mj5219054/.github.io.git/tag/f7uvvrkDK/">Gridea</a></li>
+                
+                    <li><a href="http://mj5219054/.github.io.git/tag/fan-nao-he-jue-ze/">烦恼和抉择</a></li>
+                
+            </ul>
+        </div>
     </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="http://mj5219054/.github.io.git/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
 </div>
 
+<header id="fh5co-header">
+    <div class="container-fluid">
+        <div class="row">
+            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+            <ul class="fh5co-social">
+                
+                    <li>
+                        <a href="/"
+                        
+                           target="_blank"
+                                
+                        >
+                            首页
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan"
+                        
+                        >
+                            归档
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags"
+                        
+                        >
+                            标签
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/post/about"
+                        
+                        >
+                            关于
+                        </a>
+                    </li>
+                
+            </ul>
+            <div class="col-lg-12 col-md-12 text-center">
+                <h1 id="fh5co-logo">
+                    <a href="http://mj5219054/.github.io.git">叶子 </a>
+                </h1>
+            </div>
+        </div>
+    </div>
+</header>
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">   工作选择</h2>
-            <div class="post-date">2021-06-12</div>
-            
-              <div class="feature-container" style="background-image: url('http://mj5219054/.github.io.git/post-images/gong-zuo-xuan-ze.jpg')">
-              </div>
-            
-            <div class="post-content" v-pre>
-              <p><img src="http://mj5219054/.github.io.git/post-images/1616740423786.jpg" alt="" loading="lazy"><br>
-}选择北上广深还是中小城市?<br>
+
+    <!--  <a href="#" class="fh5co-post-prev"><span>👈 Prev</span></a>-->
+    <!--  <a href="#" class="fh5co-post-next"><span>Next 👉</span></a>-->
+
+    <!-- 等gridea出自定义页面功能再优化一下 -->
+    
+        <div class="container-fluid">
+    <div class="row fh5co-post-entry single-entry">
+        <article class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+            <figure class="animate-box">
+                
+                    <img src="http://mj5219054/.github.io.git/post-images/gong-zuo-xuan-ze.jpg" alt="   工作选择" class="img-responsive">
+                
+            </figure>
+            <span class="fh5co-meta animate-box">
+                
+                    <div class="tag-container">
+                        
+                            <a href="http://mj5219054/.github.io.git/tag/cheng-chang-de-de-xuan-ze/" class="tag">成长的的选择, </a>
+                        
+                    </div>
+                
+            </span>
+            <h2 class="fh5co-article-title animate-box">   工作选择</h2>
+            <ol class="breadcrumb fh5co-meta fh5co-date animate-box" style="margin-bottom:0; background-color:#f8f9fa">
+                <li>2021-06-12</li>
+                <li>8443字</li>
+                <li>29 min read</li>
+            </ol>
+
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-left content-article">
+                <div class="row">
+                    <div class="col-md-12 animate-box post-content">
+                        <p> <p><img src="http://mj5219054/.github.io.git/post-images/1616740423786.jpg" alt="" loading="lazy"><br>
+第一个是教育。<br>
+有一个好的学历，可以一生受用。起点上来比别人高，加薪升职优先，有优秀的校友和人脉圈子<br>
+选择北上广深还是中小城市?<br>
 大城市好处:<br>
 A.大城市里竞争激烈,生活压力大,成本高,<br>
 人必须不断学习才能进步,从外界环境上来说,<br>
@@ -151,6 +218,14 @@ A.地方小、观念落后,生活缺少质感,可能比较单调;B.事业发展�
 行业:行业发展前景,是夕阳产业、新兴产业还是已经成热规模化的产业<br>
 企业:企业在该赛道内的地位,独角兽企业是加分项<br>
 职业:在企业做什么,属于什么序列,该序列的发展前景<br>
+<img src="http://mj5219054/.github.io.git/post-images/1617184236890.webp" alt="" loading="lazy"><br>
+1、在地青年<br>
+你的家乡或者喜欢的地方有没有独特的地理、人文和文化优势？<br>
+2、新工匠<br>
+找到一门你独特的手艺，成为一个手艺人。<br>
+你有没有什么独特的功能、手艺或者停不下来能做到极致的爱好？<br>
+3、社会企业与公益<br>
+你身边有哪些社会问题？有什么是你可以通过公益、社会企业或者企业的公益活动解决的呢？<br>
 城市:个人喜好与城市发展前景,偏主观待遇:包括总包薪水与隐性福利<br>
 第一,要提前递交书面申请,至少提前一个月。这样,方便公司安排接替工作的人,一个月的时间也足够进行工作交接,尤其是涉及一些复杂项目的时候<br>
 第二,完整的工作交接。要把自己的工作进行细致地整理,有些进展中的项目,要详细说明目前的情况,涉及客户的,最好带着接替者一起拜访客户,也对客户的关照表示感谢。纸质文档和电子文档都要做好整理,最好还做岀资料列表,逐项说淸楚。公司的财物也要交还,正规的公司其实也都会有离职流程,根据检查表,一项一项地进行,这样可以保证不会遗漏。不要私自带走公司的资源,包括客户资源和机密资料等,就算没有签保密协议等,职业道德也是要遵守的。关于退出工作群,我们前面已经说了。最好再群发一封邮件向同事们道别,只是需要注意千万不要在邮件里包含个人情绪,礼貌地道谢就好了。<br>
@@ -171,8 +246,12 @@ A.地方小、观念落后,生活缺少质感,可能比较单调;B.事业发展�
 (3)对外饭局的目的是拉近关系,达成合作,如果你不是领导跟前的“红人”,或者不是跟项目相关的技术骨干,或者不是有“特殊本领”的饭桌达人,才没机会组织和参加对外饭嗣呐。<br>
 当然,升职加薪的好事更轮不到你这是一个人情社会,平时在办公室都端着架子严肃紧张,各各的事,饭局无非是营造一个不那么严肃,更容易起兴的氛围,酒也是这个作用不参与饭局怎么和领导在业务之外沟通感情呢?<br>
 如果我是新人,我会期待能多爹加这3种饭局号一被领导得上,很开心的好好表现吧<br>
-<img src="http://mj5219054/.github.io.git/post-images/1616743183964.jpg" alt="" loading="lazy"></p>
-<figure data-type="image" tabindex="1"><img src="http://mj5219054/.github.io.git/post-images/1617023114336.jpg" alt="" loading="lazy"></figure>
+<img src="http://mj5219054/.github.io.git/post-images/1616743183964.jpg" alt="" loading="lazy"><br>
+可以从三个方面考虑每一个职位。<br>
+第一，工作性质和内容<br>
+第二，和谁一起工作<br>
+第三，需要的技能或者入门门槛<br>
+<img src="http://mj5219054/.github.io.git/post-images/1617023114336.jpg" alt="" loading="lazy"></p>
 <p>是认清形势＋整合优化自己手上的资源＋方法得当，烂牌也能打好。<br>
 筹码如下: 外貌，性格情商，居家能力，事业能力。<br>
 手里有牌才有议价权。社交圈打开之后，需要向外界传达两个信息:<br>
@@ -194,6 +273,7 @@ A.地方小、观念落后,生活缺少质感,可能比较单调;B.事业发展�
 ——《放学后》<br>
 直觉、假定、洞察、验证、反证、迭代，六个阶段层层递进。<br>
 态度系统：1.行为本身2.行为意向3.行动观念4.情感反应5.态度本身。<br>
+<img src="http://mj5219054/.github.io.git/post-images/1617520734668.jpg" alt="" loading="lazy"><br>
 三个各自不同又相互联系的层次：<br>
 第一，对个人的认知。<br>
 这里包括对自己和对他人各种心理活动和行为（如知觉、注意、记忆、推论、情感、动机、行为）及思想观点、个性品质等等的认知；<br>
@@ -215,94 +295,222 @@ A.地方小、观念落后,生活缺少质感,可能比较单调;B.事业发展�
 日常生活里没有那么多惊心动魄的时刻，困顿的往往都是小事。需要考虑一日三餐，需要考虑自己的工资能不能养活自己，需要考虑柴米油盐酱醋茶，需要考虑一切平凡的生活。需要吃饭，需要爱，需要陪伴，脱离不了尘世，只能挣扎活着。<br>
 是无数普通而平凡的世界！<br>
 最难的时候，你是一个人。最难的时候，你也只能是一个人。<br>
-快乐有时候都没法和旁人分享，何况是难过呢。</p>
-<figure data-type="image" tabindex="2"><img src="http://mj5219054/.github.io.git/post-images/1617089831357.jpg" alt="" loading="lazy"></figure>
-<p>[Github]（https://github.com/https-github-com-mj521905）<br>
-<a href="http://fehey.com/">示例网站</a><br>
+快乐有时候都没法和旁人分享，何况是难过呢。<br>
+<img src="http://mj5219054/.github.io.git/post-images/1617089831357.jpg" alt="" loading="lazy"><br>
+血统：例如候选人的学历背景和工作背景等。<br>
+发展路径：包括晋升、职业流动的逻辑性等。晋升方面，会关注应聘者是在同一家企业获得不断晋升还是通过跳槽来实现晋升。<br>
+职业流动逻辑性，关注每次流动企业间的背景是否相当或者有所提升，考虑职业流动的逻辑性是否合理。<br>
+职位的匹配度：同样岗位职责范围可能不同，需要确认候选人与职位的匹配度。<br>
+企业文化匹配度：企业文化匹配度是保障招聘质量的重要因素。往往容易被忽略。<br>
+差异化信息核实：比如简历中会存在断档等，这些将会特别关注。在面试和背调中进行信息核实。<br>
+深度背景调查：背景调查，是人才甄别的重要环节，可以说是人才评价的“防火墙”，能够提高效率、规避风险。<br>
+领导力测评：了解候选人的个性、管理风格、战略思维、人际关系处理能力等。<br>
+1、把员工当作经营伙伴<br>
+能做到这一点的领导者并不容易，共赢，或者现在更多提到的一个词-共生。我们需要找到志同道合的伙伴，分担经营责任“共同经营者”。无论是好消息还是坏消息，都要及时传达给员工，同时鼓励员工参与到关键决策讨论中。<br>
+2、让员工爱戴你、迷恋你<br>
+要想获得员工的爱戴，首先要爱戴员工，以身作则，定期与员工沟通，明确目标，及时跟进和反馈。<br>
+3、阐述工作的意义<br>
+如果只是让员工工作，不告知工作的意义，日复一日重复工作，员工就会失去了成就感，要天天、有机会就和员工去讲工作的意义和价值，员工才会最大限度的发挥自身的潜力。<br>
+4、揭示高目标<br>
+要告知员工公司的使命和愿景。<br>
+<img src="http://mj5219054/.github.io.git/post-images/1617520723693.jpg" alt="" loading="lazy"><br>
+例如在奥运会场馆搭建中你的角色只是其中某个组件的搭建，但我们要告诉他们，建筑未来的最终成果是什么样的？可以创造什么样的价值？那么强大的意志力就会发挥出来，组织就会产生巨大的能量，朝着梦想实现的方向前进，跨越一切障碍。<br>
+5、明确企业的使命<br>
+6、不断讲述哲学<br>
+所谓讲述哲学，简单来说是讲为什么，为什么而工作。<br>
+7、经营者提升自己的心性<br>
+这里的自己指的是管理者或者经营者，我们要提升自己的逻辑思维，学习正确的哲学。<br>
+白色:客观信息、事实和数据<br>
+红色:感受<br>
+黑色:风险所在<br>
+黄色:价值、利益、好处<br>
+绿色:创造性和新主意<br>
+蓝色:对思考过程管理和控制<br>
+<img src="http://mj5219054/.github.io.git/post-images/1617520573271.jpg" alt="" loading="lazy"><br>
+办公室政治，职场中的成功人士往往是掌握了办公室政治艺术的人。以下是让你从容应对办公室政治的七个好习惯：<br>
+选择权在于你<br>
+在办公室政治中最常见的反应是斗争与逃避。即使回到史前时代，这也是人类在野外生存的正常反应。职场是一个现代丛林，但仅靠本能反应是不足以赢得办公室政治的：斗争只会给你想要实现的目标带来更多的阻力，而逃避会让人们理所当然地把你看成弱者。两者都不利于健康的职业生涯发展。<br>
+办公室政治的胜利需要你有意识地去选择你当下的反应。你要清楚：不管情况如何恶劣，能决定你的心情和行动的只有你自己。那么要怎样选择呢？让我们进入下一个问题…<br>
+清晰目标<br>
+当冲突发生时，人们很容易陷入短视并看重眼前的分歧，而这是一个弄巧成拙的做法。过度关注职位的高低和意见的不同可能会引起更多的反抗。避免被别人认为想要成为这场冲突的赢家的办法是关注商业目标。根据商业利益来讨论每一个选择。最终，每个人都想商业获得成功——如果公司不获利，没人能获利。这比每个人为了自己微薄的利润勾心斗角容易多了。通过学习将讨论引导至这个方向，你将学会脱离无用的分歧，把自己定位成想要做事的人。你的老板也会欣赏你，认为你成熟，有策略，可以赋予更大的责任。<br>
+影响范围（做你能做的）<br>
+在工作中，有很多我们难以控制的状况。企业政策，客户需求或老板命令影响个人利益的事情并不罕见。 牢骚和抱怨都是常见的反应。但想想看，除短期情绪渲泄，发牢骚能实现什么具体的目标吗？在大多数情况下，没有。<br>
+不要感到痛苦和生气，而应该尽你所能来影响现况。这是一项克服无助感的有效方法。它消除了你的负面情绪，也让别人把你看作一个在不利条件下也知道如何工作的人。你可能无法改变或决定最终的结果，但你知道你已经做了当你能做到的最佳。工作场合中有很多制约因素。通过这种方法，你的老板会来欣赏你的包容力和积极的。<br>
+保持中立<br>
+在办公室政治中，你有可能会发现自己卡在两个对立的权力人物中。他们试图欺骗对方并捍卫自己的立场，于是将你扔来扔去。你的工作成了代价。你不能让他们对一个决定达成共识，也无法让他承担工作的责任，他们太害怕会被人在背后捅一刀。在这种情况下，你得专注于商业目标并决不偏袒它们中的任何一方——即使你偏爱其中的一个。把他们放在一个共同的沟通平台并确保不同团体间有开放的交流，使任何人都不能说类似“我没这么说过”的话。中立将有助于你客观地解决冲突。你将与双方都建立信任感。这将有助于保持建设性的合作并专注于商业目标。<br>
+拒绝人生攻击<br>
+在办公室政治中，你会生气。这很正常。有时，你会想教训某人，想给他点颜色看看。但千万别这么做。人们往往记住他们觉得丢脸或被侮辱的时刻。虽然你赢了这一次，还感觉非常好，但当有天你需要这人的帮助时，你会付出代价的。种瓜得瓜，种豆得豆。想成为职场赢家，你得建立一个你可以信赖的同盟。你一时的情绪爆发会让人反感并在以后为难你，这是要避免的。<br>
+职业生涯发展是另一个控制情绪的原因。越来越多的公司会全方位考察一个人是否值得提升。<br>
+即使你是一个明星职员，如果其他经理或同事认为你很难共事，你的老板将不得不为你的升职打场艰难的战争。你得避免让老板奖励你成为一件困难的事情.<br>
+先理解别人<br>
+人们感到不公平是因为他们觉得被误解。比起先去理解别人，我们本能地更希望能先得到别人的理解。优秀的人事经理和商界领袖都知道要压抑这种本能。<br>
+令人惊讶的是，试图了解对方是一个缓解敌意的很好方法。一旦对方觉得你了解他/她的出发点，作为回报，他们会减少防备并乐于去了解你。这创造了一个开放的交流平台，可以产生双方都接受的解决方案。缺乏这样的理解而要实现解决方案是很困难的-缺乏信任和太多猜忌。<br>
+双赢<br>
+正如前面所说，政治冲突的发生是因为利益的冲突。也许是因为我们的学校教育，我们要赢，别人要输。反过来说，我们是害怕让别人赢，因为这意味着我们失败。<br>
+在商业和工作中，并非如此。<br>
+学着思考“在这种局面下，要如何双赢？”这需要你先了解对方的观点和他从中能得到的利益。其次，明白你从中能得到的利益。努力寻求一种双方都能接受的双赢的解决方案。这样做将确保所有人都真正为之工作而不是嘴上功夫。人们讨厌失败。在胜负思维下，你可能会赢个一两次，但很快，你会发现自己在职场中被孤立。双赢思维，是一个能帮你建立同盟获得长远利益的持久方法。<br>
+人际关系是社会人群中因交往而构成的相互依存和相互联系的社会关系。人是社交动物，每个个体都有自己独特的思想、背景、态度、个性、行为模式和价值观，然而人际关系对于每个人的情绪、生活、工作有很大的影响，甚至对组织气氛、组织沟通、组织效率和个人与组织之间有着极大的影响。<br>
+既然我们都是社会的一份子，又不可或缺的属于某一个集体——你与家人、与朋友、与同学、与老师、与同事等等。在现实生活中，为什么有些人拥有丰富的交际范围，而有些人则总是形影单只，与朋友和同事的关系都不是很融洽呢？这里弥缝列举了七条建立人际关系的要素，希望对大家有所帮助。<br>
+真实<br>
+待人真实，使你变得独一无二。你就是你自己，不要去刻意做作地装出其他一副样子。<br>
+有些心理书上喜欢提到这么一条理念：想成为什么就先装成什么。它的实质是，只要先装出一副理想中某个人的模样来，最终就能成为那个人。但是，归根到底，你还是装出来的。所以抛弃这条虚伪的心理学教条，以你自己的方式去尽力做好一切。从你的真实想法和信念，从你真实的自我出发，去寻找提高与改善，尝试新事物，并创造价值。<br>
+建设人际关系的前提条件是信任。而信任的最本质的基础，是相信某人表里如一，是一个真实的人。<br>
+对别人感兴趣（而不只是让别人对自己感兴趣）<br>
+确实，有趣的人会得到关注，但我相信，对他人感兴趣的人，会得到感激，因为我们总是喜欢那些对自己有兴趣的人。<br>
+<img src="http://mj5219054/.github.io.git/post-images/1617964397124.jpg" alt="" loading="lazy"><br>
+想像一下，当你去买商品时，销售员过来向你介绍产品。如果他在介绍产品之余，也同样关注如何能最好地帮助你，满足你的需要。你一定会对他有所好看，而这并非因为他是个有趣的人。相反的，如果那位销售员一位的称赞这是如何伟大的商品，结果肯定就完全两样了。事实上，现实生活中那些成功地销售员都是前者。<br>
+当你表示出对别人的兴趣，希望进一步了解他，不是出于可怕的好奇心，而是为了更好地提供帮助或服务，那对方就会很感激，觉得很荣幸。学会欣赏我们服务的对象，会增加我们所提供的服务的价值。<br>
+正确倾听以获取更多信息<br>
+当你对人们产生兴趣，他们就会提供你可以用来创造价值的重要信息。比如，如果你了解到老板痛恨冗长的备忘录，那你就知道可以用简短的报告打动他，赢得他的好感。或者，在与客户用午餐时，她吐露正在寻求一种新产品，因为这和她14岁儿子感兴趣的一个问题有关。你能了解到这一点，是因为你关心并询问她家庭的情况——同时注意倾听对方的回答。<br>
+用心去了解别人，寻求有助于提供更好服务的信息，这样做会赢得对方的好感。理解并认同他们的需求，会增加你为他们提供服务的价值。<br>
+体谅<br>
+如果你对他人有兴趣，并认真倾听，尽力去真正理解他们，你就能更好地体会他们的感受，你们的感受可能不会永远一致——如果一致，那你就是最富同情心的人了——但当你能体谅并理解他们的感受时，才能真正设身处地为他们着想。被别人理解是人类最强烈的需求之一，但是有太多时候，我们生活中的人，要么是根本不关心，要么是不愿意花精力来了解我们真实的感受。<br>
+一位智者曾经说过：“要仁慈。你所遇到的每一个人，都在经历一场艰辛的斗争。”说这话的人叫斐洛（古希腊时期犹太教哲学代表人物），生活在2000年前。从那时到现在，世界没有什么大的改变，而他的忠告，仍然是真正同情心的灵魂。<br>
+诚实<br>
+交际艺术的真谛，不是说出对方愿意听的话，而是以对方能听得进的方式，告诉他们所需要知道的事情。我把所有的商业谋略总结成一个简单的信条：言必信，行必果。换句话说，不要承诺你做不到的事情；不要让别人对你产生不切实际、无法满足的期望；不要随口应承、大包大揽。做一个言而有信的男人、女人或组织。这就是诚实。<br>
+乐于助人<br>
+小事情可以造成大改变，许多小事情累积起来，就可以形成天翻地覆的改变。<br>
+许多年前，我从一位朋友肯那里，学会了如何为陌生人提供帮助。如果我见到一群人照相，而拍照的是他们中的一个，我就会主动过去帮忙，这样就可以把所有人都拍进去。<br>
+甚至是为别人开一下门这样的行为，也蕴涵着弗雷德的精神。所以，不要忘记保持友善——别人不会忘记你。<br>
+守时<br>
+对多数人来说，他们拥有的时间，远远少于可以支配的收入。关心他人，给他们时间，这是一份最珍贵的礼物。通过守时、高效、迅捷的行为，节省他人的时间，会创造价值，变平庸为杰出。与他人的关系就等于你花在他们身上的时间，所以，一定要把你的时间用得最好，关心他人，为他们服务。<br>
+[Github]（https://github.com/https-github-com-mj521905）<br>
 <img src="http://mj5219054/.github.io.git/post-images/1616741309016.png" alt="" loading="lazy"><br>
-QQ：379706045</p>
-<h2 id="特性">特性👇</h2>
-<p>🌱 当然 <strong>叶子</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+🌱 当然 <strong>叶子</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃<br>
+未来，它一定会成为你离不开的伙伴<br>
+尽情发挥你的才华吧！<br>
+😘 ~</p>
+ </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 animate-box">
+                        
+                            <div class="next-post">
+                                <div class="next">下一篇</div>
+                                <a href="http://mj5219054/.github.io.git/post/wen-ming-you-xi/">
+                                    <h3 class="post-title">
+                                                                           文明游戏 
+                                    </h3>
+                                </a>
+                            </div>
+                        
+                    </div>
+                </div>
+
+                <div class="row">
+    <div class="col-md-12 animate-box">
+        
+            
+                <div id="gitalk-container"></div>
+            
+
+            
+        
+    </div>
+</div>
 
             </div>
-            
-              <div class="tag-container">
-                
-                  <a href="http://mj5219054/.github.io.git/tag/cheng-chang-de-de-xuan-ze/" class="tag">
-                    成长的的选择
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="http://mj5219054/.github.io.git/post/ren-ji-guan-xi/">
-                  <h3 class="post-title">
-                                                  人际关系
-                  </h3>
-                </a>
-              </div>
-            
 
-            
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
-
-              
-            
-
-          </div>
-
-        </div>
-      </div>
+        </article>
     </div>
+</div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+
+    <!-- 返回顶部 -->
+    <div class="back-to-top">
+    
+    <a href="#top" class="hidden-xs hidden-sm"><i class="fa fa-paper-plane"></i></a>
+</div>
+
+<div class="post-toc animated fadeInRight hidden-xs hidden-sm" style="display: none;">
+    
+</div>
+
+
+    
+<footer id="fh5co-footer">
+  <p>Powered by Gridea, © 2016 - 2019 Copyright 叶子. All Rights Reserved. </p>
+</footer>
+
+
+    <!-- jQuery -->
+<script src="http://mj5219054/.github.io.git/media/scripts/jquery.min.js"></script>
+<!-- img lazy load -->
+<script src="http://mj5219054/.github.io.git/media/scripts/jquery.lazyload.min.js"></script>
+<!-- jQuery Easing -->
+<script src="http://mj5219054/.github.io.git/media/scripts/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="http://mj5219054/.github.io.git/media/scripts/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="http://mj5219054/.github.io.git/media/scripts/jquery.waypoints.min.js"></script>
+<!-- Main JS -->
+<script src="http://mj5219054/.github.io.git/media/scripts/main.js"></script>
+<!-- Md5 Min JS -->
+<script src="http://mj5219054/.github.io.git/media/scripts/md5.min.js"></script>
+<!-- katex -->
+<!--<script src="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.js"></script>-->
+<!-- highlight -->
+<script src="https://cdn.bootcss.com/highlight.js/9.15.8/highlight.min.js"></script>
+
+
 <script type="application/javascript">
+    // 代码高亮
+    hljs.initHighlightingOnLoad();
 
-AOS.init();
+    // img 懒加载
+    $(function () {
+        $("img.lazy").lazyload({
+            effect: "fadeIn",  // 懒加载动画
+            threshold: 180  // 在图片距离屏幕180px时提前载入
+        });
+        // tooltip
+        $('[data-toggle="tooltip"]').tooltip();
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+        // 目录
+        $('#tool-toc').click(function () {
+            $('.post-toc').toggle();
+        });
+    });
 
+    
+        var allImg = $("img");
+        allImg.on("contextmenu", function () {
+            return false;
+        });
+        allImg.on("dragstart", function () {
+            return false;
+        });
+    
 </script>
 
 
 
+    
+        <script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+        <script>
 
+            var gitalk = new Gitalk({
+                clientID: '',
+                clientSecret: '',
+                repo: '',
+                owner: '',
+                admin: [''],
+                id: md5(location.pathname),      // Ensure uniqueness and length less than 50
+                distractionFreeMode: false  // Facebook-like distraction free mode
+            })
 
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script>
+            gitalk.render('gitalk-container')
 
-      var gitalk = new Gitalk({
-        clientID: '',
-        clientSecret: '',
-        repo: '',
-        owner: '',
-        admin: [''],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
+        </script>
+    
 
-      gitalk.render('gitalk-container')
-
-    </script>
-  
-
-  
+    
 
 
 
 
-  </body>
+</body>
 </html>

@@ -1,191 +1,433 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>                                              城市 | 叶子</title>
+<title>叶子</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。"/>
+<meta name="keywords" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。"/>
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="http://mj5219054/.github.io.git/favicon.ico?v=1617169367597">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="shortcut icon" href="http://mj5219054/.github.io.git/favicon.ico">
+
 <link rel="stylesheet" href="http://mj5219054/.github.io.git/styles/main.css">
 
+<!-- Modernizr JS -->
+<script src="http://mj5219054/.github.io.git/media/scripts/modernizr-2.6.2.min.js"></script>
+<!-- FOR IE9 below -->
+<!--[if lt IE 9]>
+<scripts src="http://mj5219054/.github.io.git/media/scripts/respond.min.js"></scripts>
+<![endif]-->
 
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
+<!-- Comment -->
 
-  
+    
+        <link href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css" rel="stylesheet">
+    
 
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=commentSetting: {   commentPlatform: &#39;disqus&#39;,   disqusSetting: {     api: &#39;&#39;,     apikey: &#39;Dme6Hy8bOI2xxxxUtdY8V&#39;,     shortname: &#39;gridea&#39;,   },   gitalkSetting: {     clientId: &#39;d92dxxxxxxxxxx9b4&#39;,     clientSecret: &#39;861947exxxx365d33&#39;,     owner: &#39;EryouHao&#39;,     repository: &#39;EryouHao.github.io&#39;   },   showComment: false // 是否显示评论，可根据此字段进行评论的展示与否 }"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'commentSetting: {   commentPlatform: &#39;disqus&#39;,   disqusSetting: {     api: &#39;&#39;,     apikey: &#39;Dme6Hy8bOI2xxxxUtdY8V&#39;,     shortname: &#39;gridea&#39;,   },   gitalkSetting: {     clientId: &#39;d92dxxxxxxxxxx9b4&#39;,     clientSecret: &#39;861947exxxx365d33&#39;,     owner: &#39;EryouHao&#39;,     repository: &#39;EryouHao.github.io&#39;   },   showComment: false // 是否显示评论，可根据此字段进行评论的展示与否 }');
-</script>
+    
 
 
-    <meta name="description" content="    结乡结合部的县城书记清道已然“沦为”镇上楼往东开盘的看门人后你会看到正东方向有栋白房子。我家门是南在这里,你也可以了解,政治并未主宰一切基层书记不因为暂时的权力被彻底吸入技木的机他们不看太阳,也无需停下片刻计算一番器,而永恒分享这头..." />
-    <meta name="keywords" content="" />
-  </head>
-  <body>
-    <div id="app" class="main">
 
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="http://mj5219054/.github.io.git">
-        <img src="http://mj5219054/.github.io.git/images/avatar.png?v=1617169367597" class="site-logo">
-        <h1 class="site-title">叶子</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
+<!-- katex -->
+<!--<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet">-->
+
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <div id="fh5co-offcanvas">
+    <a href="#!" class="fh5co-close-offcanvas js-fh5co-close-offcanvas">
+        <span><i class="icon-cross3"></i> <span>Close</span></span>
+    </a>
+    <div class="fh5co-bio">
+        <figure>
+            <img src="http://mj5219054/.github.io.git/images/avatar.png" alt="叶子"
+                 class="img-responsive">
+        </figure>
+        <a href="http://mj5219054/.github.io.git/post/about/"><h3 class="heading">ABOUT ME</h3></a>
+        <h2>叶子</h2>
+        <p>个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</p>
+        <ul class="fh5co-social">
+            
+                <li>
+                    
+                        <a href="https://github.com/https-github-com-mj521905" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+        </ul>
     </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav" target="_blank">
-            首页
-          </a>
-        
-      
-        
-          <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
+
+    <div class="fh5co-menu">
+
+        <!-- 标签 -->
+        <div class="fh5co-box">
+            <a href="http://mj5219054/.github.io.git/tags/"><h3 class="heading">👉标签</h3></a>
+            <ul>
+                
+                    <li><a href="http://mj5219054/.github.io.git/tag/cheng-chang-de-de-xuan-ze/">成长的的选择</a></li>
+                
+                    <li><a href="http://mj5219054/.github.io.git/tag/f7uvvrkDK/">Gridea</a></li>
+                
+                    <li><a href="http://mj5219054/.github.io.git/tag/fan-nao-he-jue-ze/">烦恼和抉择</a></li>
+                
+            </ul>
+        </div>
     </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
+</div>
+
+<header id="fh5co-header">
+    <div class="container-fluid">
+        <div class="row">
+            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+            <ul class="fh5co-social">
+                
+                    <li>
+                        <a href="/"
+                        
+                           target="_blank"
+                                
+                        >
+                            首页
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan"
+                        
+                        >
+                            归档
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags"
+                        
+                        >
+                            标签
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/post/about"
+                        
+                        >
+                            关于
+                        </a>
+                    </li>
+                
+            </ul>
+            <div class="col-lg-12 col-md-12 text-center">
+                <h1 id="fh5co-logo">
+                    <a href="http://mj5219054/.github.io.git">叶子 </a>
+                </h1>
+            </div>
+        </div>
     </div>
-    <div class="site-description">
-      个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。
+</header>
+
+
+    <!--  <a href="#" class="fh5co-post-prev"><span>👈 Prev</span></a>-->
+    <!--  <a href="#" class="fh5co-post-next"><span>Next 👉</span></a>-->
+
+    <!-- 等gridea出自定义页面功能再优化一下 -->
+    
+        <div class="container-fluid">
+    <div class="row fh5co-post-entry single-entry">
+        <article class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+            <figure class="animate-box">
+                
+                    <img src="http://mj5219054/.github.io.git/post-images/cheng-shi.png" alt="                                              城市" class="img-responsive">
+                
+            </figure>
+            <span class="fh5co-meta animate-box">
+                
+            </span>
+            <h2 class="fh5co-article-title animate-box">                                              城市</h2>
+            <ol class="breadcrumb fh5co-meta fh5co-date animate-box" style="margin-bottom:0; background-color:#f8f9fa">
+                <li>2021-03-30</li>
+                <li>5715字</li>
+                <li>20 min read</li>
+            </ol>
+
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-left content-article">
+                <div class="row">
+                    <div class="col-md-12 animate-box post-content">
+                        <p> <p>城乡结合部的县城书记清道已然“沦为”镇上楼往东开盘的看门人后你会看到正东方向有栋白房子。我家门是南在这里,你也可以了解,政治并未主宰一切基层书记不因为暂时的权力被彻底吸入技木的机他们不看太阳,也无需停下片刻计算一番器,而永恒分享这头理性巨曾的奴役和利益就能脱口而出“你脚的北边有一只蚂蚊青道一面在市场经济的秩序中卑微过活凭感觉就能知道哪是北方、南方、西方和东方面在多村人际的牵挂中,在他特有的像有完美音调的人不用计算音程就能感觉出每个杯两盏后信手拈来的顺口溜中编织着另一个善音调是什么。<br>
+善恶分明的世界。在那些一面俏皮,一面严肃的话总有几件自古红颜多薄命。<br>
+长得漂亮的女孩语里,政治与经济如麦草和稗草生长,祓自然的子,如果不是家庭条件好保护得好,没有“公主法则与命运主宰,复杂的人世在这个老人心中被命”,那就是西施貂蝉杨贵妃陈圆圆。一身书生直觉地把握着。寄住在镇上一座看上去颜为现代气,气满腔正义情,自贱言论古今。<br>
+岂知的小区,但一切绿化空间却都被占有,变成了菜读求风雅,稚幼鸿鹄志,谁曲知流年,一手离骚魂,不经磨世情在他精心地照看下旺盛而疯狂地生长,如同他的从小到大都是被骚扰的重点,要是进了狼窝子孙与精兵,模了他与这座村镇高楼的从属关就更惨了,数字草原,而放眼过去看见的都是羊系。在一种城市人的眼光中,他的生活当然已经群,现实像条狗,就在你面前颤抖。那些疯狂的彻底的失敗杂草那些渐渐老去的麦子以及她们腐朽的根那城市,村庄,繁华与农经这一切还远未见些那欲求不满的虫子那些被遗弃的麦秸都只为取老人们被岁月洗礼,身体被苦难塑造,言悦她啊亲爱的麦地中是无奈和琉离仅有的新生的孩子们匪气十足,对出入城里农忙外,来者有好奇和挑战的欲望天真生猛中夹杂不甘与怨气,已经多少知晓外面的花花世界,在城市繁荣景观的映衬下,农村的微不足道过了红绿灯后,向北开,然后在第二个十字路口。<br>
+势能朝下时，咱就是爷爷。    势能朝上时，咱就是孙子。<br>
+人，都在爷孙间自由的切换里买了一思故事，一顿饭，煮了一本书，书上记载汽车和人，，不符合的我突然，闯进城市的气质    我那可爱的姑娘在在远方，   没有物质的爱情就是一盘散沙<br>
+贴标签是违法犯罪的催化剂。<br>
+一个人在初次实施违法犯罪行为后，如果被有 权界定标签的机构贴上不道德或犯罪人的标签，就留下了一个污点，使行为人处处受到这种污点的影响，在家庭中为父母或其他家庭成员所讨厌，在学校被老师和同学歧视，在社会上找不到理想的职业。长被贴标签者便会认可这种标签，进而实施更加严重的违法犯罪行为，最终成为职业犯。<br>
+社会中每一个底层相信等级是以财富的多少来作为标准的<br>
+中层承认金钱与等级差别有关，但一个人所受的教育和从事的工作类型同样重要；<br>
+上层认为品味、价值观、生活格调和行为方式是判断等级身份不可或缺的标准，而对金钱、职业或受教育程度则不加考虑。人都有犯罪的可能，都是潜在的犯罪者。<br>
+《围城》里有这样一句话,“外面的人想进去,里面的人想出来”。一个人在城里呆时间长了,特别是退休后无所事事,总会向往田园风情,体会那最原始的生活方式。能到农村租块地,或种菜,或养殖,既可以锻炼身体,又可以愉悦性情,还能在一定程度上让家人享受到货真价实的绿色食品,这是一举多得的好事,何乐而不为呢?宁静、自由、简单、邻居间彼此来来往往、互帮互助,成了乡下最有力的代名词。<br>
+农村的是幸运的,每个孩子都是在人家眼中看着长大的,在孩子眼里周围的人从小就看惯的,是一个熟悉、富有人情的、没有陌生人的社会。。<br>
+社会群体：一种是城里人，一种是乡下人，第三种社会群体——城乡两栖人。<br>
+城乡两栖人的特征是：城乡都有房产，但是户口在一地，生活和工作可以在任一地。<br>
+将围绕文化的区隔性与过程性两种特性来思考群体层面发生的心理现象：<br>
+文化共享于群体成员之间，又反过来促使群体认同的形成、凸显群体间差异；<br>
+另外伴随着群体的迁移、沟通与互动，文化发生变迁，使群体中的个人有着多种身份、认同与思维方式。”<br>
+对阶级的划分有很多种，例如，雇主和雇员，工作环境有无毒害等。<br>
+区分等级绝非只有财富标准，因为谁也无法确切知道你的财富情况，同样重要的因素还有风范、品味、认知水平。<br>
+文化认同（英语：cultural identity）是一个人对于自身属于某个社会群体的认同感。文化认同是文化社会学的一个课题，也与心理学密切相关，是一个人的自我概念及自我认知。这种认同感的对象往往与国籍、民族、宗教、社会阶层、世代、定居地方或者任何类型具有其独特文化的社会群体有关。文化认同不但是个人的特征，也是具有相同的文化认同或教养的人所组成的群体的特征<br>
+新兴的媒体对文化认同的传播及产生具有一些有趣的影响。比起仔细去理解某人在某个群体里的所作出的互动，从人们跟随或模仿由媒体引导的社会规范的时候，即足以定义及发现他们的文化认同。因此，与其从具体的文化群体中其他学习他们的行动及知识，人们开始趋向以从媒体中学习到相关的社会规范来构建他们的文化认同。<br>
+知识和感知力比金钱更能决定人的社会等级，才提出一个三重结构的说法，即把人分为有高度文化素养的人、有一般文化教养（中产阶级趣味）的人和缺乏文化教养的人.<br>
+生活像一场戏剧？戈夫曼提出了两个重要原因：<br>
+第一，控制让他人看到的现实的能力是一种重要的武器，几乎所有人都能在某种程度上利用它来提高自己的地位、权力或者是自由。因此，贵族和上层阶级用他们的财富和闲暇来给自己披上尊费的色彩，使自己得到尊重；中产阶级则通过将自己置于工人阶级之上而获得受人尊敬的地位；管理者试图通过在下属面前表现出给人印象深刻的风度而提升他们的权力；工人则通过将他们与老板打交道的场合限制在被小心护卫着的前台区域而保护自己的自主性。<br>
+将生活比作戏剧的第二个原因是：<br>
+要有一个清晰的、一致的和公认的现实，那么表演就是必需的。各种境况并不会直接自我界定：他们必须通过象征交流而被构建出来；因此，不管社会生活还具有其他什么性质，它必须是可被表述的。这样，戈夫曼就将米德和涂尔干的观点向前推进了，涂尔干的社会良知观念是要以此显示出作为社会本质的共享意识之存在。戈夫曼将这一概念从抽象的高空拉下来，所以我们不用努力去想象一个意识的大气球笼罩在法国、英国或是美国的上空，构成这些社会的集体良知；可以根据千百万小的社会现实来进行思考，只要人们聚在一起就会存在这些现实。<br>
+每一个阶层，无论是最豪华的还是最简陋的，都在旷日持久的上演有关自尊的喜剧。<br>
+群体认同必然存在多群体对于社会权利和社会优势地位的竞争，那么对于弱势群体来说“当个人认为优势群体的界限是不能被打破时，通常会有两种反应：一种是社会竞争（social competition），也就是通过革命、变革的形式改变当前的利益格局、优势群体的分类标准，使自己获得同样的权利；另一种反应叫作社会创造（social creativity），通常是接受当下的阶层、群体区隔，降低自己的期望，重新评估已有的比较标准，让自己与地位更低的群体相比较，使自己安于现状，接受命运安排。<br>
+文化认同是一种肯定的文化价值判断,指文化群体或文化成员承认群内新文化或群外异文化因素的价值效用符合传统文化价值标准的认可态度与方式。<br>
+小集团思维症状分为三大类：<br>
+（1）决策团队对自己力量和道德过高估计型。包括团队大部分或全部成员认为自己无懈可击，坚不可摧。这种幻觉产生过分的乐观，鼓励采取过于冒险的行为；或者对自己团队道德上的正确坚信不疑，忽视团队决策在种族和道德上的偏见以及可能造成的后果。<br>
+（2）决策团队闭塞型。为了使决策理性化，决策团队不考虑外部对他们最初的h设想所发出的警告信息；对敌方的领导有一种成见，认为他们太坏，不会有真正谈判的愿望，或者认为他们r太弱或太愚蠢，即使自己出现错误，运气也会站在自己一边。<br>
+（3）保持团结一致的压力型。如每个成员都认为自己的怀疑或反对意见不重要；认为小组成员大部分观点是一致的；压制对小组的任何成见、错觉或承诺表示反对意见的成员，认为忠诚的成员不应该有不同的意见，有成员锐身自任“思想保镖“等<br>
+城市地理学主要分为三大块内容：城市化，区域城市体系，城市内部空间组织。<br>
+一 城市化<br>
+1. 首先必须解决的一个问题是城市的地域界定。<br>
+对于实体城市，城市化地区即由中心和外围密集居住区两部分组成。<br>
+对于中心区与外围区有具体的人口密度和人口总数要求。<br>
+对于城市功能地域，分为都市区，大都市带，都市连绵区，还有都市圈，城镇密集区等概念。<br>
+1. 城市的产生与发展<br>
+2.1 城市与区域的共生关系；<br>
+2.2 地理位置对城市产生与发展的影响；<br>
+2.3 不同类型的城市产生与发展的动力<br>
+一般说来，中心地城市的发展动力源于其行政等级，服务范围大小，服务范围内经济发展水平和城镇本身的发展条件；交通运输类城市取决于天赋与人为的交通地理位置，发展前景取决于经济腹地，后方疏运系统，城市本身的建设条件；专门话城市起源于某种天赋的资源与人类的某种特殊需要，一方面取决于资源类型，数量，质量，开采条件，另一方面取决于国家或市场对这种产品的需要.<br>
+城市间相互作用的分类及产生的条件<br>
+分类：. 对流（物质与人的移动）；传导（货币流）；辐射（信息流）。<br>
+条件：互补性（一方需要，另一方能提供）；中介机会（两地输送时介入了另一个能提供或消费货物的第三地）；可运输性（距离成本有限）。<br>
+（1）.从CBD的职能看，CBD的主要活动包括金融、贸易、信息、展览、会议、经营管理、旅游机构及设施、公寓及配套的商业文化、市政及交通服务设施是城市中上述商务活动最为集中的地方，而这些在知识经济的今天又是最为重要的。<br>
+（2）从CBD的区位看， 人流最集中，交通最便捷；<br>
+（3）从CBD的规模看，建筑密度最高，吸引力和服务范围最大；<br>
+（4）从地租角度看，CBD是城市地价最高的地区，这也直接反映了CBD对于城市的重要性；<br>
+总之，现代城市CBD是城市、区域乃至全国经济发展的中枢。<br>
+“城中村”原因<br>
+1.城中村是在特定经济、社会、文化政策背景下形成的非完全城市化的产出。<br>
+具体而言，有以下几个方面：<br>
+（1） 背景是农村快速城市化；<br>
+（2） 处于经济原因，城市不断扩张，城市基础建设滞后，而农民为求房租收益最大化，不断加高宅房；<br>
+（3） 根本是传统的城乡二元制；<br>
+（4）政策体制上是土地使用制度；<br>
+（5）规划和管理上的失误及社会调节系统的局限是社会因素；<br>
+2. 改造措施，总的来说应该以政府为主导，以土地市场为基础，以城市规划为指导，分类逐步推进。<br>
+具体说来，应该坚持以下几个原则：<br>
+（1）经济上，加速土地使用的市场化进程，通过土地的使用权的转让、入股、抵房等合理交易城中村土地；<br>
+（2）政策上，加快农村与城市体制融合的速度，对于城中村的建设可以采取四种模式：市政基础设施带动；整体搬迁改造；周转地块；滚动开发；<br>
+（3）完善管理体制，遵循城市规划控制，分类指导，政府承担基础设施投入和改造后城中村社区的管理职责；<br>
+（4）社会保障方面，保障原村民收入不减，保障外来低收入人群的廉价住房需求；<br>
+（5）社会文化方面，促进村民角色意识、思想观念、文化素养、职业技能、行为模式和生活方式的转变和提升。<br>
+10 城市市场空间、社会空间和感应空间<br>
+10.1 城市内部市场空间的构成：多层次商业中心—带状商业网点—专门化商业区，由这些商业布局组成的复杂系统结构。<br>
+商业中心的吸引力，计算市内各大小不同的商店群或商业中心对周围地区顾客达成交易的概率，从而可得出每一商业中心的顾客来源，并可通过概率等值线的绘制，查出每个居民区对不同商业中心的等值概率点，连点成线即为每个商业网点的市场区域。<br>
+应用：对商业网店的分区，大城市规划，新商业中心的布点或规划以及零售商业的布局具有指导作用。<br>
+局限是只适用于同一层次的商业中心的市场区域。<br>
+10.3 城市社会区形成的因素和分析方法<br>
+首先要明确城市社会区的概念：<br>
+邻里：城市社会的基本单位，是相同社会特征的人群的汇集。<br>
+社区：占据一定区域，彼此相互作用，不同社会特征的人类生活共同体。<br>
+社会区：占据一定地域，具有大致相同生活标准，相同生活方式，相同社会地位的同质人口的汇集。<br>
+其次，城市社会区形成的因素：史域奇和贝尔认为社经关系的深度与广度变化；城市功能分化；社会组织复杂化。<br>
+第三，分析方法，目前流行的是生态分析方法<br>
+1. 抽取有关人口特征、社会经济及房屋等指标为变数；<br>
+2. 利用资料矩阵进行因子分析，按因子载荷量高低对各因子冠以名称；<br>
+3. 以因子载荷量矩阵乘以原资料矩阵的因子分数矩阵；<br>
+4. 聚类，将性质相近的地域单元聚集为社会区。<br>
+实质上，因子分析法将较多的变量归结为较少的因子来说明对象的本质。<br>
+现代城市的主要问题<br>
+1 环境，包括大气、水、噪声、垃圾等；<br>
+2 交通，城市拥堵、交通事故、公共交通服务水平低、停车问题、汽车污染；<br>
+3 住宅，包括住宅质量低、高比例空房、会区（老年人守空房）、贫民窟、高房价；<br>
+4 社会，就业压力、贫困、老年人问题、种族与社会争端、内城问题；<br>
+5 安全，防灾与防卫（犯罪、恐怖袭击、公共卫生）。<br>
+<img src="http://mj5219054/.github.io.git/post-images/1617634258055.jpg" alt="" loading="lazy"><br>
+城市的基本特征：<br>
+1、城市的概念是相对存在的 2、城市是以要素聚集为基本特征的 3、城市的发展是动态变化和多样的 4、城市具有系统性 乡村的基本特征：<br>
+1、人的活动、建筑的区域、居住地、生产地等的相对分散是基本特征<br>
+2、同一地区的人们生活有明显的同质性 3、大部分生活资料可直接来源于土地 4、社会结构较单一 5、能源使用多样<br>
+6、如同城市的变化一样，在经济发展和社会变革的驱使之下，乡村在各地也发生着不同程度的变化<br>
+城市与乡村的基本区别： 1、聚集规模差异 2、生产效率差异 3、生产力结构差异 4、职能差异 5、物质形态差异 6、文化观念差异<br>
+城市与乡村的基本联系<br>
+1、他们有着很多不同之处，但仍是一个统一体，不存在截然的界线<br>
+2、随着社会经济的发展，以及交通、通信条件的改善与进步，城乡一体化发展的现象愈发明显<br>
+3、城乡社会、经济以及景观和聚落都具有连续性<br>
+城市与乡村联系的要素：<br>
+1、物质联系 2、经济联系 3、人口移动联系 4、技术联系<br>
+5、社会作用与联系 6、服务联系 7、政治、行政组织联系<br>
+<img src="http://mj5219054/.github.io.git/post-images/1617634031739.jpg" alt="" loading="lazy"><br>
+安全，是城市能提供的最基本的安全保障，安全的经济环境、社会环境和政治结构。安全与宗教相关联。没有拜占庭帝国广阔的城市基础，基督教的迅速发展就不会出现。治安改善，为某些大城市旅游业的发展甚至城市人口适度回流提供了极为重要的先决条件。<br>
+繁忙，主要指经济基础见识，商业市场完善，城市的社会基础中产阶级发育较成熟。城市的未来不仅仅取决于上帝或国家的政治权力，还要考对财富孜孜不倦的成功追求。不过，宗教因素较为持久，安全和经济因素则变数很大。<br>
+人类社会存在与发展的基本支柱：<br>
+①人口再生产    ②物资再生产<br>
+远古：生产力发展，文明出现：男人对孩子“产权”，“孝”文化确立→人口发展<br>
+近代：近代文明：粮食增长，寿命延长。1500年后，美洲作物引入，化肥、青霉素→人口增长<br>
+成本核算，归根结底是生命核算。物资资本的是报酬递减的，而人力资本是报酬递增的。<br>
+人口越多，微小的需求也能形成市场，形成产业化，分工更细。<br>
+天然环境(与动植物、人类、矿物、水、土地、空气等有关的资源、过程和影响)；<br>
+建好环境(与人类活动、教育、卫生、艺术和文化、经济和商业活动、遗产-城市生活方式有关的资源、过程和影响)；<br>
+社会经济环境(与建筑物、住房、道路、铁路、电力、供水、煤气等有关的资源、过程和影响)。<br>
+生活的社会的特点是经济驱动的“大众消费”生活方式。这种生活方式增加了环境负担，增加了对自然资源的利用。我们如何才能向一个更加面向以环境和经济目标一体化或促进3Rs(减少、再利用和再循环)和废物管理为特点的“合理物质流动”的社会转变。这类社会对社会的负担较小，对自然资源的利用最低限度。<br>
+迫切需要减轻对当地环境的负面影响，同时为城市居民创造良好的生活质量。地方政府需要面对一些挑战，包括利用全球趋势发展地方环境、在所有地方行为者之间建立伙伴关系、积极主动地向地方利益攸关方转让知识和信息、为政策和项目制定进行深入和密集的科学研究。<br>
+<img src="http://mj5219054/.github.io.git/post-images/1617710768374.jpg" alt="" loading="lazy"></p>
+ </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 animate-box">
+                        
+                            <div class="next-post">
+                                <div class="next">下一篇</div>
+                                <a href="http://mj5219054/.github.io.git/post/zu-zhi-he-qun-ti/">
+                                    <h3 class="post-title">
+                                                                    组织和群体
+                                    </h3>
+                                </a>
+                            </div>
+                        
+                    </div>
+                </div>
+
+                <div class="row">
+    <div class="col-md-12 animate-box">
+        
+            
+                <div id="gitalk-container"></div>
+            
+
+            
+        
     </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="http://mj5219054/.github.io.git/atom.xml" target="_blank">RSS</a>
+</div>
+
+            </div>
+
+        </article>
     </div>
-  </div>
+</div>
+
+    
+
+    <!-- 返回顶部 -->
+    <div class="back-to-top">
+    
+    <a href="#top" class="hidden-xs hidden-sm"><i class="fa fa-paper-plane"></i></a>
+</div>
+
+<div class="post-toc animated fadeInRight hidden-xs hidden-sm" style="display: none;">
+    
 </div>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">                                              城市</h2>
-            <div class="post-date">2021-03-30</div>
-            
-            <div class="post-content" v-pre>
-              <pre><code>    结乡结合部的县城书记清道已然“沦为”镇上楼往东开盘的看门人后你会看到正东方向有栋白房子。我家门是南在这里,你也可以了解,政治并未主宰一切基层书记不因为暂时的权力被彻底吸入技木的机他们不看太阳,也无需停下片刻计算一番器,而永恒分享这头理性巨曾的奴役和利益就能脱口而出“你脚的北边有一只蚂蚊青道一面在市场经济的秩序中卑微过活凭感觉就能知道哪是北方、南方、西方和东方面在多村人际的牵挂中,在他特有的像有完美音调的人不用计算音程就能感觉出每个杯两盏后信手拈来的顺口溜中编织着另一个善音调是什么。
-恶分明的世界。在那些一面俏皮,一面严肃的话总有几件自古红颜多薄命。
-长得漂亮的女孩语里,政治与经济如麦草和稗草生长,祓自然的子,如果不是家庭条件好保护得好,没有“公主法则与命运主宰,复杂的人世在这个老人心中被命”,那就是西施貂蝉杨贵妃陈圆圆。一身书生直觉地把握着。寄住在镇上一座看上去颜为现代气,气满腔正义情,自贱言论古今。岂知的小区,但一切绿化空间却都被占有,变成了菜读求风雅,稚幼鸿鹄志,谁曲知流年,一手离骚魂,不经磨世情在他精心地照看下旺盛而疯狂地生长,如同他的从小到大都是被骚扰的重点,要是进了狼窝子孙与精兵,模了他与这座村镇高楼的从属关就更惨了,数字草原,而放眼过去看见的都是羊系。在一种城市人的眼光中,他的生活当然已经群,现实像条狗,就在你面前颤抖。那些疯狂的彻底的失敗杂草那些渐渐老去的麦子以及她们腐朽的根那城市,村庄,繁华与农经这一切还远未见些那欲求不满的虫子那些被遗弃的麦秸都只为取老人们被岁月洗礼,身体被苦难塑造,言悦她啊亲爱的麦地中是无奈和琉离仅有的新生的孩子们匪气十足,对出入城里农忙外,来者有好奇和挑战的欲望天真生猛中夹杂不甘与怨气,已经多少知晓外面的花花世界,在城市繁荣景观的映衬下,农村的微不足道过了红绿灯后,向北开,然后在第二个十字路口。
-势能朝下时，咱就是爷爷。    势能朝上时，咱就是孙子。
-</code></pre>
-<p>人，都在爷孙间自由的切换里买了一思故事，一顿饭，煮了一本书，书上记载汽车和人，，不符合的我突然，闯进城市的气质    我那可爱的姑娘在在远方，   没有物质的爱情就是一盘散沙<br>
-贴标签是违法犯罪的催化剂。<br>
-一个人在初次实施违法犯罪行为后，如果被有 权界定标签的机构贴上不道德或犯罪人的标签，就留下了一个污点，使行为人处处受到这种污点的影响，在家庭中为父母或其他家庭成员所讨厌，在学校被老师和同学歧视，在社会上找不到理想的职业。长被贴标签者便会认可这种标签，进而实施更加严重的违法犯罪行为，最终成为职业犯。社会中每一个人都有犯罪的可能，都是潜在的犯罪者。</p>
+    
+<footer id="fh5co-footer">
+  <p>Powered by Gridea, © 2016 - 2019 Copyright 叶子. All Rights Reserved. </p>
+</footer>
 
-            </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="http://mj5219054/.github.io.git/post/zu-zhi-he-qun-ti/">
-                  <h3 class="post-title">
-                                                组织和群体
-                  </h3>
-                </a>
-              </div>
-            
 
-            
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
+    <!-- jQuery -->
+<script src="http://mj5219054/.github.io.git/media/scripts/jquery.min.js"></script>
+<!-- img lazy load -->
+<script src="http://mj5219054/.github.io.git/media/scripts/jquery.lazyload.min.js"></script>
+<!-- jQuery Easing -->
+<script src="http://mj5219054/.github.io.git/media/scripts/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="http://mj5219054/.github.io.git/media/scripts/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="http://mj5219054/.github.io.git/media/scripts/jquery.waypoints.min.js"></script>
+<!-- Main JS -->
+<script src="http://mj5219054/.github.io.git/media/scripts/main.js"></script>
+<!-- Md5 Min JS -->
+<script src="http://mj5219054/.github.io.git/media/scripts/md5.min.js"></script>
+<!-- katex -->
+<!--<script src="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.js"></script>-->
+<!-- highlight -->
+<script src="https://cdn.bootcss.com/highlight.js/9.15.8/highlight.min.js"></script>
 
-              
-            
 
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script type="application/javascript">
+    // 代码高亮
+    hljs.initHighlightingOnLoad();
 
-AOS.init();
+    // img 懒加载
+    $(function () {
+        $("img.lazy").lazyload({
+            effect: "fadeIn",  // 懒加载动画
+            threshold: 180  // 在图片距离屏幕180px时提前载入
+        });
+        // tooltip
+        $('[data-toggle="tooltip"]').tooltip();
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+        // 目录
+        $('#tool-toc').click(function () {
+            $('.post-toc').toggle();
+        });
+    });
 
+    
+        var allImg = $("img");
+        allImg.on("contextmenu", function () {
+            return false;
+        });
+        allImg.on("dragstart", function () {
+            return false;
+        });
+    
 </script>
 
 
 
+    
+        <script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+        <script>
 
+            var gitalk = new Gitalk({
+                clientID: '',
+                clientSecret: '',
+                repo: '',
+                owner: '',
+                admin: [''],
+                id: md5(location.pathname),      // Ensure uniqueness and length less than 50
+                distractionFreeMode: false  // Facebook-like distraction free mode
+            })
 
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script>
+            gitalk.render('gitalk-container')
 
-      var gitalk = new Gitalk({
-        clientID: '',
-        clientSecret: '',
-        repo: '',
-        owner: '',
-        admin: [''],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
+        </script>
+    
 
-      gitalk.render('gitalk-container')
-
-    </script>
-  
-
-  
+    
 
 
 
 
-  </body>
+</body>
 </html>

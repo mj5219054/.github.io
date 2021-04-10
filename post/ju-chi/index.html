@@ -1,125 +1,193 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>                                        距离 | 叶子</title>
+<title>叶子</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。"/>
+<meta name="keywords" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。"/>
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="http://mj5219054/.github.io.git/favicon.ico?v=1617169367597">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="shortcut icon" href="http://mj5219054/.github.io.git/favicon.ico">
+
 <link rel="stylesheet" href="http://mj5219054/.github.io.git/styles/main.css">
 
+<!-- Modernizr JS -->
+<script src="http://mj5219054/.github.io.git/media/scripts/modernizr-2.6.2.min.js"></script>
+<!-- FOR IE9 below -->
+<!--[if lt IE 9]>
+<scripts src="http://mj5219054/.github.io.git/media/scripts/respond.min.js"></scripts>
+<![endif]-->
 
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
+<!-- Comment -->
 
-  
+    
+        <link href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css" rel="stylesheet">
+    
 
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=commentSetting: {   commentPlatform: &#39;disqus&#39;,   disqusSetting: {     api: &#39;&#39;,     apikey: &#39;Dme6Hy8bOI2xxxxUtdY8V&#39;,     shortname: &#39;gridea&#39;,   },   gitalkSetting: {     clientId: &#39;d92dxxxxxxxxxx9b4&#39;,     clientSecret: &#39;861947exxxx365d33&#39;,     owner: &#39;EryouHao&#39;,     repository: &#39;EryouHao.github.io&#39;   },   showComment: false // 是否显示评论，可根据此字段进行评论的展示与否 }"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'commentSetting: {   commentPlatform: &#39;disqus&#39;,   disqusSetting: {     api: &#39;&#39;,     apikey: &#39;Dme6Hy8bOI2xxxxUtdY8V&#39;,     shortname: &#39;gridea&#39;,   },   gitalkSetting: {     clientId: &#39;d92dxxxxxxxxxx9b4&#39;,     clientSecret: &#39;861947exxxx365d33&#39;,     owner: &#39;EryouHao&#39;,     repository: &#39;EryouHao.github.io&#39;   },   showComment: false // 是否显示评论，可根据此字段进行评论的展示与否 }');
-</script>
+    
 
 
-    <meta name="description" content="
 
-媒体只会公布多数人的意见、社会舆论及观众感兴趣的话题，其他消息都会被删除。
-当然，这并不表示媒体就是万恶之首，但至少说明媒体及报道的价值也不过就是这种程度。媒体不会说谎，但会对消息进行增删取舍。
-一个体制内的公务员，对自己的工作既满意、..." />
-    <meta name="keywords" content="Gridea" />
-  </head>
-  <body>
-    <div id="app" class="main">
+<!-- katex -->
+<!--<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet">-->
 
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="http://mj5219054/.github.io.git">
-        <img src="http://mj5219054/.github.io.git/images/avatar.png?v=1617169367597" class="site-logo">
-        <h1 class="site-title">叶子</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <div id="fh5co-offcanvas">
+    <a href="#!" class="fh5co-close-offcanvas js-fh5co-close-offcanvas">
+        <span><i class="icon-cross3"></i> <span>Close</span></span>
+    </a>
+    <div class="fh5co-bio">
+        <figure>
+            <img src="http://mj5219054/.github.io.git/images/avatar.png" alt="叶子"
+                 class="img-responsive">
+        </figure>
+        <a href="http://mj5219054/.github.io.git/post/about/"><h3 class="heading">ABOUT ME</h3></a>
+        <h2>叶子</h2>
+        <p>个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</p>
+        <ul class="fh5co-social">
+            
+                <li>
+                    
+                        <a href="https://github.com/https-github-com-mj521905" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+        </ul>
     </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav" target="_blank">
-            首页
-          </a>
-        
-      
-        
-          <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
+
+    <div class="fh5co-menu">
+
+        <!-- 标签 -->
+        <div class="fh5co-box">
+            <a href="http://mj5219054/.github.io.git/tags/"><h3 class="heading">👉标签</h3></a>
+            <ul>
+                
+                    <li><a href="http://mj5219054/.github.io.git/tag/cheng-chang-de-de-xuan-ze/">成长的的选择</a></li>
+                
+                    <li><a href="http://mj5219054/.github.io.git/tag/f7uvvrkDK/">Gridea</a></li>
+                
+                    <li><a href="http://mj5219054/.github.io.git/tag/fan-nao-he-jue-ze/">烦恼和抉择</a></li>
+                
+            </ul>
+        </div>
     </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="http://mj5219054/.github.io.git/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
 </div>
 
+<header id="fh5co-header">
+    <div class="container-fluid">
+        <div class="row">
+            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+            <ul class="fh5co-social">
+                
+                    <li>
+                        <a href="/"
+                        
+                           target="_blank"
+                                
+                        >
+                            首页
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan"
+                        
+                        >
+                            归档
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags"
+                        
+                        >
+                            标签
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/post/about"
+                        
+                        >
+                            关于
+                        </a>
+                    </li>
+                
+            </ul>
+            <div class="col-lg-12 col-md-12 text-center">
+                <h1 id="fh5co-logo">
+                    <a href="http://mj5219054/.github.io.git">叶子 </a>
+                </h1>
+            </div>
+        </div>
+    </div>
+</header>
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">                                        距离</h2>
-            <div class="post-date">2021-03-29</div>
-            
-              <div class="feature-container" style="background-image: url('http://mj5219054/.github.io.git/post-images/ju-chi.jpg')">
-              </div>
-            
-            <div class="post-content" v-pre>
-              <!-- more -->
+
+    <!--  <a href="#" class="fh5co-post-prev"><span>👈 Prev</span></a>-->
+    <!--  <a href="#" class="fh5co-post-next"><span>Next 👉</span></a>-->
+
+    <!-- 等gridea出自定义页面功能再优化一下 -->
+    
+        <div class="container-fluid">
+    <div class="row fh5co-post-entry single-entry">
+        <article class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+            <figure class="animate-box">
+                
+                    <img src="http://mj5219054/.github.io.git/post-images/ju-chi.jpg" alt="                                        距离" class="img-responsive">
+                
+            </figure>
+            <span class="fh5co-meta animate-box">
+                
+                    <div class="tag-container">
+                        
+                            <a href="http://mj5219054/.github.io.git/tag/f7uvvrkDK/" class="tag">Gridea, </a>
+                        
+                    </div>
+                
+            </span>
+            <h2 class="fh5co-article-title animate-box">                                        距离</h2>
+            <ol class="breadcrumb fh5co-meta fh5co-date animate-box" style="margin-bottom:0; background-color:#f8f9fa">
+                <li>2021-03-29</li>
+                <li>2663字</li>
+                <li>9 min read</li>
+            </ol>
+
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-left content-article">
+                <div class="row">
+                    <div class="col-md-12 animate-box post-content">
+                        <p> <!-- more -->
 <p><img src="http://mj5219054/.github.io.git/post-images/1617001298373.jpg" alt="" loading="lazy"><br>
 媒体只会公布多数人的意见、社会舆论及观众感兴趣的话题，其他消息都会被删除。<br>
-当然，这并不表示媒体就是万恶之首，但至少说明媒体及报道的价值也不过就是这种程度。媒体不会说谎，但会对消息进行增删取舍。<br>
+当然，这并不表示媒体就是万恶之首，但至少说明媒体及报道的价值也不过就是这种程度。媒体不会说谎，但会对消息进行媒体提供思考的素材，同时它们也在影响我们思考的过程。互联网所作的似乎就是把我们的专注和思考能力撕成碎片，抛到一边。过去的线性思维方式正在被一种新型的思维方式取代，这种新模式希望也需要以简短、杂乱而且经常是爆炸性的方式收发信息，其遵循的原则是越快越好。<br>
+现实有物质的一面，这永远不会相遇。增删取舍。<br>
 一个体制内的公务员，对自己的工作既满意、又不满意。满意的，自然是工作清闲、压力不大；不满意的，是晋升慢、收入不高。可是，对于换工作，却很犹豫。生怕万一新工作不好，自己又错失了现在的铁饭碗。<br>
 你看，阻止他做出改变的，正是他现在拥有的。哪怕他对自己拥有的，并不满意。<br>
 对应到自己身上，也是类似的。我现在能安心做交易，也是靠着之前开发的应用，其收入能勉强覆盖现在的生活费。问题是，这所谓的依靠，恰恰成了我不够努力的理由。相反，如果没有这份收入，相信我会破釜沉舟，更加努力。要远行，就要轻装上阵、卸掉包袱。而包袱，既包括不好的、也包括好的。时间轨道上越走越快，学了很多，也实践了不少。故事似乎不太受欢迎了，也似乎还在不断产生。只是现在，也很难再用一种状态去描述整个社会的缩影了。人群和时代，始终保持着微妙的距离。时间久了，我们会下意识地去思考一些爆火现象或者病毒式传播内容的内在原因——他们获得公众性的理由是什么？这四种类型似乎比较成熟和常见：</p>
@@ -129,7 +197,8 @@
 对生活在钢铁森林里的，疲惫、焦虑、茫然不知所终的人们来说，这个一声不吭劳作的人至少从事的是一种实实在在的「工作」。他生产了一个持久存在的东西，而不是消耗在某个无尽又虚无的消费循环里的东西。他赤裸的双脚踩在土地上，双手触碰到坚实平坦的墙壁，通过长时间烈日下的营造，一个美观的「人造物」出现在大自然当中。
 </code></pre>
 <p>第一、我们需要不断锻炼自己的信息筛选能力。<br>
-要锻炼这个能力，需要对常识有一定程度的了解，“晕倒在浴缸醒来发现身周都是冰块肾已被摘”，稍具点医学常识的人就会明白这不可能，但愚夫愚妇则会因此恐惧到不行。通常来说，一个人的知识结构越完善，信息筛选的能力也越强，因为基础已经搭好，看到信息后能够在短时间内做出判断，这个短时，甚至有可能是在电光石火之间，完全成为本能。一个人是否可交往，与其提供的信息也有关系，如果能够谨慎地筛选自己的交友圈，也会相应起到信息筛选的作用。有时候我们不难发现，别人的朋友圈和自己的朋友圈，可能不是一回事，大家所关注的内容并不相同。</p>
+要锻炼这个能力，需要对常识有一定程度的了解，“晕倒在浴缸醒来发现身周都是冰块肾已被摘”，稍具点医学常识的人就会明白这不可能，但愚夫愚妇则会因此恐惧到不行。通常来说，一个人的知识结构越完善，信息筛选的能力也越强，因为基础已经搭好，看到信息后能够在短时间内做出判断，这个短时，甚至有可能是在电光石火之间，完全成为本能。一个人是否可交往，与其提供的信息也有关系，如果能够谨慎地筛选自己的交友圈，也会相应起到信息筛选的作用。有时候我们不难发现，别人的朋友圈和自己的朋友圈，可能不是一回事，大家所关注的内容并不相同。<br>
+<img src="http://mj5219054/.github.io.git/post-images/1617633104543.jpg" alt="" loading="lazy"></p>
 <!-- more -->
 <p>第二、对于信息，应该有较强的目的性。<br>
 你的人生规划是怎样的，职业要怎么发展，你的短期、中期、长期目标分别是什么，你的兴趣爱好是什么，这些东西如果清晰，也就不会被和目标无关的信息一直牵引。一个不喜欢摄影的人，镜头的相关信息对他是无用的，他并不需要花费时间去了解，走在路上也不会注意相关的内容，即使路上有很多这类广告。<br>
@@ -150,7 +219,9 @@
 事无巨细这个词都不能言其烦累之万一。人逐渐成熟，就会逐渐发现异中存同。<br>
 有的相似早就注定在血脉中，可是找到的过程，是起起落落的。内心不曾体验过，无法理解和感知，<br>
 更别提去感受别人的感受。<br>
-人的崩溃，往往以一句“没事”结尾。自己的残局只能自己收拾。都有自己的沼泽，要懂得自救，不怪人情冷漠，只是每个人都自顾不暇，没有余力。几乎所有时候都是平淡的，今天和明天总是差不太多，不要太期待那些意外的人，意外的事，在饿的时候会选择不爱的食物，会在寂寞的时候选择不爱的人，因为强扭的瓜不甜，但是解渴。过了某一个坎，一个人会发现，再想遇上困难和人，真的太难太难再回首，发现现在自以为是<br>
+人的崩溃，往往以一句“没事”结尾。自己的残局只能自己收拾。都有自己的沼泽，要懂得自救，不怪人情冷漠，只是每个人都自顾不暇，没有余力。<br>
+<img src="http://mj5219054/.github.io.git/post-images/1617633338254.jpg" alt="" loading="lazy"></p>
+<p>乎所有时候都是平淡的，今天和明天总是差不太多，不要太期待那些意外的人，意外的事，在饿的时候会选择不爱的食物，会在寂寞的时候选择不爱的人，因为强扭的瓜不甜，但是解渴。过了某一个坎，一个人会发现，再想遇上困难和人，真的太难太难再回首，发现现在自以为是<br>
 不再把情绪，浪费在决定要放下的人身上。就像歌中那样唱的：“天地江湖日，不留不念不说话。”都会成长的人已经不再刻意否认。“感谢时光于流逝中的恩宠，感谢成长与回望，感谢缘分和信仰。<br>
 聚散自由天注定，不怨天，不怨命，但求山水公作证。”高晓松。<br>
 互不打扰，各自牛逼新时代生活方式的生活方式<br>
@@ -158,74 +229,136 @@
 <img src="http://mj5219054/.github.io.git/post-images/1617023874099.png" alt="" loading="lazy"><br>
 星夜赶科场。辞官归故里，<br>
 不知愁滋味，方知行路难。</p>
+ </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 animate-box">
+                        
+                    </div>
+                </div>
+
+                <div class="row">
+    <div class="col-md-12 animate-box">
+        
+            
+                <div id="gitalk-container"></div>
+            
+
+            
+        
+    </div>
+</div>
 
             </div>
-            
-              <div class="tag-container">
-                
-                  <a href="http://mj5219054/.github.io.git/tag/f7uvvrkDK/" class="tag">
-                    Gridea
-                  </a>
-                
-              </div>
-            
-            
 
-            
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
-
-              
-            
-
-          </div>
-
-        </div>
-      </div>
+        </article>
     </div>
+</div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+
+    <!-- 返回顶部 -->
+    <div class="back-to-top">
+    
+        <a href="#!" id="tool-toc" class="hidden-xs hidden-sm">
+            <i class="fa fa-map"></i>
+        </a>
+        <br>
+    
+    <a href="#top" class="hidden-xs hidden-sm"><i class="fa fa-paper-plane"></i></a>
+</div>
+
+<div class="post-toc animated fadeInRight hidden-xs hidden-sm" style="display: none;">
+    <ul class="markdownIt-TOC">
+<li><a href="#%E6%B5%81%E8%A1%8C%E6%96%87%E5%8C%96%E6%B6%88%E8%B4%B9%E4%B8%BB%E4%B9%89%E8%A7%86%E8%A7%89%E5%A5%87%E6%99%AF%E7%9F%A5%E8%AF%86%E4%BF%A1%E6%81%AF">流行文化，消费主义，视觉奇景，知识信息</a></li>
+</ul>
+
+</div>
+
+
+    
+<footer id="fh5co-footer">
+  <p>Powered by Gridea, © 2016 - 2019 Copyright 叶子. All Rights Reserved. </p>
+</footer>
+
+
+    <!-- jQuery -->
+<script src="http://mj5219054/.github.io.git/media/scripts/jquery.min.js"></script>
+<!-- img lazy load -->
+<script src="http://mj5219054/.github.io.git/media/scripts/jquery.lazyload.min.js"></script>
+<!-- jQuery Easing -->
+<script src="http://mj5219054/.github.io.git/media/scripts/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="http://mj5219054/.github.io.git/media/scripts/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="http://mj5219054/.github.io.git/media/scripts/jquery.waypoints.min.js"></script>
+<!-- Main JS -->
+<script src="http://mj5219054/.github.io.git/media/scripts/main.js"></script>
+<!-- Md5 Min JS -->
+<script src="http://mj5219054/.github.io.git/media/scripts/md5.min.js"></script>
+<!-- katex -->
+<!--<script src="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.js"></script>-->
+<!-- highlight -->
+<script src="https://cdn.bootcss.com/highlight.js/9.15.8/highlight.min.js"></script>
+
+
 <script type="application/javascript">
+    // 代码高亮
+    hljs.initHighlightingOnLoad();
 
-AOS.init();
+    // img 懒加载
+    $(function () {
+        $("img.lazy").lazyload({
+            effect: "fadeIn",  // 懒加载动画
+            threshold: 180  // 在图片距离屏幕180px时提前载入
+        });
+        // tooltip
+        $('[data-toggle="tooltip"]').tooltip();
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+        // 目录
+        $('#tool-toc').click(function () {
+            $('.post-toc').toggle();
+        });
+    });
 
+    
+        var allImg = $("img");
+        allImg.on("contextmenu", function () {
+            return false;
+        });
+        allImg.on("dragstart", function () {
+            return false;
+        });
+    
 </script>
 
 
 
+    
+        <script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+        <script>
 
+            var gitalk = new Gitalk({
+                clientID: '',
+                clientSecret: '',
+                repo: '',
+                owner: '',
+                admin: [''],
+                id: md5(location.pathname),      // Ensure uniqueness and length less than 50
+                distractionFreeMode: false  // Facebook-like distraction free mode
+            })
 
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script>
+            gitalk.render('gitalk-container')
 
-      var gitalk = new Gitalk({
-        clientID: '',
-        clientSecret: '',
-        repo: '',
-        owner: '',
-        admin: [''],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
+        </script>
+    
 
-      gitalk.render('gitalk-container')
-
-    </script>
-  
-
-  
+    
 
 
 
 
-  </body>
+</body>
 </html>

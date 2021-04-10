@@ -1,274 +1,367 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>文章归档 | 叶子</title>
+<title>叶子</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。"/>
+<meta name="keywords" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。"/>
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="http://mj5219054/.github.io.git/favicon.ico?v=1618064047154">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="shortcut icon" href="http://mj5219054/.github.io.git/favicon.ico">
+
 <link rel="stylesheet" href="http://mj5219054/.github.io.git/styles/main.css">
 
+<!-- Modernizr JS -->
+<script src="http://mj5219054/.github.io.git/media/scripts/modernizr-2.6.2.min.js"></script>
+<!-- FOR IE9 below -->
+<!--[if lt IE 9]>
+<scripts src="http://mj5219054/.github.io.git/media/scripts/respond.min.js"></scripts>
+<![endif]-->
+
+<!-- Comment -->
 
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<!-- katex -->
+<!--<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet">-->
+
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
 
 
 
-    <meta name="description" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。">
-  </head>
-  <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="http://mj5219054/.github.io.git">
-        <img src="http://mj5219054/.github.io.git/images/avatar.png?v=1618064047154" class="site-logo">
-        <h1 class="site-title">叶子</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav" target="_blank">
-            首页
-          </a>
-        
-      
-        
-          <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-          <a class="social-link" href="https://github.com/https-github-com-mj521905" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="http://mj5219054/.github.io.git/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
-
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          
-
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
+</head>
+<body>
+<div id="fh5co-offcanvas">
+    <a href="#!" class="fh5co-close-offcanvas js-fh5co-close-offcanvas">
+        <span><i class="icon-cross3"></i> <span>Close</span></span>
+    </a>
+    <div class="fh5co-bio">
+        <figure>
+            <img src="http://mj5219054/.github.io.git/images/avatar.png" alt="叶子"
+                 class="img-responsive">
+        </figure>
+        <a href="http://mj5219054/.github.io.git/post/about/"><h3 class="heading">ABOUT ME</h3></a>
+        <h2>叶子</h2>
+        <p>个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</p>
+        <ul class="fh5co-social">
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2021</h2>
-              
-                
-                  <article class="post">
-                    <a href="http://mj5219054/.github.io.git/gong-zuo-xuan-ze/">
-                      <h2 class="post-title">
-                           工作选择
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="http://mj5219054/.github.io.git/wen-ming-you-xi/">
-                      <h2 class="post-title">
-                                                           文明游戏 
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="http://mj5219054/.github.io.git/da-/">
-                      <h2 class="post-title">
-                                              打工是不可能富有的
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="http://mj5219054/.github.io.git/ji-neng/">
-                      <h2 class="post-title">
-                                                              技能
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="http://mj5219054/.github.io.git/du-shi-tu-qing-xing-que-you-du-zui-zai-yi-xie-meng-zhong/">
-                      <h2 class="post-title">
-                                   都试图清醒，却又都醉在一些梦中。
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="http://mj5219054/.github.io.git/ren-ji-guan-xi/">
-                      <h2 class="post-title">
-                                                      人际关系 
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="http://mj5219054/.github.io.git/er-tong/">
-                      <h2 class="post-title">
-                                                          儿童
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="http://mj5219054/.github.io.git/lun-li-he-yu-lun/">
-                      <h2 class="post-title">
-                                                 伦理和舆论
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="http://mj5219054/.github.io.git/cheng-shi/">
-                      <h2 class="post-title">
-                                                                      城市
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="http://mj5219054/.github.io.git/zu-zhi-he-qun-ti/">
-                      <h2 class="post-title">
-                                                    组织和群体
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="http://mj5219054/.github.io.git/zi-ji/">
-                      <h2 class="post-title">
-                                               自己
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="http://mj5219054/.github.io.git/ding-wei/">
-                      <h2 class="post-title">
-                        定位
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="http://mj5219054/.github.io.git/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan/">
-                      <h2 class="post-title">
-                        爱河
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="http://mj5219054/.github.io.git/ju-chi/">
-                      <h2 class="post-title">
-                                                                距离
-                      </h2>
-                    </a>
-                  </article>
-                
-              
+                <li>
+                    
+                        <a href="https://github.com/https-github-com-mj521905" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    
+                </li>
             
-          </div>
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+        </ul>
+    </div>
 
-          <div class="pagination-container">
-  
-  
-</div>
+    <div class="fh5co-menu">
 
+        <!-- 标签 -->
+        <div class="fh5co-box">
+            <a href="http://mj5219054/.github.io.git/tags/"><h3 class="heading">👉标签</h3></a>
+            <ul>
+                
+                    <li><a href="http://mj5219054/.github.io.git/tag/cheng-chang-de-de-xuan-ze/">成长的的选择</a></li>
+                
+                    <li><a href="http://mj5219054/.github.io.git/tag/f7uvvrkDK/">Gridea</a></li>
+                
+                    <li><a href="http://mj5219054/.github.io.git/tag/fan-nao-he-jue-ze/">烦恼和抉择</a></li>
+                
+            </ul>
         </div>
-      </div>
     </div>
+</div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<header id="fh5co-header">
+    <div class="container-fluid">
+        <div class="row">
+            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+            <ul class="fh5co-social">
+                
+                    <li>
+                        <a href="/"
+                        
+                           target="_blank"
+                                
+                        >
+                            首页
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan"
+                        
+                        >
+                            归档
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags"
+                        
+                        >
+                            标签
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/post/about"
+                        
+                        >
+                            关于
+                        </a>
+                    </li>
+                
+            </ul>
+            <div class="col-lg-12 col-md-12 text-center">
+                <h1 id="fh5co-logo">
+                    <a href="http://mj5219054/.github.io.git">叶子 </a>
+                </h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<div class="container-fluid">
+    <div class="row fh5co-post-entry single-entry">
+        <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0 animate-box">
+
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2 col-xs-12 col-xs-offset-0 text-center content-article">
+
+                <div class="row">
+
+                    
+                    <h2 class="text-center archives-title">
+                        <i class="fa fa-archive"></i> 文章归档
+                    </h2>
+
+                    
+                    <div class="row post-group">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xs-offset-0 text-center post-year tag-title">
+                            <h3>2021</h3>
+                        </div>
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xs-offset-0 text-left">
+                            <ul class="post-list">
+                            
+                                
+                                <li class="post-item">
+                                    <a href="http://mj5219054/.github.io.git/post/gong-zuo-xuan-ze/" target="_blank">
+                                        <span class="post-title">   工作选择</span>
+                                        <span class="post-day">2021-06-12</span>
+                                    </a>
+                                </li>
+                                
+                            
+                                
+                                <li class="post-item">
+                                    <a href="http://mj5219054/.github.io.git/post/wen-ming-you-xi/" target="_blank">
+                                        <span class="post-title">                                   文明游戏 </span>
+                                        <span class="post-day">2021-04-10</span>
+                                    </a>
+                                </li>
+                                
+                            
+                                
+                                <li class="post-item">
+                                    <a href="http://mj5219054/.github.io.git/post/da-/" target="_blank">
+                                        <span class="post-title">                      打工是不可能富有的</span>
+                                        <span class="post-day">2021-04-10</span>
+                                    </a>
+                                </li>
+                                
+                            
+                                
+                                <li class="post-item">
+                                    <a href="http://mj5219054/.github.io.git/post/ji-neng/" target="_blank">
+                                        <span class="post-title">                                      技能</span>
+                                        <span class="post-day">2021-04-03</span>
+                                    </a>
+                                </li>
+                                
+                            
+                                
+                                <li class="post-item">
+                                    <a href="http://mj5219054/.github.io.git/post/du-shi-tu-qing-xing-que-you-du-zui-zai-yi-xie-meng-zhong/" target="_blank">
+                                        <span class="post-title">           都试图清醒，却又都醉在一些梦中。</span>
+                                        <span class="post-day">2021-04-02</span>
+                                    </a>
+                                </li>
+                                
+                            
+                                
+                                <li class="post-item">
+                                    <a href="http://mj5219054/.github.io.git/post/ren-ji-guan-xi/" target="_blank">
+                                        <span class="post-title">                              人际关系 </span>
+                                        <span class="post-day">2021-03-30</span>
+                                    </a>
+                                </li>
+                                
+                            
+                                
+                                <li class="post-item">
+                                    <a href="http://mj5219054/.github.io.git/post/er-tong/" target="_blank">
+                                        <span class="post-title">                                  儿童</span>
+                                        <span class="post-day">2021-03-30</span>
+                                    </a>
+                                </li>
+                                
+                            
+                                
+                                <li class="post-item">
+                                    <a href="http://mj5219054/.github.io.git/post/lun-li-he-yu-lun/" target="_blank">
+                                        <span class="post-title">                         伦理和舆论</span>
+                                        <span class="post-day">2021-03-30</span>
+                                    </a>
+                                </li>
+                                
+                            
+                                
+                                <li class="post-item">
+                                    <a href="http://mj5219054/.github.io.git/post/cheng-shi/" target="_blank">
+                                        <span class="post-title">                                              城市</span>
+                                        <span class="post-day">2021-03-30</span>
+                                    </a>
+                                </li>
+                                
+                            
+                                
+                                <li class="post-item">
+                                    <a href="http://mj5219054/.github.io.git/post/zu-zhi-he-qun-ti/" target="_blank">
+                                        <span class="post-title">                            组织和群体</span>
+                                        <span class="post-day">2021-03-30</span>
+                                    </a>
+                                </li>
+                                
+                            
+                                
+                                <li class="post-item">
+                                    <a href="http://mj5219054/.github.io.git/post/zi-ji/" target="_blank">
+                                        <span class="post-title">                       自己</span>
+                                        <span class="post-day">2021-03-30</span>
+                                    </a>
+                                </li>
+                                
+                            
+                                
+                                <li class="post-item">
+                                    <a href="http://mj5219054/.github.io.git/post/ding-wei/" target="_blank">
+                                        <span class="post-title">定位</span>
+                                        <span class="post-day">2021-03-29</span>
+                                    </a>
+                                </li>
+                                
+                            
+                                
+                                <li class="post-item">
+                                    <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan/" target="_blank">
+                                        <span class="post-title">爱河</span>
+                                        <span class="post-day">2021-03-29</span>
+                                    </a>
+                                </li>
+                                
+                            
+                                
+                                <li class="post-item">
+                                    <a href="http://mj5219054/.github.io.git/post/ju-chi/" target="_blank">
+                                        <span class="post-title">                                        距离</span>
+                                        <span class="post-day">2021-03-29</span>
+                                    </a>
+                                </li>
+                                
+                            
+                            </ul>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer id="fh5co-footer">
+  <p>Powered by Gridea, © 2016 - 2019 Copyright 叶子. All Rights Reserved. </p>
+</footer>
+
+
+<!-- jQuery -->
+<script src="http://mj5219054/.github.io.git/media/scripts/jquery.min.js"></script>
+<!-- img lazy load -->
+<script src="http://mj5219054/.github.io.git/media/scripts/jquery.lazyload.min.js"></script>
+<!-- jQuery Easing -->
+<script src="http://mj5219054/.github.io.git/media/scripts/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="http://mj5219054/.github.io.git/media/scripts/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="http://mj5219054/.github.io.git/media/scripts/jquery.waypoints.min.js"></script>
+<!-- Main JS -->
+<script src="http://mj5219054/.github.io.git/media/scripts/main.js"></script>
+<!-- Md5 Min JS -->
+<script src="http://mj5219054/.github.io.git/media/scripts/md5.min.js"></script>
+<!-- katex -->
+<!--<script src="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.js"></script>-->
+<!-- highlight -->
+<script src="https://cdn.bootcss.com/highlight.js/9.15.8/highlight.min.js"></script>
+
+
 <script type="application/javascript">
+    // 代码高亮
+    hljs.initHighlightingOnLoad();
 
-AOS.init();
+    // img 懒加载
+    $(function () {
+        $("img.lazy").lazyload({
+            effect: "fadeIn",  // 懒加载动画
+            threshold: 180  // 在图片距离屏幕180px时提前载入
+        });
+        // tooltip
+        $('[data-toggle="tooltip"]').tooltip();
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+        // 目录
+        $('#tool-toc').click(function () {
+            $('.post-toc').toggle();
+        });
+    });
 
+    
+        var allImg = $("img");
+        allImg.on("contextmenu", function () {
+            return false;
+        });
+        allImg.on("dragstart", function () {
+            return false;
+        });
+    
 </script>
 
 
 
 
-
-
-  </body>
+</body>
 </html>
