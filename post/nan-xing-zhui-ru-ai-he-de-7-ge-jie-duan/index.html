@@ -1,189 +1,1111 @@
-<!DOCTYPE html>
-<html>
 <head>
-    <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta name="description" content="
 
-<title>叶子</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-<meta name="description" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。"/>
-<meta name="keywords" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。"/>
-
-<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-<link rel="shortcut icon" href="https://mj5219054/.github.io.git/favicon.ico">
-
-<link rel="stylesheet" href="https://mj5219054/.github.io.git/styles/main.css">
-
-<!-- Modernizr JS -->
-<script src="https://mj5219054/.github.io.git/media/scripts/modernizr-2.6.2.min.js"></script>
-<!-- FOR IE9 below -->
-<!--[if lt IE 9]>
-<scripts src="https://mj5219054/.github.io.git/media/scripts/respond.min.js"></scripts>
-<![endif]-->
-
-<!-- Comment -->
-
+恋爱的时候总是以自欺欺人开始，而以欺骗别人告终，所说的罗曼史。
+几乎所有女孩子都会在小时候很喜欢粉红色，然后在某一个时期突然喜欢黑白灰，然后等她们再老一些，又会喜欢上艳丽的颜色，同样，几乎所有女孩子都会在某段时间非常讨厌尖头的鞋子，又会..." />
+    <meta name="keywords" content="烦恼和抉择" />
+    <link rel="stylesheet" href="http://mj5219054/.github.io.git/media/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://mj5219054/.github.io.git/styles/main.css">
     
-        <link href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/default.min.css">
     
-
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/js/clipboard.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/css/live2d.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
+    <!-- 数学公式 -->
     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css"
+        integrity="sha384-9tPv11A+glH/on/wEu99NVwDPwkMQESOocs/ZGXPoIiLE8MU/qkqUcZ3zzL+6DuH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js"
+        integrity="sha384-U8Vrjwb8fuHMt6ewaCy8uqeUXv4oitYACKdB0VziCerzt011iQ/0TqlSlv8MReCm" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js"
+        integrity="sha384-aGfk5kvhIq5x1x5YdvCp4upKZYnA8ckafviDpmWEKp4afOZEqOli7gqSnh8I6enH" crossorigin="anonymous">
+        </script>
+    <script>
+        renderMathInElement(document.body, {
+            delimiters: [{
+                left: "$$",
+                right: "$$",
+                display: true
+            },
+            {
+                left: "$",
+                right: "$",
+                display: false
+            }
+            ]
+        });
+    </script>
+    
+    <title>叶子</title>
+    
+    <style>
+        .markdownIt-TOC {
+            margin-left: 28%;
+            padding-left: 2px;
+            width: 80%;
+        }
 
-
-
-<!-- katex -->
-<!--<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet">-->
-
-<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
-
-
-
+        .markdownIt-TOC li {
+            padding-left: 8%;
+        }
+    </style>
+    
 </head>
+
 <body>
-    <div id="fh5co-offcanvas">
-    <a href="#!" class="fh5co-close-offcanvas js-fh5co-close-offcanvas">
-        <span><i class="icon-cross3"></i> <span>Close</span></span>
-    </a>
-    <div class="fh5co-bio">
-        <figure>
-            <img src="https://mj5219054/.github.io.git/images/avatar.png" alt="叶子"
-                 class="img-responsive">
-        </figure>
-        <a href="https://mj5219054/.github.io.git/post/about/"><h3 class="heading">ABOUT ME</h3></a>
-        <h2>叶子</h2>
-        <p>个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</p>
-        <ul class="fh5co-social">
-            
-                <li>
-                    
-                        <a href="https://github.com/https-github-com-mj521905" target="_blank">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    
-                </li>
-            
-                <li>
-                    
-                </li>
-            
-                <li>
-                    
-                </li>
-            
-                <li>
-                    
-                </li>
-            
-                <li>
-                    
-                </li>
-            
-        </ul>
+    <div id="landlord">
+        <div class="message" style="opacity:0"></div>
+        <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
     </div>
+    <div id="domainname" style="display:none">http://mj5219054/.github.io.git</div>
+    <!-- 响应式布局，针对PC端内容显示 -->
+    <div id="content">
+        <div>
+            <div id="bar">
+                <head>
+  <!-- 引入Bootstrap核心样式文件 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/css/bootstrap.min.css">
+</head>
+<style>
+  .navmobile {
+    z-index: 15;
+    max-height: 40vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
 
-    <div class="fh5co-menu">
+  @media screen and (max-width: 1200px) {
+    .navbar {
+      max-width: 100vw;
+    }
+  }
 
-        <!-- 标签 -->
-        <div class="fh5co-box">
-            <a href="https://mj5219054/.github.io.git/tags/"><h3 class="heading">👉标签</h3></a>
-            <ul>
-                
-                    <li><a href="https://mj5219054/.github.io.git/tag/cheng-chang-de-de-xuan-ze/">成长的的选择</a></li>
-                
-                    <li><a href="https://mj5219054/.github.io.git/tag/f7uvvrkDK/">Gridea</a></li>
-                
-                    <li><a href="https://mj5219054/.github.io.git/tag/fan-nao-he-jue-ze/">烦恼和抉择</a></li>
-                
-            </ul>
-        </div>
+  @media screen and (max-width:1200px) and (min-width: 768px) {
+    @media (min-width: 768px) {
+      .navbar-nav {
+        float: right;
+        margin: 0;
+      }
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    .mbapspan {
+      padding: 0;
+    }
+  }
+</style>
+<div class="pjaxloading"  onclick="pjaxloadingClose()">
+  <div class="loadingbackground"></div>
+  <div id="loading">
+    <div class="loading">
     </div>
+  </div>
 </div>
+<nav class="navbar navbar-inverse navbar-fixed-top navmobile">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barmenu"
+        aria-expanded="false" id="barbutton">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a data-pjax class="navbar-brand" href="http://mj5219054/.github.io.git">叶子&nbsp;&nbsp;|</a>
+      <span class="navbar-brand mbapspan"><i id="mbaplayer" class="fa fa-play-circle-o" aria-hidden="true"
+          style="font-size: 28px;top: 12px;position: absolute;" onclick="aplayerPlay();"></i></span>
+    </div>
 
-<header id="fh5co-header">
-    <div class="container-fluid">
-        <div class="row">
-            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-            <ul class="fh5co-social">
-                
-                    <li>
-                        <a href="/"
-                        
-                           target="_blank"
-                                
-                        >
-                            首页
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan"
-                        
-                        >
-                            归档
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/tags"
-                        
-                        >
-                            标签
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/post/about"
-                        
-                        >
-                            关于
-                        </a>
-                    </li>
-                
-            </ul>
-            <div class="col-lg-12 col-md-12 text-center">
-                <h1 id="fh5co-logo">
-                    <a href="https://mj5219054/.github.io.git">叶子 </a>
-                </h1>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="barmenu">
+      <ul class="nav navbar-nav">
+        
+        
+        <li><a href="/" target="_blank">
+            首页
+          </a></li>
+        
+        
+        
+        <li>
+          <a data-pjax href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan">
+            归档
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a data-pjax href="/tags">
+            标签
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a data-pjax href="/post/about">
+            关于
+          </a>
+        </li>
+        
+        
+        
+          
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+  <!-- 引入jQuery核心js文件 -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+  <script>
+    let btstate = false;
+    var bt = $("#barbutton");
+    var bm = $("#barmenu");
+    bt.click(function () {
+      dropdown();
+    })
+    function dropdown() {
+      console.log(btstate);
+      //下拉
+      if (btstate == false) {
+        bt.removeClass("collapsed");
+        bt.attr("aria-expanded", "true");
+        bm.attr("aria-expanded", "true")
+        bm.fadeIn(700);
+        btstate = true;
+      }
+      else {
+        bt.addClass("collapsed");
+        bt.attr("aria-expanded", "false");
+        bm.removeClass("in");
+        bm.hide();
+        bm.attr("aria-expanded", "false");
+        btstate = false;
+      }
+    }
+  </script> 
+            </div>
+            <div class="row">
+                <div class="side"><head>
+    <link rel="stylesheet" href="http://mj5219054/.github.io.git/media/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://mj5219054/.github.io.git/styles/main.css">
+    
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/default.min.css">
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/js/clipboard.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/css/live2d.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
+    <!-- 数学公式 -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css"
+        integrity="sha384-9tPv11A+glH/on/wEu99NVwDPwkMQESOocs/ZGXPoIiLE8MU/qkqUcZ3zzL+6DuH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js"
+        integrity="sha384-U8Vrjwb8fuHMt6ewaCy8uqeUXv4oitYACKdB0VziCerzt011iQ/0TqlSlv8MReCm" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js"
+        integrity="sha384-aGfk5kvhIq5x1x5YdvCp4upKZYnA8ckafviDpmWEKp4afOZEqOli7gqSnh8I6enH" crossorigin="anonymous">
+        </script>
+    
+    
+</head>
+<style>
+    body{
+    cursor: url("http://mj5219054/.github.io.git/media/images/mouse_cursor.png"),auto
+    }
+    </style>
+
+<body>
+    
+    <script>
+        let menupos = 'left'
+    </script>
+    
+    
+    <script>
+        let shareChoice = false
+    </script>
+    
+    
+    <script>
+        let donateChoice = true
+    </script>
+    
+    
+    <script>
+        let searchChoice = true
+    </script>
+    
+    <script>let postsnum = 0;</script>
+    <div id="side-posttitle" style="display: none;">
+        
+    
+       工作选择
+    <script>postsnum += 1</script>
+    
+    
+    
+                               烂尾工程
+    <script>postsnum += 1</script>
+    
+    
+    
+                                       文明游戏 
+    <script>postsnum += 1</script>
+    
+    
+    
+                          打工是不可能富有的
+    <script>postsnum += 1</script>
+    
+    
+    
+                                          技能
+    <script>postsnum += 1</script>
+    
+    
+    
+               都试图清醒，却又都醉在一些梦中。
+    <script>postsnum += 1</script>
+    
+    
+    
+                                  人际关系 
+    <script>postsnum += 1</script>
+    
+    
+    
+                                      儿童
+    <script>postsnum += 1</script>
+    
+    
+    
+                             伦理和舆论
+    <script>postsnum += 1</script>
+    
+    
+    
+                                                  城市
+    <script>postsnum += 1</script>
+    
+    
+    
+                                组织和群体
+    <script>postsnum += 1</script>
+    
+    
+    
+                           自己
+    <script>postsnum += 1</script>
+    
+    
+    
+    定位
+    <script>postsnum += 1</script>
+    
+    
+    
+    爱河
+    <script>postsnum += 1</script>
+    
+    
+    
+                                            距离
+    <script>postsnum += 1</script>
+    
+    
+    
+    
+    </div>
+    <div class="pjaxloading" onclick="pjaxloadingClose()">
+        <div class="loadingbackground"></div>
+        <div id="loading">
+            <div class="loading">
             </div>
         </div>
     </div>
-</header>
-
-
-    <!--  <a href="#" class="fh5co-post-prev"><span>👈 Prev</span></a>-->
-    <!--  <a href="#" class="fh5co-post-next"><span>Next 👉</span></a>-->
-
-    <!-- 等gridea出自定义页面功能再优化一下 -->
     
-        <div class="container-fluid">
-    <div class="row fh5co-post-entry single-entry">
-        <article class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
-            <figure class="animate-box">
-                
-                    <img src="https://mj5219054/.github.io.git/post-images/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan.jpg" alt="爱河" class="img-responsive">
-                
-            </figure>
-            <span class="fh5co-meta animate-box">
-                
-                    <div class="tag-container">
-                        
-                            <a href="https://mj5219054/.github.io.git/tag/fan-nao-he-jue-ze/" class="tag">烦恼和抉择, </a>
-                        
-                    </div>
-                
-            </span>
-            <h2 class="fh5co-article-title animate-box">爱河</h2>
-            <ol class="breadcrumb fh5co-meta fh5co-date animate-box" style="margin-bottom:0; background-color:#f8f9fa">
-                <li>2021-03-29</li>
-                <li>8046字</li>
-                <li>28 min read</li>
-            </ol>
+    <div id=side>
+        <a onclick="showAaplayer()"><i style="font-size: 20px;"><img
+                    src='http://mj5219054/.github.io.git/media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
+        <div class="avatar-border">
+            <img src="http://mj5219054/.github.io.git/images/avatar.png?v=1618242444731" class="avatar">
+        </div>
+        <div class="sitename">叶子</div>
+        <span class="describtion" data-text='["个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。"]'>&nbsp;</span>
+        
+        <div class="search">
+            <!-- <input type="text" class="search-input" placeholder="标题搜索(●'◡'●)" /> -->
+            <input type="text" class="search-input" placeholder="什么鬼啊">
+            <div class="search-results"></div>
+        </div>
+        
+    <div class="share-button">
+        <span>社交按钮</span>
+        
+        <a href="https://github.com/https-github-com-mj521905" target="_blank"><i style="font-size: 20px;"><img class="icon"
+                    src="http://mj5219054/.github.io.git/media/images/github.png" alt=""></i></a>
+        
+        
+        <a onclick="showqq()"><i style="font-size: 20px;"><img class="icon"
+                    src="http://mj5219054/.github.io.git/media/images/QQ.png" alt=""></i></a>
+        
+        
+        
+        <a href="https://space.bilibili.com/27497974" target="_blank"><i style="font-size: 20px;"><img class="icon"
+                    src="http://mj5219054/.github.io.git/media/images/bilibili.png" alt=""></i></a>
+        
+        
+        
+    </div>
+    <div id="qq" style="display:none">379706045</div>
+    
+    
+    <div class="mchocie describtion">
+        <a href="/" class="mchocie describtion" target="_blank">
+            首页
+        </a>
+    </div>
+    
+    
+    
+    <div class="mchocie describtion">
+        <a data-pjax href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan" class="menubutton">
+            归档
+        </a>
+    </div>
+    
+    
+    
+    <div class="mchocie describtion">
+        <a data-pjax href="/tags" class="menubutton">
+            标签
+        </a>
+    </div>
+    
+    
+    
+    <div class="mchocie describtion">
+        <a data-pjax href="/post/about" class="menubutton">
+            关于
+        </a>
+    </div>
+    
+    
+    
+    
+    <hr>
+    <style>
+    .copyright {
+        font-size: 15px;
+        color: #d9d9d9;
+    }
 
-            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-left content-article">
-                <div class="row">
-                    <div class="col-md-12 animate-box post-content">
-                        <p> <figure data-type="image" tabindex="1"><img src="https://mj5219054/.github.io.git/post-images/1617021975834.jpg" alt="" loading="lazy"></figure>
+
+    @media screen and (min-width: 1200px) {
+        .foot {
+            width: 100%;
+            height: 130px;
+        }
+    }
+
+    @media screen and (max-width: 1200px) {
+        .foot {
+            display: none;
+        }
+    }
+</style>
+
+<body>
+    <div class="foot">
+        <div id="footinfo">Powered by Gridea, © 2014 - 2021 Copyright 叶子. All Rights Reserved.  | Theme: <a
+                href="https://github.com/850552586/gridea-theme-fog">Fog</a>
+            <div>
+                
+                <div id="sitegotimeDate">载入天数...</div>
+                <div id="sitegotimes">载入时分秒...</div>
+                <div id="cussitetime" style="display:none">02/02/2020</div>
+                
+            </div>
+            <div>
+                
+                <script async
+                    src="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/js/busuanzi.pure.mini.js"></script>
+                <div id="vistornum" style="margin:0">
+                    <span id="busuanzi_container_site_uv">
+                        <i class="fa fa-heart" aria-hidden="true" style="color: red;"></i> 总访问量:<span
+                            id="busuanzi_value_site_pv"></span>&nbsp;&nbsp;|&nbsp;&nbsp;
+                        <i class="fa fa-user-o" aria-hidden="true"></i> 访问人数:<span id="busuanzi_value_site_uv"></span>
+                    </span>
+                </div>
+                
+            </div>
+            <div class="copyright" style="color:white;text-align: center;">Copyright © 2020  备案号: 陕ICP备...号
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+
+<script>
+    //----------------------站点运行时间
+    var now = new Date();
+
+    function createtime() {
+        var sitegotime = document.getElementById("cussitetime").innerHTML + " 00:00:00";
+        var grt = new Date(sitegotime); //此处修改你的建站时间或者网站上线时间 
+        now.setTime(now.getTime() + 250);
+        days = (now - grt) / 1000 / 60 / 60 / 24;
+        dnum = Math.floor(days);
+        hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum);
+        hnum = Math.floor(hours);
+        if (String(hnum).length == 1) {
+            hnum = "0" + hnum;
+        }
+        minutes = (now - grt) / 1000 / 60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes);
+        if (String(mnum).length == 1) {
+            mnum = "0" + mnum;
+        }
+        seconds = (now - grt) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds);
+        if (String(snum).length == 1) {
+            snum = "0" + snum;
+        }
+        document.getElementById("sitegotimeDate").innerHTML = "本站已安全运行 " + dnum + " 天 ";
+        document.getElementById("sitegotimes").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+    }
+
+    let intervalId = setInterval("createtime()", 250);
+</script>
+
+    </div>
+
+
+    <script src="http://mj5219054/.github.io.git/media/js/wordshow.js"></script>
+    
+    
+</body>
+<script>
+    function showqq() {
+        var qq = document.getElementById("qq").innerHTML;
+        if (qq != '')
+            window.location.href = "tencent://message/?uin=" + qq + "&Site=&Menu=yes";
+        else
+            alert("博主暂未设置QQ联系方式");
+    }
+
+    //音乐播放器的显示
+    function showAaplayer() {
+        var aplayer = $(".aplayer-body");
+        if (aplayer.css("display") == 'block')
+            aplayer.fadeOut(200)
+        else
+            aplayer.fadeIn(200)
+    }
+</script>
+<script>
+    function getHotnum() {
+        //文章阅读热度（重构，利用leancloud原生api）
+        var pl = window.location.pathname;
+        if (pl.search("post") == -1)
+            return false;
+        if (pl[pl.length - 1] != '/')
+            pl += '/'
+        var ptitle = $("#ptitle").html();
+        var rootaddr = $("#rootaddr").html();
+        pl = pl.replace(rootaddr, "");
+        var appid = '';
+        var appkey = '';
+        console.log(appid, appkey)
+        if (AV == undefined)
+            AV.init({
+                appId: appid,
+                appKey: appkey
+            });
+        const query = new AV.Query('Counter');
+        query.equalTo('url', pl);
+        var time = 'Loading...';
+        query.find().then(function (results) {
+            console.log(results)
+            if (results.length == 0) {
+                console.log("0")
+                var NewCounter = AV.Object.extend('Counter');
+                var nc = new NewCounter();
+                nc.save({
+                    time: 1,
+                    title: ptitle,
+                    url: pl,
+                    xid: pl,
+                }).then(function (object) {
+                    $(".hotnum").eq(0).html(1);
+                    $(".hotnum").eq(1).html(1);
+                });
+            } else {
+                id = results[0].id;
+                var todo = AV.Object.createWithoutData('Counter', id);
+                time = results[0].attributes.time + 1;
+                todo.set("time", time);
+                todo.save();
+                console.log(todo);
+                $(".hotnum").eq(0).html(time);
+                $(".hotnum").eq(1).html(time);
+            }
+
+        }, function (error) {
+            console.log(error)
+        });
+    }
+</script>
+    <script src="http://mj5219054/.github.io.git/media/share/dist/Share.js"></script>
+    <!-- 页面pjax测试 -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.js"></script>
+    <!--确保jQuery已经在此之前加载-->
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src="http://mj5219054/.github.io.git/media/js/all-pjax.js"></script>
+    <script>
+        //loading加载关闭
+        function pjaxloadingClose() {
+            var pjaxloading = $(".pjaxloading");
+            pjaxloading.hide();
+        }
+
+
+
+        function imglazyloadinit() {
+            var img = $("img");
+            for (var i = 0; i < img.length; i++) {
+                if (img.eq(i).attr("class") == undefined) {
+                    img.eq(i).attr("class", "lazyload");
+                    var imgsrc = img.eq(i).attr("src");
+                    img.eq(i).attr("data-original", imgsrc);
+                    img.eq(i).attr("src", "");
+                    img.eq(i).hide();
+                }
+            }
+        }
+
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        async function codebtncolorinit(e) {
+            await sleep(2000);
+            e.trigger.innerHTML = "复制代码"
+            e.trigger.style.background = "cornflowerblue"
+        }
+
+        function codeinit() {
+            //寻找所有code标签，加复制按钮鸭！(行内代码除外)
+            var codes = document.getElementsByTagName('code');
+            if (codes.length) {
+                for (var i = 0; i < codes.length; i++) {
+                    //高度/行高=文本行数
+                    // var rowNum=Math.round(codes[i].height()/parseFloat(codes[i].css('line-height')));
+                    // console.log("当前有"+rowNum+"行");
+                    var code_id = "code_id_" + i;
+                    codes[i].setAttribute("id", code_id);
+                    var ci = "#" + code_id;
+                    var codedot = $(ci);
+                    var rowNum = Math.round(codedot.height() / parseFloat(codedot.css('line-height')));
+                    if (rowNum <= 1) continue;
+                    var btn = document.createElement("button");
+                    btn.setAttribute("class", "copybt");
+                    btn.setAttribute("data-clipboard-target", "#" + code_id);
+                    btn.innerHTML = '复制代码';
+                    codes[i].parentNode.insertBefore(btn, codes[i]);
+                }
+            };
+            var cop = new ClipboardJS('.copybt');
+            cop.on('success', function (e) {
+                e.trigger.innerHTML = "复制成功~"
+                e.trigger.style.background = "#894e54"
+                codebtncolorinit(e)
+                e.clearSelection();
+            });
+            cop.on('error', function (e) {
+                alert("矮油，复制失败了...手动复制吧勇士！");
+                e.clearSelection();
+            });
+        }
+
+        function lazyload() {
+            var oLazyload = $("img.lazyload"),
+                fLazyload = function (hLazyload) {
+                    var nLazyload = $(window).height() + $(document).scrollTop();
+                    oLazyload.each(function () {
+                        $(this).offset().top < nLazyload && ($(this).trigger("appear"), oLazyload =
+                            oLazyload.not(this));
+                    }), 0 == oLazyload.length && $(window).unbind("scroll", fLazyload);
+                };
+            oLazyload.each(function () {
+                $(this).one("appear", function () {
+                    $(this).attr("src", $(this).attr("data-original"));
+                    $(this).fadeIn(500);
+                });
+            }), $(window).bind("scroll", fLazyload), fLazyload();
+        }
+
+        let talksall = [];
+        let talks = [];
+        let talkindex = 0;
+        get();
+        function get() {
+            var t = JSON.parse('[]');
+            talkindex = t.length - 1;
+            for (var i = 0; i <= t.length - 1; i++) {
+                var d = {};
+                d["time"] = t[i].time;
+                d["author"] = t[i].author;
+                d["text"] = t[i].text;
+                d["img"] = t[i].img;
+                talksall.push(d);
+            }
+        }
+
+        function add() {
+            for (var i = talkindex; i >= 0 && i > talkindex - 3; i--) {
+                talks.push(talksall[i]);
+            }
+            talkindex = (talkindex - 3) >= 0 ? (talkindex - 3) : -1;
+            if (talkindex < 0) $("#getmorebt").hide();
+            show();
+            refreshImg("talkimg");
+        }
+
+        function show() {
+            var talkT = document.getElementById("talkContainer");
+            talkT.innerHTML = "";
+            for (var i = 0; i < talks.length; i++) {
+                if (talks[i].img != '') {
+                    talkT.innerHTML += '\
+            <div class="talk" v-for="t in talks"> \
+                <img src="' + talks[i].img + '" class="talkimg"> \
+                <div class="ainfo">\
+                    <div class="ainfo-intro">\
+                        <img class="intro1" src="http://mj5219054/.github.io.git/images/avatar.png?v=1618242444731">\
+                        <div class="author">' + talks[i].author + '</div>·\
+                        <div class="time">' + talks[i].time + '</div>\
+                    </div>\
+                </div>\
+                <div class="talkcontent">' + talks[i].text + '\
+                </div\>\
+            ';
+                } else {
+                    talkT.innerHTML += '\
+            <div class="talk" v-for="t in talks"> \
+                <div class="ainfo">\
+                    <div class="ainfo-intro">\
+                        <img class="intro1" src="http://mj5219054/.github.io.git/images/avatar.png?v=1618242444731">\
+                        <div class="author">' + talks[i].author + '</div>·\
+                        <div class="time">' + talks[i].time + '</div>\
+                    </div>\
+                </div>\
+                <div class="talkcontent">' + talks[i].text + '\
+                </div\>\
+            ';
+                }
+            }
+        }
+
+        function refreshImg(imgclass) {
+            // 获取弹窗
+            var modal = document.getElementById('myModal');
+
+            // 获取图片插入到弹窗 - 使用 "alt" 属性作为文本部分的内容
+            var img = document.getElementsByClassName(imgclass);
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            for (var i in img) {
+                img[i].onclick = function () {
+                    modal.style.display = "block";
+                    modalImg.src = this.src;
+                }
+            }
+
+            // 图片关闭
+            var modalImg = document.getElementById('img01');
+            // 鼠标点击模型外区域关闭登录框
+            window.onclick = function (event) {
+                console.log(event.target);
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+                if (menupos == 'left')
+                    return true;
+                if (event.target == social) {
+                    social.style.display = "none";
+                }
+            }
+        }
+
+        function shareInit() {
+            var title = document.getElementById("texttitle").getElementsByTagName("h2");
+            if (menupos == 'top') {
+                var avatarSrc = $(".menutopavatar").attr("src");
+                var dp = document.getElementsByClassName("navbar-brand")[1].innerHTML;
+            }
+            else {
+                var avatarSrc = $(".avatar").attr("src");
+                var dp = document.getElementsByClassName("describtion")[0].innerHTML;
+            }
+            var share = new Share('.share', {
+                title: title[0].innerHTML,
+                initialized: true,
+                //默认获取网站描述
+                description: dp,
+                //网站图片默认获取的是设置的用户头像
+                image: avatarSrc,
+                //激活的分享网站
+                sites: ["weibo", "qq", "wechat", "douban", "qzone", "facebook", "twitter", "google"],
+                //微信分享PC端会生成二维码分享,移动端如果可以唤起微信最好
+                wechatQrcodeTitle: "微信扫一扫：分享", // 微信二维码提示文字
+                wechatQrcodeHelper: '<p>微信里扫一下二维码</p><p>便可将本文分享至朋友圈。</p>',
+                //关闭的网站分享
+                disabled: ['google', 'linkedin'],
+                wechatQrcodePosition: 'bottom'
+            });
+            //点击分享按钮展现出分享icons
+            var sharebtnTag = false;
+            $(".sharebtn").click(function () {
+                if (!sharebtnTag) {
+                    $(".share").show();
+                    sharebtnTag = true;
+                }
+                else {
+                    $(".share").hide();
+                    sharebtnTag = false;
+                }
+            })
+        }
+
+        function donateInit() {
+            var donatebtnTag = false;
+            $(".donateImg").click(function () {
+                if (!donatebtnTag) {
+                    $(".donate").show();
+                    donatebtnTag = true;
+                }
+                else {
+                    $(".donate").hide();
+                    donatebtnTag = false;
+                }
+            })
+        }
+
+
+        let talkinit = false;
+        $(document).pjax('a[data-pjax]', '#main', {
+            fragment: '#main',
+            timeout: 8000
+        }).on('pjax:complete', function () {
+            //hljs.initHighlightingOnLoad();
+            document.querySelectorAll('pre code').forEach((block) => {
+                hljs.highlightBlock(block);
+            });
+            //文章热度
+            getHotnum();
+            //文章索引
+            toginit();
+            //清空搜索栏
+            if (searchChoice) {
+                searchInit();
+                searchInput.value = "";
+            }
+            var pl = window.location.pathname;
+            //说说更新
+            if (pl.search("talk") != -1 && !talkinit) {
+                add();
+                talkinit = true;
+            }
+            else if (pl.search("talk") != -1) {
+                show();
+                refreshImg("talkimg");
+            }
+            //分享按钮更新
+            if (pl.search("post") != -1) {
+                if (shareChoice)
+                    shareInit();
+                if (donateChoice)
+                    donateInit();
+                imglazyloadinit();
+                lazyload();
+                refreshImg("lazyload");
+                codeinit();
+            }
+            if (btstate == true)
+                dropdown();
+        }).on('pjax:start', function () {
+            $(".pjaxloading").fadeIn(50);
+        }).on('pjax:end', function () {
+            $(".pjaxloading").fadeOut(50);
+        });
+    </script>
+
+    <script>
+        /**
+         * https://github.com/tangkaichuan/gridea-search
+         */
+        (function () {
+            var CACHES = checkCache()
+            if (!CACHES) {
+                var NOW = Date.now()
+                var API_CONTENT = '../api-content/index.html' + '?_=' + NOW
+                preload(API_CONTENT);
+                getContents(show_getContentresult);
+            }
+
+            function show_getContentresult(data) {
+                console.log("获取成功");
+                var postslen = data["posts"].length;
+                localStorage.setItem('postsnum', postslen);
+                var poststitlelen = 0;
+                var pt = document.getElementById("side-posttitle").innerHTML;
+                pt = pt.replace(/\s+/g, '').replace(/<script>.*?<\/script>/gi, "");
+                localStorage.setItem('poststitlelen', pt.length);
+            }
+
+
+
+            // preload
+            function preload(url) {
+                var preloadLink = document.createElement('link')
+                preloadLink.href = url
+                preloadLink.rel = 'preload'
+                preloadLink.as = 'fetch'
+                preloadLink.crossOrigin = 'anonymous'
+                document.head.appendChild(preloadLink)
+            }
+
+            // 异步 GET 请求
+            function get(obj) {
+                var xhr = new XMLHttpRequest()
+                xhr.open('get', obj.url, true)
+                xhr.send(null)
+                xhr.onreadystatechange = function () {
+                    // 异步请求：响应状态为4，数据加载完毕
+                    if (xhr.readyState === 4) {
+                        if (xhr.status === 200) {
+                            obj.success(xhr.responseText)
+                        } else {
+                            obj.error(xhr.status)
+                        }
+                    }
+                }
+            }
+
+
+            // 检查缓存是否最新
+            function checkCache() {
+                var caches_postsnum = localStorage.getItem("postsnum");
+                var pt = document.getElementById("side-posttitle").innerHTML;
+                pt = pt.replace(/\s+/g, '').replace(/<script>.*?<\/script>/gi, "")
+                var ptlen = pt.length;
+                var ptlen_storage = localStorage.getItem("poststitlelen");
+                console.log(parseInt(postsnum));
+                if (caches_postsnum != postsnum || ptlen != ptlen_storage) {
+                    console.log("更新缓存");
+                    return false
+                }
+                return true;
+            }
+
+            // 获取博客全文 api
+            function getContents(callback) {
+                if (CACHES) {
+                    callback(CACHES.contents)
+                } else {
+                    get({
+                        url: API_CONTENT,
+                        success: function (data) {
+                            callback(JSON.parse(data));
+                            localStorage.setItem('ContentsCache', data);
+                        }
+                    })
+                }
+            }
+        })()
+
+        //-------------------------------------------------搜索
+        // 获取搜索框、搜索按钮、清空搜索、结果输出对应的元素
+        if (searchChoice) {
+            var searchInput = document.querySelector('.search-input');
+            var searchResults = document.querySelector('.search-results');
+        }
+        // 申明保存文章的标题、链接、内容的数组变量
+        var searchValue = '',
+            arrItems = [],
+            arrLinks = [],
+            arrTitles = [],
+            arrContents = [],
+            arrResults = [],
+            indexItem = [],
+            itemLength = 0;
+        var tmpDiv = document.createElement('div');
+        tmpDiv.className = 'result-item';
+
+
+        function getStorageContent() {
+            var data = localStorage.getItem('ContentsCache');
+            data = JSON.parse(data);
+            posts = data["posts"];
+            for (var i = 0; i < posts.length; i++) {
+                arrLinks[i] = posts[i].link;
+                arrTitles[i] = posts[i].title;
+                arrContents[i] = posts[i].content;
+                itemLength++;
+            }
+        }
+        getStorageContent();
+        // 输入框内容变化后就开始匹配，可以不用点按钮
+        // 经测试，onkeydown, onchange 等方法效果不太理想，
+        // 存在输入延迟等问题，最后发现触发 input 事件最理想，
+        // 并且可以处理中文输入法拼写的变化
+        searchInput.oninput = function () {
+            setTimeout(searchConfirm, 0);
+        }
+        searchInput.onfocus = function () {
+            searchResults.style.display = 'block';
+        }
+
+        function searchConfirm() {
+            if (searchInput.value == '') {
+                searchResults.style.display = 'none';
+            } else if (searchInput.value.search(/^\s+$/) >= 0) {
+                // 检测输入值全是空白的情况
+                searchInit();
+                var itemDiv = tmpDiv.cloneNode(true);
+                itemDiv.innerText = '请输入有效内容...';
+                searchResults.appendChild(itemDiv);
+            } else {
+                // 合法输入值的情况
+                searchInit();
+                searchValue = searchInput.value;
+                // 在标题、内容中查找
+                searchMatching(arrTitles, arrContents, searchValue);
+            }
+        }
+
+        // 每次搜索完成后的初始化
+        function searchInit() {
+            arrResults = [];
+            indexItem = [];
+            searchResults.innerHTML = '';
+            searchResults.style.display = 'block';
+        }
+
+        function searchMatching(arr1, arr2, input) {
+            // 忽略输入大小写
+            input = new RegExp(input, 'i');
+            var step = 10;
+            // 在所有文章标题、内容中匹配查询值
+            for (i = 0; i < itemLength; i++) {
+                var indexContent = arr2[i].search(input);
+                //标题匹配
+                if (arr1[i].search(input) != -1) {
+                    indexItem.push(i); // 保存匹配值的索引
+                    if (indexContent != -1) {
+                        startindex = (indexContent - step) >= 0 ? (indexContent - step) : 0;
+                        var searchcontent = arr2[i].slice(indexContent - step, indexContent + 5)
+                        arrResults.push("....." + searchcontent + ".....");
+                    }
+                    else
+                        arrResults.push("");
+                }
+                //内容匹配
+                else if (indexContent != -1) {
+                    indexItem.push(i); // 保存匹配值的索引
+
+                    startindex = (indexContent - step) >= 0 ? (indexContent - step) : 0;
+                    var searchcontent = arr2[i].slice(indexContent - step, indexContent + 5)
+                    arrResults.push("....." + searchcontent + ".....");
+                }
+            }
+
+            // 输出总共匹配到的数目
+            var totalDiv = tmpDiv.cloneNode(true);
+            totalDiv.innerHTML = '<b>总匹配：' + indexItem.length + ' 项<hr></b>';
+            searchResults.appendChild(totalDiv);
+
+            // 未匹配到内容的情况
+            if (indexItem.length == 0) {
+                var itemDiv = tmpDiv.cloneNode(true);
+                itemDiv.innerText = '未匹配到内容...';
+                searchResults.appendChild(itemDiv);
+            }
+
+            // 将所有匹配内容进行组合
+            for (i = 0; i < arrResults.length; i++) {
+                var itemDiv = tmpDiv.cloneNode(true);
+                itemDiv.innerHTML = '<a data-pjax class="searchresults" href="' + arrLinks[indexItem[i]] + '"><b>[' + arrTitles[indexItem[i]] +
+                    ']</b><p>' + arrResults[i] + '</p></a><hr />';
+                searchResults.appendChild(itemDiv);
+            }
+        }
+    </script>
+    </div>
+                
+                <div id="tab1" class="tab">
+                    <div class="bars">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="close"></div>
+                </div>
+                <div class="col-md-1 col-lg-3"></div>
+                <div id="main" class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
+                    <link rel="stylesheet" href="http://mj5219054/.github.io.git/media/css/font-awesome.css">
+
+<body>
+    <div class="allcontent" id="postdetail">
+        <div class="postshow postpadding" style="padding-bottom: 0;">
+            
+            <div class="postdetailimg">
+                <img src="http://mj5219054/.github.io.git/post-images/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan.jpg" class="postimage" style="cursor:auto">
+            </div>
+            <div class="postinfo-detail">
+                <div class="postdate"><i class="fa fa-calendar"></i>2021-03-29</div>
+                <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 28 min read</div>
+                <div class="posttag">
+                    
+                    <a data-pjax href="http://mj5219054/.github.io.git/tag/fan-nao-he-jue-ze/" class="postlink">
+                        <i class="fa fa-tag"></i> 烦恼和抉择
+                    </a>
+                    
+                </div>
+            </div>
+            
+        <div id="articlecontent">
+            <div id="texttitle" style="text-align: center">
+                <h2 id="ptitle">爱河</h2>
+                <!-- id 将作为查询条件 -->
+                <div id="pl" style="display:none">http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan/</div>
+                <div id="rootaddr" style="display:none">http://mj5219054/.github.io.git</div>
+                <span id="hotnum">
+                    <h4><i class="fa fa-eye" aria-hidden="true" style="color: #FF8C00;"></i>&nbsp;&nbsp;热度</i>: <i
+                            class="hotnum">loading...</i></h4>
+                </span>
+            </div>
+            <div class="text ">
+                <figure data-type="image" tabindex="1"><img src="http://mj5219054/.github.io.git/post-images/1617021975834.jpg" alt="" loading="lazy"></figure>
 <!-- more -->
 <pre><code>恋爱的时候总是以自欺欺人开始，而以欺骗别人告终，所说的罗曼史。
 几乎所有女孩子都会在小时候很喜欢粉红色，然后在某一个时期突然喜欢黑白灰，然后等她们再老一些，又会喜欢上艳丽的颜色，同样，几乎所有女孩子都会在某段时间非常讨厌尖头的鞋子，又会突然在某一个时期疯狂的迷上尖头鞋的魅力。
@@ -192,13 +1114,13 @@
 ****  如果您想彻底地拥有一个女人，那么，您就要学着像她那样去思考，因为，最重要的是能不能虏获她的芳心，至于那诱人的婚姻的价值，其实体现在人生的暗面，**<br>
 在你寂寞的时候旁边有一个人听着你的讫语，陪着你无所事事；<br>
 在你空虚的时候心头会突然出现一个眼神，让你觉得要改变一些什么；<br>
-<img src="https://mj5219054/.github.io.git/post-images/1617633582737.jpg" alt="" loading="lazy"><br>
+<img src="http://mj5219054/.github.io.git/post-images/1617633582737.jpg" alt="" loading="lazy"><br>
 而当你被打倒在地踩上一只脚的时候，有一扇门依然为你敞开着，里面的人不但对你没有那么苛责，甚至还会尝试抚平你的伤口，为你的悲伤而悲伤。胴体，虽然让人神魂颠倒，也不过是额外的赠品罢了。<br>
 恋爱中最心酸的事大概是：对方已经决定跟你分手了，只是还没想好充分的理由，而你却还在计划着两个人下一步。也可能是我随意演绎这个众所公认的事实，我总觉得朝夕相处、耳鬓厮磨的男女之间，已经失去了激发恋情所需要的新鲜感。嗅得香气只限于刚焚香的那一瞬间；品出酒味只在于乍饮酒的那一刹那。同样，爱的冲动也在时间上存在这么间不容发的一点。找了一晚上钢笔 ，几乎流泪写出回忆，<br>
 与你，我，他三人分别后，好像属于我们的故事淡得只剩下梗概，一支笔的意义都珍贵到可以支撑起怀缅。<br>
 可是它还是被我丢了，像你一样从此杳然于我的世界。心里奔涌出热泪，无奈分别太久心内已然没有缺口，<br>
 留着那翻滚被辜负感觉涤荡在心壁，这份心殇从何说起。<br>
-<img src="https://mj5219054/.github.io.git/post-images/1617633702352.jpg" alt="" loading="lazy"><br>
+<img src="http://mj5219054/.github.io.git/post-images/1617633702352.jpg" alt="" loading="lazy"><br>
 父母，除了养我们有恩，其他跟你半毛钱关系，在我们幼小的时候不给感情总是爱把受过的气往我们这撒，是不限的梦想往我们身上安，没玩没了的约束你，批评你，贬低你，我恨这样的父母，长大后发现父母其实很平凡也有做错事于是选择原谅，为了幸福感，就是沉入悲哀之河的河底的那些闪着微光的金砂，经历过悲伤的极限，心情不可思议地，朦胧地明亮起来，假如那就是幸福的感觉，走好自己的世界穿透一切高墙的东西，它就在我们的内心深处，他们无法达到，也接触不到，那就是希望，抑郁是爱的附属。爱情就从灵魂开始，到肉体结束。 不在寂寞中恋爱，就在寂寞中变态。<br>
 尴尬在于当我们对“真相”孜孜以求的时候，并不懂得这道理。<br>
 而了解之后，道理或者真相又显得无足轻重。<br>
@@ -226,11 +1148,11 @@
 第八阶段：平淡<br>
 为第七阶段的后期必然结果，承诺不兑现女方看穿本质失望透顶越发疏远，男方逐渐厌恶<br>
 感情结束。<br>
-<img src="https://mj5219054/.github.io.git/post-images/1617025041200.jpg" alt="" loading="lazy"><br>
+<img src="http://mj5219054/.github.io.git/post-images/1617025041200.jpg" alt="" loading="lazy"><br>
 不要低估人的劣性。第二句是，成年人的生活容易二字是希望的。都是在深夜里和自己和解。<br>
 有重复的新面对的一天。<br>
 一个人总是可以善待他毫不在意的人。<br>
-<img src="https://mj5219054/.github.io.git/post-images/1617025057288.jpg" alt="" loading="lazy"><br>
+<img src="http://mj5219054/.github.io.git/post-images/1617025057288.jpg" alt="" loading="lazy"><br>
 坠入爱河可能是辉煌的,也可能是可怕的,取决于背景。如果爱上了一个不一样的女孩,不管是什么原因,你都需要克服这些觉,才能继续你的生活。为了摆脱一个你爱的女孩,你需要尽可多地在两个人之间留出空间;当你们互动的时候,试着只在公共场所这样做,如果你们必须独在一起的话,远离个人话题或计划中的活动。客观地考虑形,并朝着更好的未来采取措施,也应该有助于治愈你的伤口。<br>
 承认你的感受。<br>
 在你感受到接受之前,感到悲伤是自然的,也是正常的。不要于承认,至少是对自己来说,你正在经历一段艰难的时期。尽你能了解你自己,不要拒绝你的情绪。相反,专注于控制他们增加你的距离。没有什么能比没有和她在一起更好地缓解和你起的女孩的痛苦了。这不一定意味着停止所有的接触,但它将味着少见她,这可能听起来很糟糕,但实际上是最好的方式开始你的余生。<br>
@@ -238,12 +1160,12 @@
 你们偶尔还是会见面的,但在大多数情况下,你们在一起的间会急剧减少,个人的空闲时间也会增加。<br>
 别再帮她了没有什么比拒绝为某一个人让路更清楚地说“只是朋友”了助别人,因为你被他们吸引,只会导致你的感觉被进一步利用和解。同样重要的是,帮助一个女孩只会对她产生两种可能的效果第一,她会假设你是自然给予的,并开始把你的恩惠视为理当然;或者,她会认为你试图讨好她,以换取约会的可能性,这让她在你身边感到不舒服如果你不问就买了她的礼物(或者仅仅因为她说她想要什么),咖啡馆和餐馆里帮她买单,提供你的司机服务,或者以其他方式待她,而不是对待你的任何其他朋友,这是一种帮助,而且重要你要停下来让谱在的带动地过一个简单的洲试,当你发现自己要为你想要克的女夜做些什么的时候,问问自己是否那意为一个好的别性友做问样的事情,如果不是,你很可能是想想她一个忙,而不是个好册友护德请求帮动如果这个女模习了你帮她的忙,要求你帮你个忙,礼貌地都绝,并提出其他选择,比如其他人可能会帮的忙,如果你要话,司以找出一个温和的借口,比如“我想花更少的钱”或者“我直的凿要花点时间来完成我的家庭作业/打扫房问/今晚给我的打电话,”如果她真的重视你的友,她不会介意的5改专你的时问表提前几分去学校可以助你意免在人行道上或走上碰到你静爱的对象,在走不寻常的路线也有防于确保你能减少见到的次数。如果你在工作环境中见到饱。考起换几个班,这样你就以减少和饱一起工作围个场景,很多时候,<br>
 一个无达达到的女是你朋友中不司或缺的一部分试看一次和几个朋友呆在一起,面不是整群人,这样你饭可以避和她在一起了如你有朋友在你的主要面子之外,你很少见到能们,考虑花更多的时网与他们在一起,以及,他们会觉得很感激,你会安全地送离你爱上的女孩试看戒掉如果一型到整见,哪怕是偶尔呈到蚀,你可能不得不计划完停止和在一起,准备一些礼的借口(例如,“我现在学习很努或“我今大工作累了”),这样你就可以在她要见你的时候优地拒绝了,最终,她会减少与你的联系,转而接触那些有更多的人.<br>
-<img src="https://mj5219054/.github.io.git/post-images/1617022805047.jpg" alt="" loading="lazy"><br>
+<img src="http://mj5219054/.github.io.git/post-images/1617022805047.jpg" alt="" loading="lazy"><br>
 文明化的社交无外乎都可以归结为：求偶和关系维系两个层面。<br>
 对于所有的社交情境而言，“性”是永恒的动力，这也是社交类产品的最初逻辑。无论是早期的微信，还是陌陌、探探等，其实最先切入的都是对人类求偶行为的试探。<br>
 社交的原点在于提升生产效率。熟人关系的经营，实际上也是对于个人生产物质和精神资料的固化。哪怕不加微信，你需要找一个蛋糕供应商仍然需要借助别的媒介，对于这一关系的提供，社交必不可少，而究竟选择哪一个媒介，效率仍是关键。<br>
 关系维系的本质则是对于时间消耗的把控。<br>
-<img src="https://mj5219054/.github.io.git/post-images/1617025181335.jpg" alt="" loading="lazy"><br>
+<img src="http://mj5219054/.github.io.git/post-images/1617025181335.jpg" alt="" loading="lazy"><br>
 人们对于关系维系的重视度，与愿意投入的有效时间是呈反比的。</p>
 <ol>
 <li>朋友圈的记录是为了分享；</li>
@@ -252,7 +1174,7 @@
 <li>社交反馈再度强化你下一次的记录和分享；</li>
 <li>朋友圈的内容99%在这个循环里。</li>
 <li>北上广容不下肉身 三四线容不下灵魂，那二线生活水深火热。</li>
-<li><img src="https://mj5219054/.github.io.git/post-images/1617023570049.jpg" alt="" loading="lazy"><br>
+<li><img src="http://mj5219054/.github.io.git/post-images/1617023570049.jpg" alt="" loading="lazy"><br>
 将择偶标准大致分为两类：客观自然标准、社会人文标准。<br>
 前者即每个人的出厂硬件设定，比如身高、体重、颜值等等，后者则是像财富值、职业、价值观、兴趣爱好等后天积累和养成的因素。为什么这样划分呢？主要是考虑到这两类标准所服从的概率分布模型不同，这一点之后会有详细的说明。高斯分布（亦称“正态分布”）是在自然界中广泛存在的一个概率分布模型，许多自然现象都符合高斯分布，比如人类的身高、学生的学习成绩、随机误差等等。<br>
 只有一个满足高斯分布的择偶标准A（比如身高、体重等）。一般来说，人们<br>
@@ -263,7 +1185,7 @@
 相关系数ρ越大，说明变量X和Y的线性相关性越强，相关系数ρ=0说明变量X和Y不相关。<br>
 注意：随机变量独立和不相关是两个概念，独立一定不相关，但不相关不一定独立，不相关要弱于独立。<br>
 但是可以证明，对于高斯分布来说，独立就等价于不相关。所以，当ρ=0时，高斯分布变量X和Y独立，于是有P(XY)=P(X)×P(Y)。<br>
-<img src="https://mj5219054/.github.io.git/post-images/1617031434916.jpg" alt="" loading="lazy"><br>
+<img src="http://mj5219054/.github.io.git/post-images/1617031434916.jpg" alt="" loading="lazy"><br>
 当我不喜欢你时，我很坚定的拒绝你但不带敌意；<br>
 当我喜欢你时，我对你充满爱意但不含诱惑。<br>
 待你看清这世间百态，<br>
@@ -279,7 +1201,7 @@
 了、亮了、亮了。生命短暂,婚烟浸长,以后几十年的始于三观,终于外观。现实始于外貌,終于三观光胡就在痛苦里面度过吗,不划算之间始于身体,忠于爱情要矜持,征服欲和保护欲是对男人而言可以说是“多事之秋”,一方面,可能会男人的本性。你不自控,爱与恨是一对相反向量,大小面临“中年机”:升职无雏,达成不了目标,对现状相等,唯方向不同。态爱,爱的是一类人,而结婚是一的怀疑:另一方面,也可能是量具有成就感。(一个好个人一个人在成熟过程中,自信他就越能够独处者)智者御心上,下智者御力对女性而宫,虽然爱得要死要活的,那都属于一种感受型的东西,并不苫,但也能获得糟神力量和自信。洞糊之鱼,相是真实的,原生家庭带给人的影响,几乎是一生的,而以沫,莫若相忘于江湖与其彼此束缚苦苦相守,不如放且,人是几乎不会改变的。人的性格,在很小的时候就手解脱,去拥抱更广的天地。一个人的好,总要等到形成了,长大了最多会修修补补,难有覆性的改变离开以后才能体现,否则每日相见,倒觉厌烦。一壶清男的绅士,女的就淑女;男的无赖,女的就波妇酒,一树桃花,一诺傾城,一生天涯。却不料,南轴北判断一段感情值不值得继续有一个很简单的标准,就错,山河岁月,事与愿违,殊途不同归是如果一个人让你痛苦,那么你受反思;如果一个落花无言,人淡如菊往昔来日,不画地为牢,手执烟火人持续让你揣苦,那么请你马不停蹄地离开他一请你以谋生,心怀诗意以谋爱务必要高开那个消耗你生活热情的人听过很多道理,没过好一生,做好一日便可这段话可以配合第一段使用,不要觉得你高开他就是世界末日,不要怕,你璃开他之后,你会发现星星都亮<br>
 “你们很美，但你们是空虚的。”小王子仍然在对她们说，“没有人能为你们去死。当然啰，我的那朵玫瑰花，一个普通的过路人以为她和你们一样。可是，她单独一朵就比你们全体更重要，因为她是我浇灌的。因为她是我放在花罩中的。因为她是我用屏风保护起来的。因为她身上的毛虫（除了留下两三只为了变蝴蝶而外）是我除灭的。因为我倾听过她的怨艾和自诩，甚至有时我聆听着她的沉默。因为她是我的玫瑰。<br>
 眼泪这东西啊，是流出来就能把辛酸和悲伤都冲走的好东西。可等长大成人了就会明白，人生还有眼泪也冲刷不干净的巨大悲伤，还有难忘的痛苦让你们即使想哭也不能流泪，所以真正坚强的人，都是越想哭反而笑得越大声，怀揣着痛苦和悲伤，即使如此也要带上它们笑着前行。<br>
-<img src="https://mj5219054/.github.io.git/post-images/1617102497885.png" alt="" loading="lazy"><br>
+<img src="http://mj5219054/.github.io.git/post-images/1617102497885.png" alt="" loading="lazy"><br>
 新婚那年：宜言饮酒，与子偕老，琴瑟在御，莫不静好；<br>
 三年之后：锅碗瓢盆，鸡飞狗跳，奶粉尿布，没法睡觉；<br>
 七年一到：看到就烦，一说就吵，只求清净，不求相好；<br>
@@ -316,137 +1238,384 @@ I （Introversive 内向）：I类型的人坚信，话不投机半句多。太�
 <p>总有人会忍不住好奇的问：那最适合我这种性格类型的人是哪种呢？</p>
 <p>遗憾的是，寻找最合适的那一半是没有捷径的。没有哪两种性格就是绝配，也没有哪两种性格就是天敌。一般来说，第二个维度，就是沟通方式的这个维度相对来说比其它维度在感情关系上更重要，大部分人会选择和自己沟通方式相同的人做恋人。当两种完全迥异的性格，比如INTJ和ESFP相处的时候，冲突和摩擦也许会比其它性格类型都多得多。但是，要记住的是，MBTI性格类型永远只是一种倾向，四个字母的不同不一定代表彼此的差异很大，可能双方都是偏中间的中和的性格，所以很可能相处愉快。<br>
 年轻的自己是对的，年老的自己也是对的，只是你在不同的时间，执着的东西不同，有个能陪我聊聊天的人，比看电视吃饭更重要。比如今天天气不错，我就能对他说，天气不错啊。如果天冷了，我就让他添件衣服。可惜这样简单的交流却也无法进行。这个世界上有这么多人，但每个人都是孤独的我的确是个不懂察言观色的笨蛋，被人欺负也要坚持哗众取宠的小丑，但我想留下自己曾经存在过证明。——【十六岁少年书】</p>
- </p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-12 animate-box">
-                        
-                            <div class="next-post">
-                                <div class="next">下一篇</div>
-                                <a href="https://mj5219054/.github.io.git/post/ju-chi/">
-                                    <h3 class="post-title">
-                                                                                距离
-                                    </h3>
-                                </a>
-                            </div>
-                        
-                    </div>
-                </div>
-
-                <div class="row">
-    <div class="col-md-12 animate-box">
-        
-            
-                <div id="gitalk-container"></div>
-            
-
-            
-        
-    </div>
-</div>
 
             </div>
-
-        </article>
+            <hr style="width: 80%;">
+            
+            
+            <div class="donateContainer">
+                <img src="http://mj5219054/.github.io.git/media/images/donate.png" alt="" class="donateImg">
+            </div>
+            <div class="donateContainer">
+                <img src="" alt="" class="donate">
+            </div>
+            
+            <div class="postfooter">
+                <ul class="post-copyright">
+                    <li><strong>文章作者：</strong></li>
+            <li><strong>原文链接：</strong>http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan/</li>
+            <li><strong>版权声明：</strong>本博客所有文章除特别声明外，均采用<i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA
+                许可协议。转载请注明出处！</li>
+            </ul>
+        </div>
+        <div id="otherpost">
+            
+            <a  data-pjax class="prev-post-pc" href="http://mj5219054/.github.io.git/post/ding-wei/"  style="color: black;">
+                <div id="ppcontainer">
+                    
+                    <img src="http://mj5219054/.github.io.git/post-images/ding-wei.webp" style="width: 100%;" class="opimg">
+                    
+                    <h4 class="optitle">定位</h4>
+                </div>
+            </a>
+            <div class="prev-post">
+                上一篇 <a  data-pjax href="http://mj5219054/.github.io.git/post/ding-wei/">定位</a>
+            </div>
+            
+            
+            <a data-pjax class="next-post-pc" href="http://mj5219054/.github.io.git/post/ju-chi/"  style="color: black;">
+                <div id="npcontainer">
+                    
+                    <img src="http://mj5219054/.github.io.git/post-images/ju-chi.jpg" style="width: 100%;" class="opimg">
+                    
+                    <h4 class="optitle">                                        距离</h4>
+                </div>
+            </a>
+            <div class="next-post">
+                下一篇 <a  data-pjax href="http://mj5219054/.github.io.git/post/ju-chi/">                                        距离</a>
+            </div>
+            
+        </div>
     </div>
-</div>
+    </div>
+    </div>
+    <!-- 弹窗 -->
+    <div id="myModal" class="modal">
+        <img class="modal-content" id="img01">
+    </div>
+</body>
+<script>
+    //文章阅读热度
+    var pl = $("#pl").html();
+    var rootaddr = $("#rootaddr").html();
+    pl = pl.replace(rootaddr, "");
+    $("#hotnum").attr('id', pl);
+</script>
+                    <div class="toc-container">
+                        
+                    </div>
+                    <div class="tog">
+                        <div class="toggleContainer">
+                            <div class="toggle">
+                                <i class="fas fa-angle-double-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="comment" class="comment" style="background: white">
+                        <div class="commentcontainer">
+                            
+                            <p>请到客户端“主题--自定义配置--valine”中填入ID和KEY</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 col-lg-2"></div>
+                <div id="bg">
+                </div>
+            </div>
+            
+        
+        <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+</head>
 
+<body>
+    <div class="miniMode">
+        <meting-js id="myaplayer" server="netease" type="playlist" fixed="true" order="default">
+        </meting-js>
+    </div>
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+<script>
+    function aplayerInit() {
+        var aplayerid = "&lt;iframe  class=&#34;music&#34; frameborder=&#34;no&#34; src=&#34;//music.163.com/outchain/player?type=1&amp;id=89680147&amp;auto=0&amp;height=90&#34;&gt;&lt;/iframe&gt;";
+        var aplayerserver = "netease";
+        var aplayerorder = "default";
+        var aplayerautoplay = "false";
+        var aplayer = $("#myaplayer");
+        aplayer.attr("server", aplayerserver);
+        aplayer.attr("id", aplayerid);
+        aplayer.attr("order", aplayerorder);
+        if (aplayerautoplay == "true")
+            aplayer.attr("autoplay", "true");
+    }
+    aplayerInit();
+</script>
+
+<script src="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/js/Aplayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+<script>
+    function aplayerbtnInit() {
+        var player = document.querySelectorAll('meting-js')[0].aplayer;
+        if(player==undefined)return false;
+        player.lrc.hide();
+        var mbabtn = $("#mbaplayer");
+        if (player.paused == false) {
+            mbabtn.removeClass("fa-play-circle-o");
+            mbabtn.addClass("fa-pause-circle");
+        } else {
+            mbabtn.addClass("fa-play-circle-o");
+            mbabtn.removeClass("fa-pause-circle");
+        }
+    }
+
+    function aplayerPlay() {
+        var player = document.querySelectorAll('meting-js')[0].aplayer;
+        var mbabtn = $("#mbaplayer");
+        if (player.paused == true) {
+            player.play();
+            mbabtn.removeClass("fa-play-circle-o");
+            mbabtn.addClass("fa-pause-circle");
+        } else {
+            player.pause();
+            mbabtn.addClass("fa-play-circle-o");
+            mbabtn.removeClass("fa-pause-circle");
+        }
+    }
+</script>
+        
+    </div>
     
-
-    <!-- 返回顶部 -->
-    <div class="back-to-top">
+    <div id="bgchoice" style="display: none">default
+    </div>
     
-    <a href="#top" class="hidden-xs hidden-sm"><i class="fa fa-paper-plane"></i></a>
-</div>
-
-<div class="post-toc animated fadeInRight hidden-xs hidden-sm" style="display: none;">
+    <div id="bgurl" style="display:none">\media\images\custom-bgimage.jpg</div>
     
-</div>
+</body>
+<script>
+    var img = $("img");
+    for (var i = 0; i < img.length; i++) {
+        if (img.eq(i).attr("class") == undefined) {
+            img.eq(i).attr("class", "lazyload");
+            var imgsrc = img.eq(i).attr("src");
+            img.eq(i).attr("data-original", imgsrc);
+            img.eq(i).attr("src", "");
+            img.eq(i).hide();
+        }
+    }
 
+    function refreshImg(imgclass) {
+        // 获取弹窗
+        var modal = document.getElementById('myModal');
 
-    
-<footer id="fh5co-footer">
-  <p>Powered by Gridea, © 2016 - 2019 Copyright 叶子. All Rights Reserved. </p>
-</footer>
+        // 获取图片插入到弹窗 - 使用 "alt" 属性作为文本部分的内容
+        var img = document.getElementsByClassName(imgclass);
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        for (var i in img) {
+            img[i].onclick = function () {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+            }
+        }
 
+        // 图片关闭
+        var modalImg = document.getElementById('img01');
+        // 鼠标点击模型外区域关闭登录框
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+            if (menupos == 'left')
+                return true;
+            if (event.target == social) {
+                social.style.display = "none";
+            }
+        }
+    }
 
-    <!-- jQuery -->
-<script src="https://mj5219054/.github.io.git/media/scripts/jquery.min.js"></script>
-<!-- img lazy load -->
-<script src="https://mj5219054/.github.io.git/media/scripts/jquery.lazyload.min.js"></script>
-<!-- jQuery Easing -->
-<script src="https://mj5219054/.github.io.git/media/scripts/jquery.easing.1.3.js"></script>
-<!-- Bootstrap -->
-<script src="https://mj5219054/.github.io.git/media/scripts/bootstrap.min.js"></script>
-<!-- Waypoints -->
-<script src="https://mj5219054/.github.io.git/media/scripts/jquery.waypoints.min.js"></script>
-<!-- Main JS -->
-<script src="https://mj5219054/.github.io.git/media/scripts/main.js"></script>
-<!-- Md5 Min JS -->
-<script src="https://mj5219054/.github.io.git/media/scripts/md5.min.js"></script>
-<!-- katex -->
-<!--<script src="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.js"></script>-->
-<!-- highlight -->
-<script src="https://cdn.bootcss.com/highlight.js/9.15.8/highlight.min.js"></script>
-
-
-<script type="application/javascript">
-    // 代码高亮
+</script>
+<script>
     hljs.initHighlightingOnLoad();
+</script>
+<script>
+    //寻找所有code标签，加复制按钮鸭！(行内代码除外)
+    var codes = document.getElementsByTagName('code');
+    if (codes.length) {
+        for (var i = 0; i < codes.length; i++) {
+            //高度/行高=文本行数
+            // var rowNum=Math.round(codes[i].height()/parseFloat(codes[i].css('line-height')));
+            // console.log("当前有"+rowNum+"行");
+            var code_id = "code_id_" + i;
+            codes[i].setAttribute("id", code_id);
+            var ci = "#" + code_id;
+            var codedot = $(ci);
+            var rowNum = Math.round(codedot.height() / parseFloat(codedot.css('line-height')));
+            if (rowNum <= 1) continue;
+            var btn = document.createElement("button");
+            btn.setAttribute("class", "copybt");
+            btn.setAttribute("data-clipboard-target", "#" + code_id);
+            btn.innerHTML = '复制代码';
+            codes[i].parentNode.insertBefore(btn, codes[i]);
+        }
+    };
+    var cop = new ClipboardJS('.copybt');
+    cop.on('success', function (e) {
+        e.trigger.innerHTML = "复制成功~"
+        e.trigger.style.background = "#894e54"
+        e.clearSelection();
+    });
+    cop.on('error', function (e) {
+        e.clearSelection();
+    });
+</script>
 
-    // img 懒加载
+<script type="text/javascript">
+    var message_Path = '/live2d/'
+    var home_Path = document.getElementById("domainname").innerHTML + "/"; //此处修改为你的域名，必须带斜杠
+</script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/js/live2d.js"></script>
+<script type="text/javascript" src="http://mj5219054/.github.io.git/media/live2d/js/message.js"></script>
+<script type="text/javascript">
+    loadlive2d("live2d", "http://mj5219054/.github.io.git/media/live2d/assets/tororo.model.json");
+</script>
+
+<script>
     $(function () {
-        $("img.lazy").lazyload({
-            effect: "fadeIn",  // 懒加载动画
-            threshold: 180  // 在图片距离屏幕180px时提前载入
+        $('.toggleContainer').click(function () {
+            $('html,body').animate({
+                scrollTop: '0px'
+            }, 800);
         });
-        // tooltip
-        $('[data-toggle="tooltip"]').tooltip();
-
-        // 目录
-        $('#tool-toc').click(function () {
-            $('.post-toc').toggle();
+        $(window).scroll(function () {
+            var st = $(window).scrollTop();
+            if (st > 30) {
+                $(".toggleContainer").fadeIn(400);
+            } else {
+                $(".toggleContainer").fadeOut(100);
+            }
         });
     });
+</script>
 
-    
-        var allImg = $("img");
-        allImg.on("contextmenu", function () {
-            return false;
-        });
-        allImg.on("dragstart", function () {
-            return false;
-        });
-    
+<script>
+    var bgchoice = $('#bgchoice').html();
+    var bg = $('#bg');
+    var bgurl = document.getElementById("bgurl").innerHTML;
+    if (bgchoice == 'default')
+        for (var i = 0; i < 3; i++)
+            bgurl = bgurl.replace("\\", "/");
+    bg.css("background", "url('" + bgurl + "')");
 </script>
 
 
-
-    
-        <script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
-        <script>
-
-            var gitalk = new Gitalk({
-                clientID: 'c3ef8e97faf573382bad',
-                clientSecret: '0e5e937476a9a26a7074442cfad3178219fc88fe',
-                repo: '.github.io',
-                owner: 'mj5219054',
-                admin: ['mj5219054'],
-                id: md5(location.pathname),      // Ensure uniqueness and length less than 50
-                distractionFreeMode: false  // Facebook-like distraction free mode
-            })
-
-            gitalk.render('gitalk-container')
-
-        </script>
-    
-
-    
+<script src="http://mj5219054/.github.io.git/media/js/index.js"></script>
 
 
 
+<!-- 动态更改上(下)一篇博客图片框长宽 -->
+<script>
+    npcontainer = document.querySelector('#npcontainer');
+    npstyle = window.getComputedStyle(npcontainer, null);
+    npwidth = npstyle.width;
+    npheight = 0.6 * Number(npwidth.replace("px", ""));
+    npheight = npheight.toString() + "px";
+    var op = $(".opimg");
+    op.css("height", npheight);
+</script>
 
-</body>
-</html>
+<script src="http://mj5219054/.github.io.git/media/share/dist/Share.js"></script>
+
+<script>
+    var avatarSrc = $(".avatar").attr("src");
+    var dp = document.getElementsByClassName("describtion")[0].innerHTML;
+</script>
+
+
+<script>
+    var title = document.getElementById("texttitle").getElementsByTagName("h2");
+
+    var share = new Share('.share', {
+        title: title[0].innerHTML,
+        initialized: true,
+        //默认获取网站描述
+        description: dp,
+        //网站图片默认获取的是设置的用户头像
+        image: avatarSrc,
+        //激活的分享网站
+        sites: ["weibo", "qq", "wechat", "douban", "qzone", "facebook", "twitter", "google"],
+        //微信分享PC端会生成二维码分享,移动端如果可以唤起微信最好
+        wechatQrcodeTitle: "微信扫一扫：分享", // 微信二维码提示文字
+        wechatQrcodeHelper: '<p>微信里扫一下二维码</p><p>便可将本文分享至朋友圈。</p>',
+        //关闭的网站分享
+        disabled: ['google', 'linkedin'],
+        wechatQrcodePosition: 'bottom'
+    });
+
+    //点击分享按钮展现出分享icons
+    var sharebtnTag = false;
+    $(".sharebtn").click(function () {
+        if (!sharebtnTag) {
+            $(".share").show();
+            sharebtnTag = true;
+        }
+        else {
+            $(".share").hide();
+            sharebtnTag = false;
+        }
+    })
+
+    var donatebtnTag = false;
+    $(".donateImg").click(function () {
+        if (!donatebtnTag) {
+            $(".donate").show();
+            donatebtnTag = true;
+        }
+        else {
+            $(".donate").hide();
+            donatebtnTag = false;
+        }
+    })
+
+    //加载后的事件同步（阅读量、移动端评论等
+    window.onload = function () {
+        getHotnum();
+        var sharepc = $(".share").eq(0).html();
+        $(".share").eq(1).html(sharepc);
+        document.getElementById("veditor").setAttribute("placeholder", jrsc);
+        aplayerbtnInit();
+    }
+</script>
+
+
+<script>
+    jQuery(document).ready(function ($) {
+        function lazyload() {
+            var oLazyload = $("img.lazyload"),
+                fLazyload = function (hLazyload) {
+                    var nLazyload = $(window).height() + $(document).scrollTop();
+                    oLazyload.each(function () {
+                        $(this).offset().top < nLazyload && ($(this).trigger("appear"), oLazyload =
+                            oLazyload.not(this));
+                    }), 0 == oLazyload.length && $(window).unbind("scroll", fLazyload);
+                };
+            oLazyload.each(function () {
+                $(this).one("appear", function () {
+                    $(this).attr("src", $(this).attr("data-original"));
+                    $(this).fadeIn(500);
+                });
+            }), $(window).bind("scroll", fLazyload), fLazyload();
+        }
+        lazyload();
+        refreshImg("lazyload");
+    });
+</script>
+
+<!-- <script src="http://mj5219054/.github.io.git/media/js/av-min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@3.13.0/dist/av-min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.6.1/dist/av-live-query-min.js"></script> -->
+

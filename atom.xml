@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://mj5219054/.github.io.git</id>
+    <id>http://mj5219054/.github.io.git</id>
     <title>叶子</title>
-    <updated>2021-04-12T15:17:55.362Z</updated>
+    <updated>2021-04-12T15:47:28.621Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://mj5219054/.github.io.git"/>
-    <link rel="self" href="https://mj5219054/.github.io.git/atom.xml"/>
+    <link rel="alternate" href="http://mj5219054/.github.io.git"/>
+    <link rel="self" href="http://mj5219054/.github.io.git/atom.xml"/>
     <subtitle>个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</subtitle>
-    <logo>https://mj5219054/.github.io.git/images/avatar.png</logo>
-    <icon>https://mj5219054/.github.io.git/favicon.ico</icon>
+    <logo>http://mj5219054/.github.io.git/images/avatar.png</logo>
+    <icon>http://mj5219054/.github.io.git/favicon.ico</icon>
     <rights>All rights reserved 2021, 叶子</rights>
     <entry>
         <title type="html"><![CDATA[   工作选择]]></title>
-        <id>https://mj5219054/.github.io.git/gong-zuo-xuan-ze/</id>
-        <link href="https://mj5219054/.github.io.git/gong-zuo-xuan-ze/">
+        <id>http://mj5219054/.github.io.git/post/gong-zuo-xuan-ze/</id>
+        <link href="http://mj5219054/.github.io.git/post/gong-zuo-xuan-ze/">
         </link>
         <updated>2021-06-11T16:41:41.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[                           烂尾工程]]></title>
-        <id>https://mj5219054/.github.io.git/4/</id>
-        <link href="https://mj5219054/.github.io.git/4/">
+        <id>http://mj5219054/.github.io.git/post/4/</id>
+        <link href="http://mj5219054/.github.io.git/post/4/">
         </link>
         <updated>2021-04-11T06:50:41.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[                                   文明游戏 ]]></title>
-        <id>https://mj5219054/.github.io.git/wen-ming-you-xi/</id>
-        <link href="https://mj5219054/.github.io.git/wen-ming-you-xi/">
+        <id>http://mj5219054/.github.io.git/post/wen-ming-you-xi/</id>
+        <link href="http://mj5219054/.github.io.git/post/wen-ming-you-xi/">
         </link>
         <updated>2021-04-10T12:41:37.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[                      打工是不可能富有的]]></title>
-        <id>https://mj5219054/.github.io.git/da-/</id>
-        <link href="https://mj5219054/.github.io.git/da-/">
+        <id>http://mj5219054/.github.io.git/post/da-/</id>
+        <link href="http://mj5219054/.github.io.git/post/da-/">
         </link>
         <updated>2021-04-10T09:49:46.000Z</updated>
         <summary type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://mj5219054/.github.io.git/post-images/1618048239146.jpg" alt="" loading="lazy"></figure>
