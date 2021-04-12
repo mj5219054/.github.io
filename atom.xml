@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://mj5219054/.github.io.git</id>
     <title>叶子</title>
-    <updated>2021-04-10T15:44:15.724Z</updated>
+    <updated>2021-04-12T06:17:30.924Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://mj5219054/.github.io.git"/>
     <link rel="self" href="http://mj5219054/.github.io.git/atom.xml"/>
@@ -16,6 +16,13 @@
         <link href="http://mj5219054/.github.io.git/post/gong-zuo-xuan-ze/">
         </link>
         <updated>2021-06-11T16:41:41.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[                           烂尾工程]]></title>
+        <id>http://mj5219054/.github.io.git/post/4/</id>
+        <link href="http://mj5219054/.github.io.git/post/4/">
+        </link>
+        <updated>2021-04-11T06:50:41.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[                                   文明游戏 ]]></title>
@@ -34,12 +41,5 @@
 ]]></summary>
         <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://mj5219054/.github.io.git/post-images/1618048239146.jpg" alt="" loading="lazy"></figure>
 ]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[                                      技能]]></title>
-        <id>http://mj5219054/.github.io.git/post/ji-neng/</id>
-        <link href="http://mj5219054/.github.io.git/post/ji-neng/">
-        </link>
-        <updated>2021-04-03T14:11:00.000Z</updated>
     </entry>
 </feed>
