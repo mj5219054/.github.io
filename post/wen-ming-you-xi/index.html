@@ -24,6 +24,12 @@
 
 <!-- Comment -->
 
+    
+        <link href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css" rel="stylesheet">
+    
+
+    
+
 
 
 <!-- katex -->
@@ -164,7 +170,7 @@
             <h2 class="fh5co-article-title animate-box">                                   文明游戏 </h2>
             <ol class="breadcrumb fh5co-meta fh5co-date animate-box" style="margin-bottom:0; background-color:#f8f9fa">
                 <li>2021-04-10</li>
-                <li>3503字</li>
+                <li>3568字</li>
                 <li>12 min read</li>
             </ol>
 
@@ -229,7 +235,9 @@
 儒家经典《礼记》说道，如果父母有过失，子女应该反复劝谏，为什么要劝谏呢？因为这会得罪同乡、亲戚（“父母有过，下气怡色柔声以谏，谏若不入，起敬起孝，说则复谏，不说，与其得罪于乡党州闾，宁孰谏。”），这也意味着，只要家人、同乡、朋友认可我做的事，或者他们根本不知道我做了什么，那么我这些事就没有什么错误可言，反过来说，如果我遭到了他们的羞辱，那一定是我错了，因为群体永远是对的，群体的等级秩序永远是对的。<br>
 而罪感则不同，一个有罪感意识的人也会对被羞辱感到恐惧，但从根本上，罪感是诉诸于一个超越此岸世界的道德权威，在宗教中体现为上帝，在哲学中体现为自然法（自然法高于一切人定法，是一种只能由人的理性达到的正义观）。一个有罪感意识的人在现实中犯了错，他会感到内心焦虑，甚至抑郁，会渴望诉诸一个普遍的道德权威（上帝、自然法、理性法则）来判断是否正义。没有罪感意识的人，只需要想到周围人都不反对，有面子，就能够心安理得，不会为思辨某个道德哲学问题而抑郁，但代价便是为“面子”所控制，过得很累。<br>
 “面子机制”要求人们必须做到“努力了解他的交往对象的社会背景和家庭背景，特别是交往对象本人和他的家庭同官僚体系间的关系，以及交往对象借用政治资源的实际情况，以便为日常交往建立必须要有的知识库存”：<br>
-人之为人，就在于他有社会性——自我意识要求社会的肯定和承认。这种来自社会的承认必须是客观化的、实体化的承认，人们从这种客观的承认中能够获得尊严和荣誉。这种承认并不是主观的，自封的或靠权势维系的那种承认，而需要在这个宗教中有其自在的地位。</p>
+人之为人，就在于他有社会性——自我意识要求社会的肯定和承认。这种来自社会的承认必须是客观化的、实体化的承认，人们从这种客观的承认中能够获得尊严和荣誉。这种承认并不是主观的，自封的或靠权势维系的那种承认，而需要在这个宗教中有其自在的地位。<br>
+给文明以岁月，还是给岁月以文明<br>
+知识人群，一种是底层劳动者中倔强生存的人群；一种是权贵阶层人群；第三种是零件人群，机械化地维护阶级社会秩序人群。</p>
  </p>
                     </div>
                 </div>
@@ -251,6 +259,12 @@
 
                 <div class="row">
     <div class="col-md-12 animate-box">
+        
+            
+                <div id="gitalk-container"></div>
+            
+
+            
         
     </div>
 </div>
@@ -329,6 +343,29 @@
         });
     
 </script>
+
+
+
+    
+        <script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+        <script>
+
+            var gitalk = new Gitalk({
+                clientID: 'c3ef8e97faf573382bad',
+                clientSecret: '0e5e937476a9a26a7074442cfad3178219fc88fe',
+                repo: '.github.io',
+                owner: '',
+                admin: [''],
+                id: md5(location.pathname),      // Ensure uniqueness and length less than 50
+                distractionFreeMode: false  // Facebook-like distraction free mode
+            })
+
+            gitalk.render('gitalk-container')
+
+        </script>
+    
+
+    
 
 
 

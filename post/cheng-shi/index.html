@@ -24,6 +24,12 @@
 
 <!-- Comment -->
 
+    
+        <link href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css" rel="stylesheet">
+    
+
+    
+
 
 
 <!-- katex -->
@@ -164,8 +170,8 @@
             <h2 class="fh5co-article-title animate-box">                                              城市</h2>
             <ol class="breadcrumb fh5co-meta fh5co-date animate-box" style="margin-bottom:0; background-color:#f8f9fa">
                 <li>2021-03-30</li>
-                <li>6421字</li>
-                <li>22 min read</li>
+                <li>6584字</li>
+                <li>23 min read</li>
             </ol>
 
             <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-left content-article">
@@ -301,7 +307,9 @@
 二、基础设施投资的外部性问题。相邻土地产值和税收的提高，难以变成基建投资的回报。<br>
 三、规划权的配置问题。多数村庄缺乏制定规划的能力，政府制定规划又受制于主政官员的任期、政府能力、土地制度等问题，土地配置效率较低。<br>
 因为依靠政府的强制力，该模式有其天然的优势，其能降低拆迁安置的协调成本，可通过连片开发获得土地出让金和税收收益，并将基建投资的外部性内部化。当然，政府主导也存在一些弊端，因为缺乏参照系，征地价格难以市场化，也有研究发现开发园区的土地利用率较低，“土地城市化”快于“人口城市化”，致使空城、鬼城的出现。<br>
-一个地区，如果农村的产权分散，导致协调不同产权所有者的成本高，同时土地制度对集体土地流转的限制多，那么民营城市与农民、外来企业和居民签订合约的成本就会高，城市化更可能由政府主导。相反，农村的产权越集中，对集体建设用地的限制越少，土地财政的收益越低、地方债务越多，政府的公共服务制度越弱，政府主导城市化的成本就越高，民营城市就越容易出现。</p>
+一个地区，如果农村的产权分散，导致协调不同产权所有者的成本高，同时土地制度对集体土地流转的限制多，那么民营城市与农民、外来企业和居民签订合约的成本就会高，城市化更可能由政府主导。相反，农村的产权越集中，对集体建设用地的限制越少，土地财政的收益越低、地方债务越多，政府的公共服务制度越弱，政府主导城市化的成本就越高，民营城市就越容易出现。<br>
+当前的“城市时代”，人们常常因为关注国家内部以及区域层面的政治、经济和文化逻辑而将目光投向某些特定的、具有所谓“控制权”的城市，因为各式各样的增长战略、发展议程、财政转移、结构调整和改革进程都首先由这些城市发起或启动，然后以一种非常不均衡的方式扩散到更为广阔的领土之上，最终加剧社会和空间维度上的不公平与非正义。<br>
+城市下的一是政治与权力，二是知识的生产与协商。</p>
  </p>
                     </div>
                 </div>
@@ -323,6 +331,12 @@
 
                 <div class="row">
     <div class="col-md-12 animate-box">
+        
+            
+                <div id="gitalk-container"></div>
+            
+
+            
         
     </div>
 </div>
@@ -401,6 +415,29 @@
         });
     
 </script>
+
+
+
+    
+        <script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+        <script>
+
+            var gitalk = new Gitalk({
+                clientID: 'c3ef8e97faf573382bad',
+                clientSecret: '0e5e937476a9a26a7074442cfad3178219fc88fe',
+                repo: '.github.io',
+                owner: '',
+                admin: [''],
+                id: md5(location.pathname),      // Ensure uniqueness and length less than 50
+                distractionFreeMode: false  // Facebook-like distraction free mode
+            })
+
+            gitalk.render('gitalk-container')
+
+        </script>
+    
+
+    
 
 
 

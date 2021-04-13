@@ -24,6 +24,12 @@
 
 <!-- Comment -->
 
+    
+        <link href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css" rel="stylesheet">
+    
+
+    
+
 
 
 <!-- katex -->
@@ -262,6 +268,12 @@
                 <div class="row">
     <div class="col-md-12 animate-box">
         
+            
+                <div id="gitalk-container"></div>
+            
+
+            
+        
     </div>
 </div>
 
@@ -339,6 +351,29 @@
         });
     
 </script>
+
+
+
+    
+        <script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+        <script>
+
+            var gitalk = new Gitalk({
+                clientID: 'c3ef8e97faf573382bad',
+                clientSecret: '0e5e937476a9a26a7074442cfad3178219fc88fe',
+                repo: '.github.io',
+                owner: '',
+                admin: [''],
+                id: md5(location.pathname),      // Ensure uniqueness and length less than 50
+                distractionFreeMode: false  // Facebook-like distraction free mode
+            })
+
+            gitalk.render('gitalk-container')
+
+        </script>
+    
+
+    
 
 
 

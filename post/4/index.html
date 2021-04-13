@@ -24,6 +24,12 @@
 
 <!-- Comment -->
 
+    
+        <link href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css" rel="stylesheet">
+    
+
+    
+
 
 
 <!-- katex -->
@@ -164,8 +170,8 @@
             <h2 class="fh5co-article-title animate-box">                           烂尾工程</h2>
             <ol class="breadcrumb fh5co-meta fh5co-date animate-box" style="margin-bottom:0; background-color:#f8f9fa">
                 <li>2021-04-11</li>
-                <li>3715字</li>
-                <li>13 min read</li>
+                <li>4250字</li>
+                <li>15 min read</li>
             </ol>
 
             <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-left content-article">
@@ -271,7 +277,16 @@
 此组织非彼组织。几百人拉横幅太小儿科了，看一个组织的几个标志：<br>
 1、有没有钱 2、有没有组织结构 3、有没有反搭便车机制；这三点不分先后，是一个组织的三个基本原则。<br>
 利益链条里，食物链最上游是政府，中游是银行，下游是开发商，再下游施工方，最底层是业主。<br>
-当开发商、银行、施工方、各色投资人在争夺经济利益的时候，业主扮演了“围观群众”的角色。</li>
+当开发商、银行、施工方、各色投资人在争夺经济利益的时候，业主扮演了“围观群众”的角色。<br>
+城市主导产业因为各种原因衰败→工作岗位减少→居民迁出<br>
+空旷的马路和人烟稀少的城市新区是空城最常见的场景。诸多城市大规模兴起的造城运动导致房产供应严重过剩，是形成空城现象的主要原因。<br>
+住建部占用地标准为每平方公里建成区容纳1万人口，以城区实际人口与建成区面积的占比来计算一个城市成为“鬼城”或“空城”的可能性，并将这一数值称为“鬼城指数”。<br>
+城市出现分化阶段化。人口连续两年降低，这是城市主动抽疏中心城区人口和产业升级的因素所致，并不代表人口吸引力下降。人口吸纳力进一步扩大，常住人口增加61.99万，常住人口增加45.49万，双双位于全国前列，一线城市的优势仍旧无与伦比。<br>
+二线城市人口吸纳力增强。二线城市进入全国空城指数十强，外来人口比例同样位居全国前列，这说明强二线城市在人口竞争中越来越具有优势。尤其是随着强省会战略的推进，加上抢人大战的刺激效应，二线城市将会获得源源不断的人口增量。<br>
+其三，大城市群效应越来越突出。未来城市之间的竞争，必然是城市群之间的竞争。哪个城市群辐射力最强，就能吸纳最多的人口。<br>
+三四线城市的人口外流还会加速。<br>
+一是经济周期变化，三四线经短济缺乏长来远预期，产业吸纳力越来越弱，人口会持续外流。二是高铁等交通设施的完善，让城市之间的距离缩，这反过加速部分三四线城市的人口外流。<br>
+省会、中心城市、城市群战略的推进，让资源越来越集中于中心城市，这对三四线显然不是好消息。</li>
 </ol>
  </p>
                     </div>
@@ -294,6 +309,12 @@
 
                 <div class="row">
     <div class="col-md-12 animate-box">
+        
+            
+                <div id="gitalk-container"></div>
+            
+
+            
         
     </div>
 </div>
@@ -372,6 +393,29 @@
         });
     
 </script>
+
+
+
+    
+        <script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+        <script>
+
+            var gitalk = new Gitalk({
+                clientID: 'c3ef8e97faf573382bad',
+                clientSecret: '0e5e937476a9a26a7074442cfad3178219fc88fe',
+                repo: '.github.io',
+                owner: '',
+                admin: [''],
+                id: md5(location.pathname),      // Ensure uniqueness and length less than 50
+                distractionFreeMode: false  // Facebook-like distraction free mode
+            })
+
+            gitalk.render('gitalk-container')
+
+        </script>
+    
+
+    
 
 
 
