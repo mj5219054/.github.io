@@ -1,184 +1,111 @@
-
+<!DOCTYPE html>
 <html>
-  <head lang="zh">
-        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
-        <meta content="yes" name="apple-mobile-web-app-capable"/>
-        <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
-        <meta content="telephone=no" name="format-detection"/>
-        <meta name="renderer" content="webkit">
-    <title>                                     日记 | 叶子</title>
-<link href="http://mj5219054.github.io/styles/main.css" type="text/css" rel="stylesheet"/>
-<script type="text/javascript" src="http://mj5219054.github.io/media/scripts/jquery.js"></script>
-<script type="text/javascript" src="http://mj5219054.github.io/media/scripts/basic.js"></script>
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+  <head>
+    <meta charset="utf-8" >
+
+<title>                                     日记 | 叶子</title>
+<meta name="description" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="http://mj5219054.github.io/favicon.ico?v=1618750363156">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="http://mj5219054.github.io/styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-https://github.com/https-github-com-mj521905"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-https://github.com/https-github-com-mj521905');
 </script>
 
+
   </head>
-
   <body>
-     <div class="header">
-      <div class="logo_title">
-		  
-        <div class="title animated fadeInDown"><img src="http://mj5219054.github.io/images/avatar.png?v=1618632997331"/>
-
-          <h1 title="叶子" class="weaklink"><a href="/">叶子</a>
-
-          </h1>
-
-          <div class="navbar weaklink">
-            <div class="normal_nav">
-
-<div class="bitcron_nav_container">
-
-
-  <div class="bitcron_nav">
-    <div class="mixed_site_nav_wrap site_nav_wrap">
-		
-      <ul class="mixed_site_nav site_nav sm sm-base">
- 
-  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/" class="selected active current nav__item" >首页</a>
-
-  </li>
- 
-  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan" class="selected active current nav__item" >归档</a>
-
-  </li>
- 
-  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/tags" class="selected active current nav__item" >标签</a>
-
-  </li>
- 
-  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/post/about" class="selected active current nav__item" >关于</a>
-
-  </li>
- 
-
+  
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="http://mj5219054.github.io">叶子</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+        
+          <li>
+            
+              <a href="/" class="menu" target="_blank">
+                首页
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan" class="menu">
+                归档
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/tags" class="menu">
+                标签
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/post/about" class="menu">
+                关于
+              </a>
+            
+          </li>
+        
       </ul>
-
-      <div class="clear clear_nav_inline_end"></div>
-
     </div>
-
   </div>
-
-
-
-  <div class="clear clear_nav_end"></div>
-
-</div>
-
-            </div>
-
-            <div class="hamberger"><i class="fa fa-bars"></i>
-<i class="fa fa-times"></i>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <div class="hidden_nav animated fadeInDown">
-
-<div class="bitcron_nav_container">
-
-
-  <div class="bitcron_nav">
-    <div class="mixed_site_nav_wrap site_nav_wrap">
-      <ul class="mixed_site_nav site_nav sm sm-base">
-		  
-	
-  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/" class="selected active current nav__item" >首页</a>
-
-  </li>
-
-
-  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan" class="selected active current nav__item" >归档</a>
-
-  </li>
-
-
-  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/tags" class="selected active current nav__item" >标签</a>
-
-  </li>
-
-
-  <li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/post/about" class="selected active current nav__item" >关于</a>
-
-  </li>
-
-
-
-
-
-      </ul>
-
-      <div class="clear clear_nav_inline_end"></div>
-
-    </div>
-
-  </div>
-
-
-
-  <div class="clear clear_nav_end"></div>
-
-</div>
-
-      </div>
-
-    </div>
-
-
-    <div class="main">
-      <div class="main-inner">
-
-
-<div class="content">
-
-
-
-
-
-
-  <div class="post_page" >
-
-<div class="post">
-  <div class="post_title sm_margin">
-    <h2><a>                                     日记</a>
-
-
-
-    </h2>
-  </div>
-
-  <div class="post_details">
-    <div class="info"><i class="fa fa-clock-o"></i>
-<span class="date_info">2021-04-16</span>
-<i class="fa fa-eye"></i>
-
-<span class="date_info"><span id="busuanzi_value_page_pv"></span> Views</span>
-
-
-<i class="fa fa-bookmark-o"></i>
-<span class="tags_info weaklink">
-	
-
-</span>
-
-
-    </div>
-
-  </div>
-
-
-
-
-
-  <div class="post_content markdown"><p class="md_block">
-    <span class="md_line md_line_start md_line_end"><!-- more -->
+</nav>
+
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <article class="article">
+            <h1>                                     日记</h1>
+            <p class="article-meta">
+              2021-04-16
+              
+            </p>
+            
+              <img src="http://mj5219054.github.io/post-images/_cJ-expm3.jpg" alt="                                     日记">
+            
+            <div class="post-content">
+              <!-- more -->
 <p>语言基本成分主谓宾，附加成分定状补：谓前为状谓后补，定语必居主宾前<br>
 主语是句子叙述的主体，可由名词、代词、数词、名词化的形容词、不定式、动名词和主语从句等来承担。<br>
 谓语说明主语所发出的动作或具有的特征和状态。谓语由动词来承担。<br>
@@ -251,156 +178,250 @@
 小孩的世界需要美丽的谎言，成人的世界需要委婉的真相。世间的羁绊，只是为了那一刹那的选择。<br>
 不是在煽情下流露出脆弱，就是在诉说被埋葬陈年旧事后中过度，是有期待和坚持的活着。努力体验情绪和感官带来的过程这就是所谓人生。<br>
 每一段感情的发生与结束其实都是记忆的战争。受过伤害的，必将迟疑畏惧，因为记得那么清楚，害怕的不是眼前人，而是过去的人，他不只是和新认识的朋友交往，还同时和自己的记忆谈判、作战，对方可不知道，这样的关系何等艰难，因为与角力的是过去的陌生人。<br>
-擅于文字的写作的人，终将死在文字的手上。因为将从文字里发现，无论对待任何事物，这个作者都是冷静置度，且能掌握进退的分寸。于是感到危机的存在，如动物般本能地逃逸。</p>
-</p>
+擅于文字的写作的人，终将死在文字的手上。因为将从文字里发现，无论对待任何事物，这个作者都是冷静置度，且能掌握进退的分寸。于是感到危机的存在，如动物般本能地逃逸。<br>
+科学家们分析之后，得以将故事的整体情绪起伏进行登记。类似“贫穷”、“死亡”和“惩罚”等带有负面色彩的单词会将情绪下拉，而类似“爱”、“和平”和“朋友”等积极的词语能够将人们的情绪上提。</p>
+<p>该团队总结发现，英文小说一共有如下六种核心的弧形情感轨迹：</p>
+<p>“白手起家型”(这是一种能让读者一直爽的故事，比如爱丽丝地下奇遇记)</p>
+<p>“悲剧，或者由富变穷型”(这是一种一直让人情绪低落的故事，比如罗密欧和朱丽叶)</p>
+<p>“黑洞人”(#Man in a hole，猜测指的是1975年获得雨果奖的黑洞人这一短篇小说。这个故事里先让人情绪低落，后让人情绪高涨)</p>
+<p>“伊卡洛斯”(这种故事先让人情绪高涨后让人情绪低落)</p>
+<p>“灰姑娘”(这种故事让人们的情绪经历高涨-低落-高涨的变化)</p>
+<p>“俄狄浦斯”(这种故事让人们的情绪先低落再高涨最后回归低落</p>
+<ol>
+<li>丰富的肢体语言<br>
+有魅力的人有丰富的肢体动作，我们能用肢体语言叙述故事，利用肢体帮助听众在脑中构想画面。当然它也需要搭配丰富的脸部表情，当观众理解你的肢体语言，就越容易掌握你的意思并且喜爱与你相处。我看到很多年轻人在诉说故事时会一边演出，「他这样...然后我就这样...接着他就那样」，他们光透过肢体语言模拟当时的状况，省略了形容动作的词句但也都听得懂，而他们似乎很乐在其中。不需要刻意夸张，但能因应当下状况，在肢体上表现活力，能显得比较讨喜。</li>
+<li>有感染力的笑<br>
+我认识某位行销副总，他遗传了父亲的笑声，一旦听过就一辈子忘不了，那调皮又傻里傻气的笑声会逗得你也笑出来，每次只要听到他笑，大家也会跟着笑。那是他的天赋。但同时，不对的场合或不悦耳的笑声也会有相反效果。注意自己笑声对周遭人的影响，好的笑声是很有魅力的。</li>
+<li>富有感情的声音<br>
+你打电话给朋友，对方得知是你来电后传来愉悦兴奋的回应，这种感觉很不赖吧？就算只是微妙的语调变化，也会让你感觉受到重视。生动、传神的声音是世上最厉害的乐器，尤其是有音高、速度和音量变化的洪亮活力嗓音。（刘轩注：我在8月份的BRAND月刊会特别讨论这个）</li>
+<li>善意的触碰<br>
+我指的不是毛手毛脚，而是在社交交谈中，适当的碰触对方的上臂、肩膀或手。研究显示，熟悉这些技巧的服务生，还能收到较多小费！短暂地、轻轻触碰上臂是种友善温暖的表现，只要是友好真诚的，此举可以建立好印象。但也请务必考虑与对方的辈分，不要过度装熟。</li>
+<li>聚光下的大方<br>
+许多人成为焦点会感到难为情，但有魅力的人在焦点下反而更能绽放。<br>
+其实，很多名演员私下既不外向也不爱社交，但站在众人面前就会变得耀眼。<br>
+不要害怕人家注意你，因为那是你出众的好机会！</li>
+<li>丰富的脸部表情<br>
+美国的前总统雷根之所以被誉为「伟大的沟通者」，很大原因是他丰富的表情。他的眼睛在电视上能够诚恳，也能放电。脸是最能吸引听众目光的部分，听众从脸上得到越多讯息，越会专注并且领会我们的言谈，还能感受到其中的情绪。许多地位崇高的人却面无表情，则看来冷酷又难以预测，令人对他们产生戒心，而开朗的脸带给人温暖又有亲和力的感觉，若让人们选择，十之八九会选择跟表情丰富的人交朋友。</li>
+<li>能与陌生人打成一片<br>
+惠氏公司几年前做的一份调查中显示，那些认定自己性格内向的人偏爱在活泼的公司上班。当然外向的人也不例外。大家都知道在同事间没有隔阂的公司上班快乐得多，也能创造出有趣的社交经验。我很佩服那些能够与陌生人打交道并且深入交谈的人。我说的不是随便与人搭讪，而是那些直率、敞开心胸、愿意倾听的人。<br>
+所以，魅力学得来吗？<br>
+我会说：是的！我相信魅力是学得来的。就如同学习良好的礼仪一样，把请、谢谢挂在嘴边，让自己更有吸引力，所以相同的，我们能让自己更有魅力。<br>
+如果某件事对你的意义重大，你的确会为他做些新的改变，对吧！改变容易吗？不，但我敢说你一定办得到<br>
+每个人都睁着眼睛，但不等于每个人都在看世界，许多人几乎不用自己的眼睛看，他们只听别人说，他们看到的世界永远是别人说的样子。<br>
+人的经历不是平凡而又平凡？内心经历的不同才在人与人之间铺设了巨大的鸿沟。<br>
+3  两种人最自信：无所不知者和一无所知者。<br>
+讨厌一个人却总是一个人，<br>
+讨厌一个人却习惯一个人，<br>
+忘了自己作日还沉浸在充实中，<br>
+竭尽全力地想出那些让人发笑，<br>
+聚众时在起哄 单独时在沉默，<br>
+圈子没有变过 偶尔还会联络，<br>
+那是仅存的回忆 是唯一的线索，<br>
+为了忘掉压抑研究好笑的梗，<br>
+每次笑起来自己也好笑得很。<br>
+每一个黎明   一点地生活在过去<br>
+每一个夜晚    一点地死在未来</li>
+</ol>
 
-     <p class="md_block">
-    <div class="reward"><div class="reward-button">赏 <span class="reward-code"> <span class="alipay-code"> <img class="alipay-img" src="http://mj5219054.github.io/media/images/alipay.png"><b>支付宝扫码打赏</b> </span> <span class="wechat-code"> <img class="wechat-img" src="http://mj5219054.github.io/media/images/wechat.png"><b>微信打赏</b> </span> </span></div></div>
-</p> 
-</div>
-
-</div>
-
-
-
-<link href="http://mj5219054.github.io/styles/main.css" type="text/css" rel="stylesheet"/>
-
-<div class="doc_comments">
-
+            </div>
+          </article>
+        </div>
+        <div class="paper" data-aos="fade-in">
           
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script>
-
-  var gitalk = new Gitalk({
-    clientID: 'c3ef8e97faf573382bad',
-    clientSecret: '0e5e937476a9a26a7074442cfad3178219fc88fe',
-    repo: '.github.io',
-    owner: '',
-    admin: [''],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
+            <div class="next-post">
+              <div class="next">
+                下一篇
+              </div>
+              <a href="http://mj5219054.github.io/post/4/">
+                <h3 class="post-title">
+                                             烂尾工程
+                </h3>
+              </a>
+            </div>
           
-			  
+        </div>
+        
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
+          
+
           
         
-</div>
+      </div>
 
-
-
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="http://mj5219054.github.io/images/avatar.png?v=1618750363156" class="no-responsive avatar">
+    <div class="text-muted">个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</div>
+    <div class="social-container">
+      
+        
+          <a href="https://github.com/https-github-com-mj521905" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="http://mj5219054.github.io/post/gong-zuo-xuan-ze/">   工作选择</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://mj5219054.github.io/post/t8MYAq2EI/">                            商论</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://mj5219054.github.io/post/_cJ-expm3/">                                     日记</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://mj5219054.github.io/post/4/">                           烂尾工程</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://mj5219054.github.io/post/wen-ming-you-xi/">                                   文明游戏 </a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://mj5219054.github.io/post/da-/">                      打工是不可能富有的</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://mj5219054.github.io/post/ji-neng/">                                      技能</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://mj5219054.github.io/post/du-shi-tu-qing-xing-que-you-du-zui-zai-yi-xie-meng-zhong/">           都试图清醒，却又都醉在一些梦中。</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://mj5219054.github.io/post/ren-ji-guan-xi/">                              人际关系 </a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://mj5219054.github.io/post/er-tong/">                                  儿童</a>
+            </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+        <a href="http://mj5219054.github.io/tag/cheng-chang-de-de-xuan-ze/" class="badge secondary">
+          成长的的选择
+        </a>
+      
+        <a href="http://mj5219054.github.io/tag/f7uvvrkDK/" class="badge secondary">
+          Gridea
+        </a>
+      
+        <a href="http://mj5219054.github.io/tag/fan-nao-he-jue-ze/" class="badge secondary">
+          烦恼和抉择
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+    Powered by Gridea, © 2014 - 2021 Copyright 叶子. All Rights Reserved.  | <a class="rss" href="http://mj5219054.github.io/atom.xml" target="_blank">RSS</a>
   </div>
 </div>
 
 
-
-      </div>
-
-
-
-
     </div>
 
-   <div class="footer">
-<link href="http://mj5219054.github.io/styles/main.css" type="text/css" rel="stylesheet"/><div class="site_footer_wrap"><div class="site_footer">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-      <div class="mysocials"><div class="my_socials">
-		   
-			   
-    
-			   
-    
-			   
-    
-			   
-    
-</div><link href="http://mj5219054.github.io/styles/main.css" type="text/css" rel="stylesheet"/>
+<script type="application/javascript">
 
-      </div>
+AOS.init();
 
-      <div class="copyright">Powered by Gridea, © 2014 - 2021 Copyright 叶子. All Rights Reserved. 
-      </div>
+hljs.initHighlightingOnLoad()
 
-</div></div>
-
-    </div>
-
-
-<style type="text/css">a.back_to_top {
-    text-decoration: none;
-    position: fixed;
-    bottom: 40px;
-    right: 30px;
-    background: #f0f0f0;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    line-height: 36px;
-    font-size: 18px;
-    text-align: center;
-    transition-duration: .5s;
-    transition-propety: background-color;
-    display: none;
-}
-
-a.back_to_top span {
-    color: #888;
-}
-
-a.back_to_top:hover {
-    cursor: pointer;
-    background: #dfdfdf;
-}
-
-a.back_to_top:hover span {
-    color: #555;
-}
-
-@media print, screen and (max-width: 580px) {
-    .back_to_top {
-        display: none !important;
-    }
-}
-
-
-
-</style><a id="back_to_top" href="#" class="back_to_top"><span>△</span>
-</a>
-<script type="text/javascript" src="http://mj5219054.github.io/media/scripts/jquery.js"></script>
-
-<script>$(document).ready((function(_this) {
-  return function() {
-    var bt;
-    bt = $('#back_to_top');
-    if ($(document).width() > 480) {
-      $(window).scroll(function() {
-        var st;
-        st = $(window).scrollTop();
-        if (st > 30) {
-          return bt.css('display', 'block');
-        } else {
-          return bt.css('display', 'none');
-        }
-      });
-      return bt.click(function() {
-        $('body,html').animate({
-          scrollTop: 0
-        }, 800);
-        return false;
-      });
-    }
-  };
-})(this));
 </script>
 
-</body>
 
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'c3ef8e97faf573382bad',
+        clientSecret: '0e5e937476a9a26a7074442cfad3178219fc88fe',
+        repo: '.github.io',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
 </html>
