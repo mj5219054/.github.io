@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://mj5219054.github.io</id>
+    <id>https://mj5219054.github.io/.github.io/</id>
     <title>叶子</title>
-    <updated>2021-04-21T14:55:26.187Z</updated>
+    <updated>2021-04-21T14:58:58.399Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://mj5219054.github.io"/>
-    <link rel="self" href="http://mj5219054.github.io/atom.xml"/>
+    <link rel="alternate" href="https://mj5219054.github.io/.github.io/"/>
+    <link rel="self" href="https://mj5219054.github.io/.github.io/atom.xml"/>
     <subtitle>个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</subtitle>
-    <logo>http://mj5219054.github.io/images/avatar.png</logo>
-    <icon>http://mj5219054.github.io/favicon.ico</icon>
+    <logo>https://mj5219054.github.io/.github.io/images/avatar.png</logo>
+    <icon>https://mj5219054.github.io/.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 叶子</rights>
     <entry>
         <title type="html"><![CDATA[   工作选择]]></title>
-        <id>http://mj5219054.github.io/post/gong-zuo-xuan-ze/</id>
-        <link href="http://mj5219054.github.io/post/gong-zuo-xuan-ze/">
+        <id>https://mj5219054.github.io/.github.io/post/gong-zuo-xuan-ze/</id>
+        <link href="https://mj5219054.github.io/.github.io/post/gong-zuo-xuan-ze/">
         </link>
         <updated>2021-06-11T16:41:41.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[                                 岁月]]></title>
-        <id>http://mj5219054.github.io/post/4QaQ604j9/</id>
-        <link href="http://mj5219054.github.io/post/4QaQ604j9/">
+        <id>https://mj5219054.github.io/.github.io/post/4QaQ604j9/</id>
+        <link href="https://mj5219054.github.io/.github.io/post/4QaQ604j9/">
         </link>
         <updated>2021-04-19T10:16:29.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[                            商论]]></title>
-        <id>http://mj5219054.github.io/post/t8MYAq2EI/</id>
-        <link href="http://mj5219054.github.io/post/t8MYAq2EI/">
+        <id>https://mj5219054.github.io/.github.io/post/t8MYAq2EI/</id>
+        <link href="https://mj5219054.github.io/.github.io/post/t8MYAq2EI/">
         </link>
         <updated>2021-04-16T11:04:50.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[                                     日记]]></title>
-        <id>http://mj5219054.github.io/post/_cJ-expm3/</id>
-        <link href="http://mj5219054.github.io/post/_cJ-expm3/">
+        <id>https://mj5219054.github.io/.github.io/post/_cJ-expm3/</id>
+        <link href="https://mj5219054.github.io/.github.io/post/_cJ-expm3/">
         </link>
         <updated>2021-04-16T08:54:06.000Z</updated>
     </entry>
