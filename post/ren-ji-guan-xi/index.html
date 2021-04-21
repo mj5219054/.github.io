@@ -4,14 +4,11 @@
     <meta charset="utf-8" >
 
 <title>                              人际关系  | 叶子</title>
-<meta name="description" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="http://mj5219054.github.io/favicon.ico?v=1618750955751">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="http://mj5219054.github.io/favicon.ico?v=1619015837645">
 <link rel="stylesheet" href="http://mj5219054.github.io/styles/main.css">
 
 
@@ -21,90 +18,98 @@
 
   
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-https://github.com/https-github-com-mj521905"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-https://github.com/https-github-com-mj521905');
-</script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
+
+    <meta name="description" content="没什么高大上的，专注于每一刻自己的真实感受就好。
+U= ß 1*( 房价 收入 比)+ ß 2*( 个人 工资 水平- 平均工资 水平)+
+ß 3*( 相关 企业 数量)+ ß 4*( 亲人 数量)+ ß 5*( 朋友 数量)+
+ß 6*(..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
-  
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="http://mj5219054.github.io">叶子</a></h3>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="http://mj5219054.github.io">
+        <img src="http://mj5219054.github.io/images/avatar.png?v=1619015837645" class="site-logo">
+        <h1 class="site-title">叶子</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
         
-          <li>
-            
-              <a href="/" class="menu" target="_blank">
-                首页
-              </a>
-            
-          </li>
+          <a href="/" class="site-nav" target="_blank">
+            首页
+          </a>
         
-          <li>
-            
-              <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan" class="menu">
-                归档
-              </a>
-            
-          </li>
+      
         
-          <li>
-            
-              <a href="/tags" class="menu">
-                标签
-              </a>
-            
-          </li>
+          <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan" class="site-nav">
+            归档
+          </a>
         
-          <li>
-            
-              <a href="/post/about" class="menu">
-                关于
-              </a>
-            
-          </li>
+      
         
-      </ul>
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
     </div>
   </div>
-</nav>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://github.com/https-github-com-mj521905" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。
+    </div>
+    <div class="site-footer">
+      Powered by Gridea, © 2014 - 2021 Copyright 叶子. All Rights Reserved.  | <a class="rss" href="http://mj5219054.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
-          <article class="article">
-            <h1>                              人际关系 </h1>
-            <p class="article-meta">
-              2021-03-30
-              
-            </p>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">                              人际关系 </h2>
+            <div class="post-date">2021-03-30</div>
             
-              <img src="http://mj5219054.github.io/post-images/ren-ji-guan-xi.jpg" alt="                              人际关系 ">
+              <div class="feature-container" style="background-image: url('http://mj5219054.github.io/post-images/ren-ji-guan-xi.jpg')">
+              </div>
             
-            <div class="post-content">
+            <div class="post-content" v-pre>
               <p>没什么高大上的，专注于每一刻自己的真实感受就好。<br>
 U= ß 1*( 房价 收入 比)+ ß 2*( 个人 工资 水平- 平均工资 水平)+<br>
 ß 3*( 相关 企业 数量)+ ß 4*( 亲人 数量)+ ß 5*( 朋友 数量)+<br>
@@ -128,193 +133,61 @@ U= ß 1*( 房价 收入 比)+ ß 2*( 个人 工资 水平- 平均工资 水平)+
 WIFI在线了，应该是起床了    4G了，应该是出去了<br>
 2G了，应该是不在线在学习<br>
 又4G了，应该在唱歌晚上4G了，害怕跟男生还是女生出去玩？<br>
-大半夜你又WIFI了，应该是到家了<br>
-深夜你手机离线了，应该是睡了<br>
-衰老的诸多事件之一<br>
-职称、房贷、肉的价格<br>
-中年夫妻唯一相符的病症<br>
-共同的疾患，<br>
-无时不在考验他们的婚姻<br>
-差不多就是耐性本身<br>
-疲惫的侧面，谩骂的间歇<br>
-流水中较大的那块石头<br>
-将眼泪分成两份<br>
-灯笼红了夜色中的巷子，吆喝声，锣鼓声，叫好声，戏子亮嗓，人群熙攘，静静走着，抬头看着明月晕开满天墨黑，耳边的声音远了，远了，沉沉浮浮，星子旋转，归于混沌，好像吸引着你，轻飘飘的，而你仍走在熙攘的街上，耳边锣鼓阵阵……<br>
+大半夜你又WIFI了，应该是到家了  深夜你手机离线了，应该是睡了<br>
+衰老的诸多事件之一    职称、房贷、肉的价格<br>
+中年夫妻唯一相符的病症    共同的疾患，<br>
+无时不在考验他们的婚姻   差不多就是耐性本身<br>
+疲惫的侧面，谩骂的间歇   流水中较大的那块石头<br>
+将眼泪分成两份灯笼红了夜色中的巷子，吆喝声，锣鼓声，叫好声，戏子亮嗓，人群熙攘，静静走着，抬头看着明月晕开满天墨黑，耳边的声音远了，远了，沉沉浮浮，星子旋转，归于混沌，好像吸引着你，轻飘飘的，而你仍走在熙攘的街上，耳边锣鼓阵阵……<br>
 人在哪里， 家 就在 哪里， 幸福 其实 很 简单， 就是「 在一起」。</p>
 
             </div>
-          </article>
-        </div>
-        <div class="paper" data-aos="fade-in">
-          
-            <div class="next-post">
-              <div class="next">
-                下一篇
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="http://mj5219054.github.io/post/er-tong/">
+                  <h3 class="post-title">
+                                                      儿童
+                  </h3>
+                </a>
               </div>
-              <a href="http://mj5219054.github.io/post/er-tong/">
-                <h3 class="post-title">
-                                                    儿童
-                </h3>
-              </a>
-            </div>
-          
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
         </div>
-        
-          
-            <div class="paper" data-aos="fade-in">
-              <div id="gitalk-container"></div>
-            </div>
-          
-
-          
-        
       </div>
-
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="http://mj5219054.github.io/images/avatar.png?v=1618750955751" class="no-responsive avatar">
-    <div class="text-muted">个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</div>
-    <div class="social-container">
-      
-        
-          <a href="https://github.com/https-github-com-mj521905" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      最新文章
-    </div>
-    <div class="row">
-      <ul>
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/gong-zuo-xuan-ze/">   工作选择</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/t8MYAq2EI/">                            商论</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/_cJ-expm3/">                                     日记</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/4/">                           烂尾工程</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/wen-ming-you-xi/">                                   文明游戏 </a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/da-/">                      打工是不可能富有的</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/ji-neng/">                                      技能</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/du-shi-tu-qing-xing-que-you-du-zui-zai-yi-xie-meng-zhong/">           都试图清醒，却又都醉在一些梦中。</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/ren-ji-guan-xi/">                              人际关系 </a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/er-tong/">                                  儿童</a>
-            </li>
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      </ul>
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      标签列表
-    </div>
-    <div class="row">
-      
-        <a href="http://mj5219054.github.io/tag/cheng-chang-de-de-xuan-ze/" class="badge secondary">
-          成长的的选择
-        </a>
-      
-        <a href="http://mj5219054.github.io/tag/f7uvvrkDK/" class="badge secondary">
-          Gridea
-        </a>
-      
-        <a href="http://mj5219054.github.io/tag/fan-nao-he-jue-ze/" class="badge secondary">
-          烦恼和抉择
-        </a>
-      
-    </div>
-  </div>
-  <div class="paper">
-    Powered by Gridea, © 2014 - 2021 Copyright 叶子. All Rights Reserved.  | <a class="rss" href="http://mj5219054.github.io/atom.xml" target="_blank">RSS</a>
-  </div>
-</div>
-
-
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
 <script type="application/javascript">
 
 AOS.init();
 
-hljs.initHighlightingOnLoad()
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
 </script>
+
+
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
 
 
 

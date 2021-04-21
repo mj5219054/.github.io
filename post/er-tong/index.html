@@ -4,14 +4,11 @@
     <meta charset="utf-8" >
 
 <title>                                  儿童 | 叶子</title>
-<meta name="description" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="http://mj5219054.github.io/favicon.ico?v=1618750955751">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="http://mj5219054.github.io/favicon.ico?v=1619015837645">
 <link rel="stylesheet" href="http://mj5219054.github.io/styles/main.css">
 
 
@@ -21,91 +18,100 @@
 
   
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-https://github.com/https-github-com-mj521905"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-https://github.com/https-github-com-mj521905');
-</script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
+
+    <meta name="description" content="
+亲子关系很多是一种权力性质的服从关系：我花钱把你养大，而你要对我服从，否则遗产就没有你的份。那么相对的，子女天然也就会把“孝顺”同遗产的获得挂钩，有钱就对父母好，没钱就远远逃开——亲子关系同社会上的金钱权力关系，有很大的类似性。很少有富翁..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
-  
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="http://mj5219054.github.io">叶子</a></h3>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="http://mj5219054.github.io">
+        <img src="http://mj5219054.github.io/images/avatar.png?v=1619015837645" class="site-logo">
+        <h1 class="site-title">叶子</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
         
-          <li>
-            
-              <a href="/" class="menu" target="_blank">
-                首页
-              </a>
-            
-          </li>
+          <a href="/" class="site-nav" target="_blank">
+            首页
+          </a>
         
-          <li>
-            
-              <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan" class="menu">
-                归档
-              </a>
-            
-          </li>
+      
         
-          <li>
-            
-              <a href="/tags" class="menu">
-                标签
-              </a>
-            
-          </li>
+          <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan" class="site-nav">
+            归档
+          </a>
         
-          <li>
-            
-              <a href="/post/about" class="menu">
-                关于
-              </a>
-            
-          </li>
+      
         
-      </ul>
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
     </div>
   </div>
-</nav>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://github.com/https-github-com-mj521905" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。
+    </div>
+    <div class="site-footer">
+      Powered by Gridea, © 2014 - 2021 Copyright 叶子. All Rights Reserved.  | <a class="rss" href="http://mj5219054.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
-          <article class="article">
-            <h1>                                  儿童</h1>
-            <p class="article-meta">
-              2021-03-30
-              
-            </p>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">                                  儿童</h2>
+            <div class="post-date">2021-03-30</div>
             
-              <img src="http://mj5219054.github.io/post-images/er-tong.jpg" alt="                                  儿童">
+              <div class="feature-container" style="background-image: url('http://mj5219054.github.io/post-images/er-tong.jpg')">
+              </div>
             
-            <div class="post-content">
+            <div class="post-content" v-pre>
               <p><img src="http://mj5219054.github.io/post-images/1617634721046.jpg" alt="" loading="lazy"><br>
+亲子关系很多是一种权力性质的服从关系：我花钱把你养大，而你要对我服从，否则遗产就没有你的份。那么相对的，子女天然也就会把“孝顺”同遗产的获得挂钩，有钱就对父母好，没钱就远远逃开——亲子关系同社会上的金钱权力关系，有很大的类似性。很少有富翁会想着拿大额遗产回馈社会，他们还是会选择囤积起来留给子女，因为遗产本身，也正同金钱权力挂钩。<br>
+权力框架下的财产关系，必然会影响到人身关系，而当人身关系充满了铜臭与依附时，人自然不会有十足的力量去经营自己内在的潜力，更多的精力是花在“运营”同亲人的权力博弈关系上，关注他人是否服从的份额多，关注自己是否成长的份额就少。<br>
+社会在这种氛围下，自然而然就会变成“专注养老型社会”——人年纪轻轻地就开始焦虑如何搞钱，如何搞到钱结婚生子，如何用搞到的钱让子女服从，如何把控着巨额金钱让子女给自己养老、让自己不受欺……小到小家，大到“你懂”的家，不大都是如此么？<br>
 1.天下无不是的父母<br>
 这类父母打着为子女好的名义，认为自己永远是正确的。子女在其影响下，构筑了一个完美父母的假象。他们甚至认为父母的虐待是理所当然。他们否认父母的行为给自己带来的伤害。并且，他们会自欺欺人地将不可接受的事合理化。<br>
 2.不称职的父母<br>
@@ -189,181 +195,61 @@
 ， 阶层之间在教养方式上的主要区别在于父母回应子女心理或社会需求的高低。 补充分析发现， 阶层之间的显著差异确实在回应维度上更稳健， 高职业阶层、 高教育阶层、 高综合地位家庭都倾向于高回应的沟通方式， 但在要求维度上也有所表现， 即高综合地位家庭也对子女有更高的要求。<br>
 缺乏三种教育：性的教育，爱的教育，死亡的教育。这三种教育分别对应人生的三个支点：身体完整、灵魂丰沛、生命价值。<br>
 身体完整是身体自主。不被征用，不被奴役，无论男人女人，都不被绑架为任何一盘大棋小棋的棋子，充分知觉“我”，明白我属于我自己，TA属于TA自己。<br>
-灵魂丰沛是思想自主。判断爱，表达爱，接受爱，创造爱，真诚不卑曲，坦率不恐惧。明白人拥有爱与不爱、认同与不认同的自由，并尊重他人的自由。生命价值是终极的平和与清醒。接受在宇宙的度量衡下，自己很快将会死亡，任何生命也同样速朽的事实。在此基础上，站在洪流之外叩问内心：死亡之前，你，只是你，到底想见何种风景，留何种痕迹？</p>
+灵魂丰沛是思想自主。判断爱，表达爱，接受爱，创造爱，真诚不卑曲，坦率不恐惧。明白人拥有爱与不爱、认同与不认同的自由，并尊重他人的自由。生命价值是终极的平和与清醒。接受在宇宙的度量衡下，自己很快将会死亡，任何生命也同样速朽的事实。在此基础上，站在洪流之外叩问内心：死亡之前，你，只是你，到底想见何种风景，留何种痕迹？<br>
+在给孩子设置目标时必须要考虑到两个因素：<br>
+● 孩子现有的水平；● 孩子潜在的发展水平。<br>
+最好的目标，就是处于最近发展区，孩子能垫垫脚尖就够到的目标。<br>
+而如果我们“眼馋”别人家孩子的暂时性领先，转而对自己的孩子产生不切实际的高期待，孩子累，你也累。<br>
+攀比必然带来心态的失衡，也就会带来对孩子“左看右看都不顺眼”的“嫌弃”，也就必然带来“亲子关系”的隔阂。<br>
+少一些和别人比较的偏执，舍弃自己的贪婪、攀比的欲望，或许才能让孩子收获一个可以喘息的成长空间。别拿自己人生的遗憾，在孩子身上较劲</p>
 
             </div>
-          </article>
-        </div>
-        <div class="paper" data-aos="fade-in">
-          
-            <div class="next-post">
-              <div class="next">
-                下一篇
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="http://mj5219054.github.io/post/lun-li-he-yu-lun/">
+                  <h3 class="post-title">
+                                             伦理和舆论
+                  </h3>
+                </a>
               </div>
-              <a href="http://mj5219054.github.io/post/lun-li-he-yu-lun/">
-                <h3 class="post-title">
-                                           伦理和舆论
-                </h3>
-              </a>
-            </div>
-          
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
         </div>
-        
-          
-            <div class="paper" data-aos="fade-in">
-              <div id="gitalk-container"></div>
-            </div>
-          
-
-          
-        
       </div>
-
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="http://mj5219054.github.io/images/avatar.png?v=1618750955751" class="no-responsive avatar">
-    <div class="text-muted">个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</div>
-    <div class="social-container">
-      
-        
-          <a href="https://github.com/https-github-com-mj521905" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      最新文章
-    </div>
-    <div class="row">
-      <ul>
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/gong-zuo-xuan-ze/">   工作选择</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/t8MYAq2EI/">                            商论</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/_cJ-expm3/">                                     日记</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/4/">                           烂尾工程</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/wen-ming-you-xi/">                                   文明游戏 </a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/da-/">                      打工是不可能富有的</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/ji-neng/">                                      技能</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/du-shi-tu-qing-xing-que-you-du-zui-zai-yi-xie-meng-zhong/">           都试图清醒，却又都醉在一些梦中。</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/ren-ji-guan-xi/">                              人际关系 </a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/er-tong/">                                  儿童</a>
-            </li>
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      </ul>
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      标签列表
-    </div>
-    <div class="row">
-      
-        <a href="http://mj5219054.github.io/tag/cheng-chang-de-de-xuan-ze/" class="badge success">
-          成长的的选择
-        </a>
-      
-        <a href="http://mj5219054.github.io/tag/f7uvvrkDK/" class="badge ">
-          Gridea
-        </a>
-      
-        <a href="http://mj5219054.github.io/tag/fan-nao-he-jue-ze/" class="badge secondary">
-          烦恼和抉择
-        </a>
-      
-    </div>
-  </div>
-  <div class="paper">
-    Powered by Gridea, © 2014 - 2021 Copyright 叶子. All Rights Reserved.  | <a class="rss" href="http://mj5219054.github.io/atom.xml" target="_blank">RSS</a>
-  </div>
-</div>
-
-
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
 <script type="application/javascript">
 
 AOS.init();
 
-hljs.initHighlightingOnLoad()
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
 </script>
+
+
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
 
 
 

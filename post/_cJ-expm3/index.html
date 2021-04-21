@@ -4,14 +4,11 @@
     <meta charset="utf-8" >
 
 <title>                                     日记 | 叶子</title>
-<meta name="description" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="http://mj5219054.github.io/favicon.ico?v=1618750955751">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="http://mj5219054.github.io/favicon.ico?v=1619015837645">
 <link rel="stylesheet" href="http://mj5219054.github.io/styles/main.css">
 
 
@@ -21,91 +18,102 @@
 
   
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-https://github.com/https-github-com-mj521905"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-https://github.com/https-github-com-mj521905');
-</script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
+
+    <meta name="description" content="
+人口的生产也是一种生产，具有划时代的意义。他只是讲了很多人想讲又不敢讲的话，如果人口生产是一种生产，人也就是一种产品，产品就有优劣之分，可以优胜劣汰，可以被宣布不合格，可以提前报废。
+把人当作产品，我们也可以：
+因为当资本和权力联合剥夺一..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
-  
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="http://mj5219054.github.io">叶子</a></h3>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="http://mj5219054.github.io">
+        <img src="http://mj5219054.github.io/images/avatar.png?v=1619015837645" class="site-logo">
+        <h1 class="site-title">叶子</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
         
-          <li>
-            
-              <a href="/" class="menu" target="_blank">
-                首页
-              </a>
-            
-          </li>
+          <a href="/" class="site-nav" target="_blank">
+            首页
+          </a>
         
-          <li>
-            
-              <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan" class="menu">
-                归档
-              </a>
-            
-          </li>
+      
         
-          <li>
-            
-              <a href="/tags" class="menu">
-                标签
-              </a>
-            
-          </li>
+          <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan" class="site-nav">
+            归档
+          </a>
         
-          <li>
-            
-              <a href="/post/about" class="menu">
-                关于
-              </a>
-            
-          </li>
+      
         
-      </ul>
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
     </div>
   </div>
-</nav>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://github.com/https-github-com-mj521905" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。
+    </div>
+    <div class="site-footer">
+      Powered by Gridea, © 2014 - 2021 Copyright 叶子. All Rights Reserved.  | <a class="rss" href="http://mj5219054.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
-          <article class="article">
-            <h1>                                     日记</h1>
-            <p class="article-meta">
-              2021-04-16
-              
-            </p>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">                                     日记</h2>
+            <div class="post-date">2021-04-16</div>
             
-              <img src="http://mj5219054.github.io/post-images/_cJ-expm3.jpg" alt="                                     日记">
+              <div class="feature-container" style="background-image: url('http://mj5219054.github.io/post-images/_cJ-expm3.jpg')">
+              </div>
             
-            <div class="post-content">
+            <div class="post-content" v-pre>
               <!-- more -->
+<p>人口的生产也是一种生产，具有划时代的意义。他只是讲了很多人想讲又不敢讲的话，如果人口生产是一种生产，人也就是一种产品，产品就有优劣之分，可以优胜劣汰，可以被宣布不合格，可以提前报废。</p>
+<p>把人当作产品，我们也可以：<br>
+因为当资本和权力联合剥夺一切之后，大家唯一控制的，就是新增劳动人口的产出，要像OPEC一样，减产，才能维持可持续的开采和技术研发必须的利润。他们把人力当做资本，我们也可以：</p>
 <p>语言基本成分主谓宾，附加成分定状补：谓前为状谓后补，定语必居主宾前<br>
 主语是句子叙述的主体，可由名词、代词、数词、名词化的形容词、不定式、动名词和主语从句等来承担。<br>
 谓语说明主语所发出的动作或具有的特征和状态。谓语由动词来承担。<br>
@@ -224,178 +232,52 @@
 </ol>
 
             </div>
-          </article>
-        </div>
-        <div class="paper" data-aos="fade-in">
-          
-            <div class="next-post">
-              <div class="next">
-                下一篇
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="http://mj5219054.github.io/post/4/">
+                  <h3 class="post-title">
+                                               烂尾工程
+                  </h3>
+                </a>
               </div>
-              <a href="http://mj5219054.github.io/post/4/">
-                <h3 class="post-title">
-                                             烂尾工程
-                </h3>
-              </a>
-            </div>
-          
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
         </div>
-        
-          
-            <div class="paper" data-aos="fade-in">
-              <div id="gitalk-container"></div>
-            </div>
-          
-
-          
-        
       </div>
-
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="http://mj5219054.github.io/images/avatar.png?v=1618750955751" class="no-responsive avatar">
-    <div class="text-muted">个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</div>
-    <div class="social-container">
-      
-        
-          <a href="https://github.com/https-github-com-mj521905" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      最新文章
-    </div>
-    <div class="row">
-      <ul>
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/gong-zuo-xuan-ze/">   工作选择</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/t8MYAq2EI/">                            商论</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/_cJ-expm3/">                                     日记</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/4/">                           烂尾工程</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/wen-ming-you-xi/">                                   文明游戏 </a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/da-/">                      打工是不可能富有的</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/ji-neng/">                                      技能</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/du-shi-tu-qing-xing-que-you-du-zui-zai-yi-xie-meng-zhong/">           都试图清醒，却又都醉在一些梦中。</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/ren-ji-guan-xi/">                              人际关系 </a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/er-tong/">                                  儿童</a>
-            </li>
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      </ul>
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      标签列表
-    </div>
-    <div class="row">
-      
-        <a href="http://mj5219054.github.io/tag/cheng-chang-de-de-xuan-ze/" class="badge warning">
-          成长的的选择
-        </a>
-      
-        <a href="http://mj5219054.github.io/tag/f7uvvrkDK/" class="badge secondary">
-          Gridea
-        </a>
-      
-        <a href="http://mj5219054.github.io/tag/fan-nao-he-jue-ze/" class="badge secondary">
-          烦恼和抉择
-        </a>
-      
-    </div>
-  </div>
-  <div class="paper">
-    Powered by Gridea, © 2014 - 2021 Copyright 叶子. All Rights Reserved.  | <a class="rss" href="http://mj5219054.github.io/atom.xml" target="_blank">RSS</a>
-  </div>
-</div>
-
-
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
 <script type="application/javascript">
 
 AOS.init();
 
-hljs.initHighlightingOnLoad()
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
 </script>
+
+
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
 
 
 

@@ -4,14 +4,11 @@
     <meta charset="utf-8" >
 
 <title>                      打工是不可能富有的 | 叶子</title>
-<meta name="description" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="http://mj5219054.github.io/favicon.ico?v=1618750955751">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="http://mj5219054.github.io/favicon.ico?v=1619015837645">
 <link rel="stylesheet" href="http://mj5219054.github.io/styles/main.css">
 
 
@@ -21,90 +18,98 @@
 
   
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-https://github.com/https-github-com-mj521905"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-https://github.com/https-github-com-mj521905');
-</script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
+
+    <meta name="description" content="
+
+1绝大部分打工人是不可能通过打工发大财的，小富由勤，大富由命。要想发大财实现财富自由，基本上都在打工之外 。
+2   不要ALL IN——那是赌徒，要留有足够日常生活的现金，以免黑天鹅事件出现时手足无措。对冲基金经理Bill Hwang..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
-  
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="http://mj5219054.github.io">叶子</a></h3>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="http://mj5219054.github.io">
+        <img src="http://mj5219054.github.io/images/avatar.png?v=1619015837645" class="site-logo">
+        <h1 class="site-title">叶子</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
         
-          <li>
-            
-              <a href="/" class="menu" target="_blank">
-                首页
-              </a>
-            
-          </li>
+          <a href="/" class="site-nav" target="_blank">
+            首页
+          </a>
         
-          <li>
-            
-              <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan" class="menu">
-                归档
-              </a>
-            
-          </li>
+      
         
-          <li>
-            
-              <a href="/tags" class="menu">
-                标签
-              </a>
-            
-          </li>
+          <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan" class="site-nav">
+            归档
+          </a>
         
-          <li>
-            
-              <a href="/post/about" class="menu">
-                关于
-              </a>
-            
-          </li>
+      
         
-      </ul>
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
     </div>
   </div>
-</nav>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://github.com/https-github-com-mj521905" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。
+    </div>
+    <div class="site-footer">
+      Powered by Gridea, © 2014 - 2021 Copyright 叶子. All Rights Reserved.  | <a class="rss" href="http://mj5219054.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
-          <article class="article">
-            <h1>                      打工是不可能富有的</h1>
-            <p class="article-meta">
-              2021-04-10
-              
-            </p>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">                      打工是不可能富有的</h2>
+            <div class="post-date">2021-04-10</div>
             
-              <img src="http://mj5219054.github.io/post-images/da-.png" alt="                      打工是不可能富有的">
+              <div class="feature-container" style="background-image: url('http://mj5219054.github.io/post-images/da-.png')">
+              </div>
             
-            <div class="post-content">
+            <div class="post-content" v-pre>
               <figure data-type="image" tabindex="1"><img src="http://mj5219054.github.io/post-images/1618048239146.jpg" alt="" loading="lazy"></figure>
 <!-- more -->
 <p>1绝大部分打工人是不可能通过打工发大财的，小富由勤，大富由命。要想发大财实现财富自由，基本上都在打工之外 。<br>
@@ -155,181 +160,60 @@
 策略五：为工作排序，分清轻重缓急。根据80/20时间分配原则，应当避免将时间花在琐碎的、哪怕是多数但不重要的问题上，因为即使花了80%的时间，你也只能取得20%的成效。所以，应该将时间花在重要的少数问题上，因为掌握了这些重要的少数问题，你只需花20%的时间，即可取得80%的成效。<br>
 因此，有效的时间管理，是成功“斜杠者”的重要秘诀之一。总体而言，就是减少时间的浪费，以便有效地完成既定目标。<br>
 3、打造品牌<br>
-打造品牌最重要的一点是要学会自我营销，精准有效地宣传你所提供的产品或服务。如何打造品牌呢？想想谁是你的理想客户或消费者？与这些目标受众建立联系的最好方式是什么？他们通常上网做什么？你目前的客户有谁，他们是如何找到你的？怎样做才能接触到更多的目标受众？什么最能让你与众不同，成为客户首选？这些人也是你的潜在客户吗？等等。打造品牌、制定优秀的宣传策略，应该能够准确找到目标群体，个性化地、清晰地描述你能够提供什么，还要能够阐述客户可以从中获得什么。</p>
+打造品牌最重要的一点是要学会自我营销，精准有效地宣传你所提供的产品或服务。如何打造品牌呢？想想谁是你的理想客户或消费者？与这些目标受众建立联系的最好方式是什么？他们通常上网做什么？你目前的客户有谁，他们是如何找到你的？怎样做才能接触到更多的目标受众？什么最能让你与众不同，成为客户首选？这些人也是你的潜在客户吗？等等。打造品牌、制定优秀的宣传策略，应该能够准确找到目标群体，个性化地、清晰地描述你能够提供什么，还要能够阐述客户可以从中获得什么。<br>
+做错方向出现亏损时，更容易认错止损。既然是当作长期的事业来做，认错没什么可怕的。交易机会，每天都有；今天亏了，明天赚回来就好。关键是，能从错误中吸取教训，学到有用的东西，并且不断地强化和遵守纪律的习惯。<br>
+当然你的经历经验越多，开启其他的门也就更容易。<br>
+3. 仅理解世界还不够，还必须理解你自己，才能往前走。<br>
+4. 有些事是不能量化的，所以那些人在数字计算上做得很好，但忘记了现实。<br>
+9. 哲学本身不能帮你走很远，所以你必须要经历实践，这种哲学必须是自己形成的你对世界的看法。</p>
 
             </div>
-          </article>
-        </div>
-        <div class="paper" data-aos="fade-in">
-          
-            <div class="next-post">
-              <div class="next">
-                下一篇
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="http://mj5219054.github.io/post/ji-neng/">
+                  <h3 class="post-title">
+                                                          技能
+                  </h3>
+                </a>
               </div>
-              <a href="http://mj5219054.github.io/post/ji-neng/">
-                <h3 class="post-title">
-                                                        技能
-                </h3>
-              </a>
-            </div>
-          
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
         </div>
-        
-          
-            <div class="paper" data-aos="fade-in">
-              <div id="gitalk-container"></div>
-            </div>
-          
-
-          
-        
       </div>
-
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="http://mj5219054.github.io/images/avatar.png?v=1618750955751" class="no-responsive avatar">
-    <div class="text-muted">个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</div>
-    <div class="social-container">
-      
-        
-          <a href="https://github.com/https-github-com-mj521905" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      最新文章
-    </div>
-    <div class="row">
-      <ul>
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/gong-zuo-xuan-ze/">   工作选择</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/t8MYAq2EI/">                            商论</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/_cJ-expm3/">                                     日记</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/4/">                           烂尾工程</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/wen-ming-you-xi/">                                   文明游戏 </a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/da-/">                      打工是不可能富有的</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/ji-neng/">                                      技能</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/du-shi-tu-qing-xing-que-you-du-zui-zai-yi-xie-meng-zhong/">           都试图清醒，却又都醉在一些梦中。</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/ren-ji-guan-xi/">                              人际关系 </a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="http://mj5219054.github.io/post/er-tong/">                                  儿童</a>
-            </li>
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      </ul>
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      标签列表
-    </div>
-    <div class="row">
-      
-        <a href="http://mj5219054.github.io/tag/cheng-chang-de-de-xuan-ze/" class="badge success">
-          成长的的选择
-        </a>
-      
-        <a href="http://mj5219054.github.io/tag/f7uvvrkDK/" class="badge warning">
-          Gridea
-        </a>
-      
-        <a href="http://mj5219054.github.io/tag/fan-nao-he-jue-ze/" class="badge secondary">
-          烦恼和抉择
-        </a>
-      
-    </div>
-  </div>
-  <div class="paper">
-    Powered by Gridea, © 2014 - 2021 Copyright 叶子. All Rights Reserved.  | <a class="rss" href="http://mj5219054.github.io/atom.xml" target="_blank">RSS</a>
-  </div>
-</div>
-
-
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
 <script type="application/javascript">
 
 AOS.init();
 
-hljs.initHighlightingOnLoad()
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
 </script>
+
+
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
 
 
 
