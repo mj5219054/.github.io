@@ -4,12 +4,15 @@
     <meta charset="utf-8" >
 
 <title>定位 | 叶子</title>
+<meta name="description" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://mj5219054.github.io/.github.io//favicon.ico?v=1619105130936">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="http://mj5219054.github.io/.github.io//favicon.ico?v=1619018039186">
-<link rel="stylesheet" href="http://mj5219054.github.io/.github.io//styles/main.css">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://mj5219054.github.io/.github.io//styles/main.css">
 
 
   
@@ -18,102 +21,97 @@
 
   
 
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-https://github.com/https-github-com-mj521905"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-https://github.com/https-github-com-mj521905');
+</script>
 
 
-
-    <meta name="description" content="誓言这种东西无法衡量坚贞，也不能判断对错，它只能证明，在说出来的那一刻，彼此曾经真诚过。
-
-
-**   定位的基本方法，不是去创造某种新的，不同的事物，而是去操控心智中已经存在的认知，去重组已存在的关联认知**
-分析整个外部环境，确定我们的..." />
-    <meta name="keywords" content="Gridea" />
   </head>
   <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="http://mj5219054.github.io/.github.io/">
-        <img src="http://mj5219054.github.io/.github.io//images/avatar.png?v=1619018039186" class="site-logo">
-        <h1 class="site-title">叶子</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
-      
+  
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://mj5219054.github.io/.github.io/">叶子</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
         
-          <a href="/" class="site-nav" target="_blank">
-            首页
-          </a>
+          <li>
+            
+              <a href="/" class="menu" target="_blank">
+                首页
+              </a>
+            
+          </li>
         
-      
+          <li>
+            
+              <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan" class="menu">
+                归档
+              </a>
+            
+          </li>
         
-          <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan" class="site-nav">
-            归档
-          </a>
+          <li>
+            
+              <a href="/tags" class="menu">
+                标签
+              </a>
+            
+          </li>
         
-      
+          <li>
+            
+              <a href="/post/about" class="menu">
+                关于
+              </a>
+            
+          </li>
         
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
+      </ul>
     </div>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-          <a class="social-link" href="https://github.com/https-github-com-mj521905" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。
-    </div>
-    <div class="site-footer">
-      Powered by Gridea, © 2014 - 2021 Copyright 叶子. All Rights Reserved.  | <a class="rss" href="http://mj5219054.github.io/.github.io//atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
+</nav>
 
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">定位</h2>
-            <div class="post-date">2021-03-29</div>
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <article class="article">
+            <h1>定位</h1>
+            <p class="article-meta">
+              2021-03-29
+              
+                <a href="https://mj5219054.github.io/.github.io/tag/f7uvvrkDK/" class="badge ">
+                  Gridea
+                </a>
+              
+            </p>
             
-              <div class="feature-container" style="background-image: url('http://mj5219054.github.io/.github.io//post-images/ding-wei.webp')">
-              </div>
+              <img src="https://mj5219054.github.io/.github.io//post-images/ding-wei.webp" alt="定位">
             
-            <div class="post-content" v-pre>
+            <div class="post-content">
               <p>誓言这种东西无法衡量坚贞，也不能判断对错，它只能证明，在说出来的那一刻，彼此曾经真诚过。</p>
 <!-- more -->
-<p><img src="http://mj5219054.github.io/.github.io//post-images/1617030161904.png" alt="" loading="lazy"><br>
+<p><img src="https://mj5219054.github.io/.github.io//post-images/1617030161904.png" alt="" loading="lazy"><br>
 **   定位的基本方法，不是去创造某种新的，不同的事物，而是去操控心智中已经存在的认知，去重组已存在的关联认知**<br>
 分析整个外部环境，确定我们的竞争对手是谁，竞争对手的价值是什么<br>
 第一步，暗示，让大脑进入某种自动行为模式，并决定使用哪种习惯。<br>
@@ -145,7 +143,7 @@
 表达工具：有助于人们准确、严密、清晰地表达思想和建立新理论。<br>
 说服工具：有助于人们做出更为严谨、更具有说服力的推理和论证。<br>
 分析工具：有助于人们揭露谬误，驳斥诡辩。有助于正确思考，明辨是非，正本清源。<br>
-<img src="http://mj5219054.github.io/.github.io//post-images/1617030449327.jpg" alt="" loading="lazy"><br>
+<img src="https://mj5219054.github.io/.github.io//post-images/1617030449327.jpg" alt="" loading="lazy"><br>
 两性关系的恋爱和婚姻，有一个共同的关键，就是能从想要被认可，过渡到想要被了解。双方得到认同和欣赏，而袒露心声，让对方了解更真实的自己则需要拿出勇气，甘冒风险。<br>
 爱的反义词是什么呢？哪一种情感状态与爱状态，回答是：冷漠。<br>
 冷漠者却与爱完全无缘。如果说孤独是爱心的没有着落，恨是爱心的受挫，那么，冷漠就是爱的死灭。<br>
@@ -203,65 +201,185 @@
 3.社会互动人习惯于与具有类似价值观和行为的人交往,在社会学里,群体资格和群体成员的相互作用是决定一个人所处社会阶层的基本力量。<br>
 4.财物财物是一种社会标志,它向人们传递有关拥有者处于何种社会阶层的信息,有用财物的多寡、财物的性质决定同时也反应了一个人的社会地位5.价值取向个体的价值观和信念是表明它属于哪一社会阶层的又一重要指标。由于同一阶层内的成员互动更频繁,他们会发展起类似和共同的价值观。<br>
 想过一个什么样的人生?你想成为一个什么的人?<br>
-<img src="http://mj5219054.github.io/.github.io//post-images/1618147395903.png" alt="" loading="lazy"><br>
+<img src="https://mj5219054.github.io/.github.io//post-images/1618147395903.png" alt="" loading="lazy"><br>
 《论语·季民第十六》:“闻有国有家者,不患寡而患不均,不患贫而患不安。盖均无贫,和无寡,安无倾。<br>
 公司,家庭,国家一般有三个维度:政治商业和技术。对应社会,是学、政、商。商业专注于挣钱,技术专注于提升竞争力,政治专主于利益分配。</p>
 
             </div>
-            
-              <div class="tag-container">
-                
-                  <a href="http://mj5219054.github.io/.github.io/tag/f7uvvrkDK/" class="tag">
-                    Gridea
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="http://mj5219054.github.io/.github.io/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan/">
-                  <h3 class="post-title">
-                    爱河
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
-
-              
-            
-
-          </div>
-
+          </article>
         </div>
+        <div class="paper" data-aos="fade-in">
+          
+            <div class="next-post">
+              <div class="next">
+                下一篇
+              </div>
+              <a href="https://mj5219054.github.io/.github.io/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan/">
+                <h3 class="post-title">
+                  爱河
+                </h3>
+              </a>
+            </div>
+          
+        </div>
+        
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
+          
+
+          
+        
       </div>
+
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://mj5219054.github.io/.github.io//images/avatar.png?v=1619105130936" class="no-responsive avatar">
+    <div class="text-muted">个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</div>
+    <div class="social-container">
+      
+        
+          <a href="https://github.com/https-github-com-mj521905" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://mj5219054.github.io/.github.io/post/gong-zuo-xuan-ze/">   工作选择</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mj5219054.github.io/.github.io/post/4QaQ604j9/">                                 岁月</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mj5219054.github.io/.github.io/post/t8MYAq2EI/">                            商论</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mj5219054.github.io/.github.io/post/_cJ-expm3/">                                     日记</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mj5219054.github.io/.github.io/post/4/">                           烂尾工程</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mj5219054.github.io/.github.io/post/wen-ming-you-xi/">                                   文明游戏 </a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mj5219054.github.io/.github.io/post/da-/">                      打工是不可能富有的</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mj5219054.github.io/.github.io/post/ji-neng/">                                      技能</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mj5219054.github.io/.github.io/post/du-shi-tu-qing-xing-que-you-du-zui-zai-yi-xie-meng-zhong/">           都试图清醒，却又都醉在一些梦中。</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mj5219054.github.io/.github.io/post/ren-ji-guan-xi/">                              人际关系 </a>
+            </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+        <a href="https://mj5219054.github.io/.github.io/tag/cheng-chang-de-de-xuan-ze/" class="badge secondary">
+          成长的的选择
+        </a>
+      
+        <a href="https://mj5219054.github.io/.github.io/tag/f7uvvrkDK/" class="badge warning">
+          Gridea
+        </a>
+      
+        <a href="https://mj5219054.github.io/.github.io/tag/fan-nao-he-jue-ze/" class="badge secondary">
+          烦恼和抉择
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+    Powered by Gridea, © 2014 - 2021 Copyright 叶子. All Rights Reserved.  | <a class="rss" href="https://mj5219054.github.io/.github.io//atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
+
+
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
 <script type="application/javascript">
 
 AOS.init();
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+hljs.initHighlightingOnLoad()
 
 </script>
-
-
-  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad()
-  </script>
-
 
 
 

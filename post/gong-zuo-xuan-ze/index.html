@@ -4,12 +4,15 @@
     <meta charset="utf-8" >
 
 <title>   工作选择 | 叶子</title>
+<meta name="description" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://mj5219054.github.io/.github.io//favicon.ico?v=1619105130936">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="http://mj5219054.github.io/.github.io//favicon.ico?v=1619018039186">
-<link rel="stylesheet" href="http://mj5219054.github.io/.github.io//styles/main.css">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://mj5219054.github.io/.github.io//styles/main.css">
 
 
   
@@ -18,100 +21,95 @@
 
   
 
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-https://github.com/https-github-com-mj521905"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-https://github.com/https-github-com-mj521905');
+</script>
 
 
-
-    <meta name="description" content="
-素堂经史皆玉辟，香案诗书尽灵光
-高度决定视野 角度改变观念 尺度把握人生  心胸决定格局   思路决定出路
-中国人情社会，越来越脆弱的信任纽带，急需有微信这样的工具来加固；越来越高的交往成本，更急需微信这样的工具来降低。
- 微信给中国社会..." />
-    <meta name="keywords" content="成长的的选择" />
   </head>
   <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="http://mj5219054.github.io/.github.io/">
-        <img src="http://mj5219054.github.io/.github.io//images/avatar.png?v=1619018039186" class="site-logo">
-        <h1 class="site-title">叶子</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
-      
+  
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://mj5219054.github.io/.github.io/">叶子</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
         
-          <a href="/" class="site-nav" target="_blank">
-            首页
-          </a>
+          <li>
+            
+              <a href="/" class="menu" target="_blank">
+                首页
+              </a>
+            
+          </li>
         
-      
+          <li>
+            
+              <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan" class="menu">
+                归档
+              </a>
+            
+          </li>
         
-          <a href="http://mj5219054/.github.io.git/post/nan-xing-zhui-ru-ai-he-de-7-ge-jie-duan" class="site-nav">
-            归档
-          </a>
+          <li>
+            
+              <a href="/tags" class="menu">
+                标签
+              </a>
+            
+          </li>
         
-      
+          <li>
+            
+              <a href="/post/about" class="menu">
+                关于
+              </a>
+            
+          </li>
         
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
+      </ul>
     </div>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-          <a class="social-link" href="https://github.com/https-github-com-mj521905" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。
-    </div>
-    <div class="site-footer">
-      Powered by Gridea, © 2014 - 2021 Copyright 叶子. All Rights Reserved.  | <a class="rss" href="http://mj5219054.github.io/.github.io//atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
+</nav>
 
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">   工作选择</h2>
-            <div class="post-date">2021-06-12</div>
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <article class="article">
+            <h1>   工作选择</h1>
+            <p class="article-meta">
+              2021-06-12
+              
+                <a href="https://mj5219054.github.io/.github.io/tag/cheng-chang-de-de-xuan-ze/" class="badge warning">
+                  成长的的选择
+                </a>
+              
+            </p>
             
-              <div class="feature-container" style="background-image: url('http://mj5219054.github.io/.github.io//post-images/gong-zuo-xuan-ze.jpg')">
-              </div>
+              <img src="https://mj5219054.github.io/.github.io//post-images/gong-zuo-xuan-ze.jpg" alt="   工作选择">
             
-            <div class="post-content" v-pre>
-              <p><img src="http://mj5219054.github.io/.github.io//post-images/1616740423786.jpg" alt="" loading="lazy"><br>
+            <div class="post-content">
+              <p><img src="https://mj5219054.github.io/.github.io//post-images/1616740423786.jpg" alt="" loading="lazy"><br>
 <strong>素堂经史皆玉辟，香案诗书尽灵光</strong><br>
 高度决定视野 角度改变观念 尺度把握人生  心胸决定格局   思路决定出路<br>
 中国人情社会，越来越脆弱的信任纽带，急需有微信这样的工具来加固；越来越高的交往成本，更急需微信这样的工具来降低。<br>
@@ -168,7 +166,7 @@ A.地方小、观念落后,生活缺少质感,可能比较单调;B.事业发展�
 行业:行业发展前景,是夕阳产业、新兴产业还是已经成热规模化的产业<br>
 企业:企业在该赛道内的地位,独角兽企业是加分项<br>
 职业:在企业做什么,属于什么序列,该序列的发展前景<br>
-<img src="http://mj5219054.github.io/.github.io//post-images/1617184236890.webp" alt="" loading="lazy"><br>
+<img src="https://mj5219054.github.io/.github.io//post-images/1617184236890.webp" alt="" loading="lazy"><br>
 一方面，市场经济体制下，“科学化”劳务管理方式的出现，例如签订劳动合同、实行奖金制度，使得工作机构压力倍增，劳动力日渐原子化。过去社会主义时代集体性的工人主体，开始转变为自由劳动力市场中个体化的工人，附着于单位“铁饭碗”制度下的权利与利益也开始慢慢消失。90年代末期的国企改革集中体现了这一发展趋势。政府大力推行“现代企业制度”，鼓励下岗工人发挥自身能动性，“创造自己的饭碗”。与此同时，国有部门的衰落也伴随着私有部门的兴起。各类商铺在城市的街道大量涌现，过去由单位大院内的集体劳动和共同消费所主导的日常生活，如今却被繁华的商业街道、店铺所环绕，强大的商品化和个人消费主义思潮所占据。<br>
 另一方面，尽管单位已不再占据城市生活的中心，但仍发挥重要作用。当下，政府不断推进城市空间转型，提倡将单位转向社会，实现福利的全面普及。为此，一种新的基层组织——社区得以建立，来负责代替单位进行城市治理。然而，推动社区建设的关键却在于，恢复一种先前由单位为代表的、基于社区的稳定社会秩序<br>
 1、在地青年<br>
@@ -189,7 +187,7 @@ A.地方小、观念落后,生活缺少质感,可能比较单调;B.事业发展�
 1.愿意和你分担分享的人。可以陪同你分担一切的苦,分享一切的乐,这是贵人。新年我问你为什么能从小地方的凤凰男逆袭,你回答“我老婆好”,我觉得这个答案很对,她是你生命中的贵人。<br>
 2.愿意唠叨你的人。因为关心,所以唠叨!这说的是我们的父母,秋叶,其实你的父母在你的职业生涯里没有让你多操心,你买房时他们还支持你出首付,这也是你生命中不能忘记的贵人3,愿意无条件力挺你的人。我和你交往这么久,<br>
 不管别人怎样议论你,我相信“你”这个人,我接受你,你遇到困难和麻烦,我一定挺你我们很多人做职业规划,总想得到有能力的人,有权势的人帮助,其实重视身边些普通人对你的支持,才是让自己职业生涯顺利发展的关键。<br>
-<img src="http://mj5219054.github.io/.github.io//post-images/1618147902340.jpg" alt="" loading="lazy"><br>
+<img src="https://mj5219054.github.io/.github.io//post-images/1618147902340.jpg" alt="" loading="lazy"><br>
 .重要会议用“罗转事法N”<br>
 組织一场重要会议,除了提前群发会议议題给参会者,还要确定3个鮑色记录人:会议记录主持人:让会议公平,顺利地进行参与者:提议,说论,表决领导在会议中的角色,要么是公正但不表态的主持人,要么是沉默但不发言的参与者一只在会议结束时板决策2)会议开始时,主持人要当众宣布会议规则·文明表达规则:禁止人身攻击,禁止怀疑动机。习惯和煸好时一件规则:同一时间只计论同一议题限时限次规则:同一何题,每个人尺能发言x次,每次y分钟发言完整规则:不得打断别人的正常发言(3)主持人宣布议题,交由仪題人迹4持人宜布针对一个议题开始讨论,参会者举手逐个发言5)#人官布开始对议讲行表决,并记录替成,反对,弃权.缺席6)主持人宣布议题讨论结果,并进入下一个议题。<br>
 7)会议尾声,领导总结和决策互动:请问,按照罗的特议事法则,下面这条议题表决通过了吗?<br>
@@ -198,12 +196,12 @@ A.地方小、观念落后,生活缺少质感,可能比较单调;B.事业发展�
 (3)对外饭局的目的是拉近关系,达成合作,如果你不是领导跟前的“红人”,或者不是跟项目相关的技术骨干,或者不是有“特殊本领”的饭桌达人,才没机会组织和参加对外饭嗣呐。<br>
 当然,升职加薪的好事更轮不到你这是一个人情社会,平时在办公室都端着架子严肃紧张,各各的事,饭局无非是营造一个不那么严肃,更容易起兴的氛围,酒也是这个作用不参与饭局怎么和领导在业务之外沟通感情呢?<br>
 如果我是新人,我会期待能多爹加这3种饭局号一被领导得上,很开心的好好表现吧<br>
-<img src="http://mj5219054.github.io/.github.io//post-images/1616743183964.jpg" alt="" loading="lazy"><br>
+<img src="https://mj5219054.github.io/.github.io//post-images/1616743183964.jpg" alt="" loading="lazy"><br>
 可以从三个方面考虑每一个职位。<br>
 第一，工作性质和内容<br>
 第二，和谁一起工作<br>
 第三，需要的技能或者入门门槛<br>
-<img src="http://mj5219054.github.io/.github.io//post-images/1617023114336.jpg" alt="" loading="lazy"><br>
+<img src="https://mj5219054.github.io/.github.io//post-images/1617023114336.jpg" alt="" loading="lazy"><br>
 是认清形势＋整合优化自己手上的资源＋方法得当，烂牌也能打好。<br>
 筹码如下: 外貌，性格情商，居家能力，事业能力。<br>
 手里有牌才有议价权。社交圈打开之后，需要向外界传达两个信息:<br>
@@ -225,7 +223,7 @@ A.地方小、观念落后,生活缺少质感,可能比较单调;B.事业发展�
 ——《放学后》<br>
 直觉、假定、洞察、验证、反证、迭代，六个阶段层层递进。<br>
 态度系统：1.行为本身2.行为意向3.行动观念4.情感反应5.态度本身。<br>
-<img src="http://mj5219054.github.io/.github.io//post-images/1617520734668.jpg" alt="" loading="lazy"><br>
+<img src="https://mj5219054.github.io/.github.io//post-images/1617520734668.jpg" alt="" loading="lazy"><br>
 三个各自不同又相互联系的层次：<br>
 第一，对个人的认知。<br>
 这里包括对自己和对他人各种心理活动和行为（如知觉、注意、记忆、推论、情感、动机、行为）及思想观点、个性品质等等的认知；<br>
@@ -242,13 +240,13 @@ A.地方小、观念落后,生活缺少质感,可能比较单调;B.事业发展�
 认知定义:理解、储存、回忆有关其他人社会行为信息的交叉记忆情感中体验方式。<br>
 人有几难，饥不择食，寒不择衣，慌不择路，贫不择妻。<br>
 试看书林隐处，几多俊逸儒流。虚名薄利不关愁，裁冰及剪雪，谈笑看吴钩。评议前并后帝，分真伪，占据中州，七雄扰扰乱春秋。兴亡如脆柳身世类虚舟。见成名无数，图名无数，更有那逃名无数。霎时新月下长川，江湖变桑田古路。讶求鱼缘木，拟穷猿择木，恐伤弓远之曲木。不如且复掌中杯，再听取新声曲度。</p>
-<p><img src="http://mj5219054.github.io/.github.io//post-images/1617089766925.jpg" alt="" loading="lazy"><br>
+<p><img src="https://mj5219054.github.io/.github.io//post-images/1617089766925.jpg" alt="" loading="lazy"><br>
 读书不是为了雄辩和驳斥，也不是为了轻信和盲从，而是为了思考和权衡。<br>
 日常生活里没有那么多惊心动魄的时刻，困顿的往往都是小事。需要考虑一日三餐，需要考虑自己的工资能不能养活自己，需要考虑柴米油盐酱醋茶，需要考虑一切平凡的生活。需要吃饭，需要爱，需要陪伴，脱离不了尘世，只能挣扎活着。<br>
 是无数普通而平凡的世界！<br>
 最难的时候，你是一个人。最难的时候，你也只能是一个人。<br>
 快乐有时候都没法和旁人分享，何况是难过呢。<br>
-<img src="http://mj5219054.github.io/.github.io//post-images/1617089831357.jpg" alt="" loading="lazy"><br>
+<img src="https://mj5219054.github.io/.github.io//post-images/1617089831357.jpg" alt="" loading="lazy"><br>
 血统：例如候选人的学历背景和工作背景等。<br>
 发展路径：包括晋升、职业流动的逻辑性等。晋升方面，会关注应聘者是在同一家企业获得不断晋升还是通过跳槽来实现晋升。<br>
 职业流动逻辑性，关注每次流动企业间的背景是否相当或者有所提升，考虑职业流动的逻辑性是否合理。<br>
@@ -265,7 +263,7 @@ A.地方小、观念落后,生活缺少质感,可能比较单调;B.事业发展�
 如果只是让员工工作，不告知工作的意义，日复一日重复工作，员工就会失去了成就感，要天天、有机会就和员工去讲工作的意义和价值，员工才会最大限度的发挥自身的潜力。<br>
 4、揭示高目标<br>
 要告知员工公司的使命和愿景。<br>
-<img src="http://mj5219054.github.io/.github.io//post-images/1617520723693.jpg" alt="" loading="lazy"><br>
+<img src="https://mj5219054.github.io/.github.io//post-images/1617520723693.jpg" alt="" loading="lazy"><br>
 例如在奥运会场馆搭建中你的角色只是其中某个组件的搭建，但我们要告诉他们，建筑未来的最终成果是什么样的？可以创造什么样的价值？那么强大的意志力就会发挥出来，组织就会产生巨大的能量，朝着梦想实现的方向前进，跨越一切障碍。<br>
 5、明确企业的使命<br>
 6、不断讲述哲学<br>
@@ -278,7 +276,7 @@ A.地方小、观念落后,生活缺少质感,可能比较单调;B.事业发展�
 黄色:价值、利益、好处<br>
 绿色:创造性和新主意<br>
 蓝色:对思考过程管理和控制<br>
-<img src="http://mj5219054.github.io/.github.io//post-images/1617520573271.jpg" alt="" loading="lazy"><br>
+<img src="https://mj5219054.github.io/.github.io//post-images/1617520573271.jpg" alt="" loading="lazy"><br>
 办公室政治，职场中的成功人士往往是掌握了办公室政治艺术的人。以下是让你从容应对办公室政治的七个好习惯：<br>
 选择权在于你<br>
 在办公室政治中最常见的反应是斗争与逃避。即使回到史前时代，这也是人类在野外生存的正常反应。职场是一个现代丛林，但仅靠本能反应是不足以赢得办公室政治的：斗争只会给你想要实现的目标带来更多的阻力，而逃避会让人们理所当然地把你看成弱者。两者都不利于健康的职业生涯发展。<br>
@@ -321,7 +319,7 @@ A.地方小、观念落后,生活缺少质感,可能比较单调;B.事业发展�
 建设人际关系的前提条件是信任。而信任的最本质的基础，是相信某人表里如一，是一个真实的人。<br>
 对别人感兴趣（而不只是让别人对自己感兴趣）<br>
 确实，有趣的人会得到关注，但我相信，对他人感兴趣的人，会得到感激，因为我们总是喜欢那些对自己有兴趣的人。<br>
-<img src="http://mj5219054.github.io/.github.io//post-images/1617964397124.jpg" alt="" loading="lazy"><br>
+<img src="https://mj5219054.github.io/.github.io//post-images/1617964397124.jpg" alt="" loading="lazy"><br>
 想像一下，当你去买商品时，销售员过来向你介绍产品。如果他在介绍产品之余，也同样关注如何能最好地帮助你，满足你的需要。你一定会对他有所好看，而这并非因为他是个有趣的人。相反的，如果那位销售员一位的称赞这是如何伟大的商品，结果肯定就完全两样了。事实上，现实生活中那些成功地销售员都是前者。<br>
 当你表示出对别人的兴趣，希望进一步了解他，不是出于可怕的好奇心，而是为了更好地提供帮助或服务，那对方就会很感激，觉得很荣幸。学会欣赏我们服务的对象，会增加我们所提供的服务的价值。<br>
 正确倾听以获取更多信息<br>
@@ -339,17 +337,17 @@ A.地方小、观念落后,生活缺少质感,可能比较单调;B.事业发展�
 守时<br>
 对多数人来说，他们拥有的时间，远远少于可以支配的收入。关心他人，给他们时间，这是一份最珍贵的礼物。通过守时、高效、迅捷的行为，节省他人的时间，会创造价值，变平庸为杰出。与他人的关系就等于你花在他们身上的时间，所以，一定要把你的时间用得最好，关心他人，为他们服务。<br>
 人、技术、过程、工具、<br>
-<img src="http://mj5219054.github.io/.github.io//post-images/1618207081552.jpg" alt="" loading="lazy"><br>
+<img src="https://mj5219054.github.io/.github.io//post-images/1618207081552.jpg" alt="" loading="lazy"><br>
 1  市场是人的需求形成的       2产品是给人做的   3项目是人做的人能掌握的技术才有实用性·<br>
 4人能执行的过程才能落地·         5 人能使用的工具才是好工具<br>
-<img src="http://mj5219054.github.io/.github.io//post-images/1618207261049.jpg" alt="" loading="lazy"><br>
+<img src="https://mj5219054.github.io/.github.io//post-images/1618207261049.jpg" alt="" loading="lazy"><br>
 以人为本&quot;,有5个基本原则:<br>
 1 看人行:看看工程师和用户的真实的工作情况     2听人言:倾听工程人员和用户来自一线的反馈;<br>
 3知人难:真实的感受他们的难处                4做人事:给他们推荐具有可执行性的流程和任务    5·说人话:用大家能够听懂的语言交流。    工程道德基础:诚信<br>
 将把工程中的各种人员,抽象为比较常见的几个角色然后从这些<br>
 角色的视角,组织工程的各种資源和要素:方法、过程、技术、<br>
 工具以便产生期待的结果:产品、质量哀得:客户和市场。<br>
-<img src="http://mj5219054.github.io/.github.io//post-images/1618207482873.jpg" alt="" loading="lazy"><br>
+<img src="https://mj5219054.github.io/.github.io//post-images/1618207482873.jpg" alt="" loading="lazy"><br>
 知识:主要靠学习。<br>
 技能:需要通过工作场景来训练·经验:需要实际的工作经历积素,尤其是失败的积累。<br>
 素养:需要思维方式和工作态度的培养,需要一个长期坚持、不断重复、形成习惯。<br>
@@ -357,7 +355,7 @@ A.地方小、观念落后,生活缺少质感,可能比较单调;B.事业发展�
 经验评价:对于经验的评价,应该基于工作的真实史记录素养评价:对于素养的评价,需要长期的记录、观察,并结合一些特定困难的考验<br>
 技能评测:技能具有隐形的特点,可以采用案例实践的方式进行评测。<br>
 道德反馈评价:对于素养的评价,需要长期的记录、观察,并结合一些待走困难的考验<br>
-<img src="http://mj5219054.github.io/.github.io//post-images/1618207705560.jpg" alt="" loading="lazy"><br>
+<img src="https://mj5219054.github.io/.github.io//post-images/1618207705560.jpg" alt="" loading="lazy"><br>
 工作流程作指南:一个工程全周期的过程指南,各个角色的工作指南<br>
 日常文档模板:需求文档、设计文档、开发文档、测试文档·<br>
 思考行为模型框架:需求模型、设计模型、代码模型、测试模型<br>
@@ -366,7 +364,7 @@ A.地方小、观念落后,生活缺少质感,可能比较单调;B.事业发展�
 ·评测题库:知识考题、训练任务、素养评测题库工程<br>
 视角的过程指南各个角色的工作流程指南各种工件的模板,<br>
 包括模型框架、文档模板、代码规范、测试规范·各种工作原则<br>
-<img src="http://mj5219054.github.io/.github.io//post-images/1618208008950.jpg" alt="" loading="lazy"><br>
+<img src="https://mj5219054.github.io/.github.io//post-images/1618208008950.jpg" alt="" loading="lazy"><br>
 作品实际上是个人的独白，是一些发出的信。我觉得自己太缺少与人交流的机会——我相信，这是写严肃文学的人共同的体会。但是这个世界上除了有自己，还有别人；除了身边的人，还有整个人类。<br>
 写作的意义，就在于与人交流。因为这个缘故，我一直在写。<br>
 《王小波全集》<br>
@@ -374,7 +372,7 @@ A.地方小、观念落后,生活缺少质感,可能比较单调;B.事业发展�
 1、用户思维。2、简约思维。3、极致思维。4、迭代思维。5、流量思维。6、社会化思维。7、大数据思维。8、平台思维。9、跨界思维。<br>
 互联网思维的四个核心观点：<br>
 1、用户至上。2、体验为王。3、免费的商业模式。4、颠覆式创新。”<br>
-<img src="http://mj5219054.github.io/.github.io//post-images/1618466354740.jpg" alt="" loading="lazy"><br>
+<img src="https://mj5219054.github.io/.github.io//post-images/1618466354740.jpg" alt="" loading="lazy"><br>
 与领导沟通的极简原则：<br>
 一、不怕说话<br>
 稍有管理常识的领导都能明白，说错话的员工有价值，因为错了可以改；不说话的员工没价值，要不是没想法、要不是懒得想。领导最头痛的就是开会时，每提到一个问题，下面就鸦雀无声。有互动才有沟通，有沟通信息才能流动。信息向下流动，计划才能执行；信息向上流动，异常才能反馈。</p>
@@ -403,7 +401,7 @@ A.地方小、观念落后,生活缺少质感,可能比较单调;B.事业发展�
 围绕这三句话，主动去沟通，说话之前先动脑，说话之后把话记牢<br>
 我梦想这样一个社会，人们会凝视天空，望向火车的窗外，关掉电子设备，不再给孩子吃垃圾食品，关掉电视和电脑，再吃回到三维立体的世界。在这个社会里，我们无聊的时候就探索自己的思想和灵魂，甚至探索他人的思想和灵魂。我梦想着工作的时间里能真正地融入“停机时间”，我们可以扯断那些禁锢我们，让我们依赖被动刺激的虚拟绳索，用我们的创造力和想象力自由高飞。社会总在力图消除我们生活中的每一丝无聊，我们习惯于每时每刻充满刺激的生活，但随之而来的，是我们的无聊阈值越来越低，也就越来越容易感到无聊了，所以无聊催生无聊。喝咖啡和听音乐、睡觉，泡澡，会使无聊感来得慢一些。锻炼能够积极应对倦怠和焦躁，简单重复孕育了无聊，无聊的注意理论强调，当某个任务无法提供足够的刺激让我们集中注意力时，我们就感到了无聊。注意力分散是无聊体验中重要的一部分。一个人感到无聊了，你能做的最坏的事情是用更加刺激的东西来应对这种情况。抵抗学生的无聊，我们需要对教学理念进行一场革命，例如，学生们互相辅导（同伴教学法），老师和学生一起创造适合自己的知识，这样老师们就变成了学习过程中的伙伴，鼓励徐盛为自己的学习旅程负责，最容易造成工作无聊的是重复性工作和循规蹈矩。世界上没有绝对无聊的工作。全球开始流行的“自我指导”或者自我实现也代表着我们在工作中需要更多的精神激发和自主权。把工作“玩”起来！<br>
 当人们需要“付出主观努力来维持注意力”的时候就是感到无聊了。无聊特质的分类和解释：自我为中心，过度关注自己的谈话，在别人看来就很难投入。<br>
-<img src="http://mj5219054.github.io/.github.io//post-images/1618930170629.jpg" alt="" loading="lazy"></li>
+<img src="https://mj5219054.github.io/.github.io//post-images/1618930170629.jpg" alt="" loading="lazy"></li>
 </ol>
 <p>第一页：公司目标</p>
 <p>用一句最简单的话来定义公司的目标。或者说用一句话说清楚你到底是要做一个什么事情，如果一句话讲不清楚这件事，要么这不是一个真正值得做的事，要么就是你还没有想清楚。<br>
@@ -487,67 +485,187 @@ eg:比如我们还是以滴滴为例，在过去用户的痛点很简单，就�
 技术不复杂。之所以大众觉得技术很复杂，要敬而远之，多半是因为两个原因，一是搞这项技术的人自己都没整明白，所以无法总结出简炼的语言；二是这项技术发展还很早期，所有人都还没整明白，所有人都在不知所云，比如十年前谈论云计算和大数据，都在不知所云。所以如果有个人给你讲技术听不懂，别担心，不是你的问题，是讲的那个人的问题。</p>
 <p>**  一个人日后人生的大部分智慧**，都是在少年时与自己独处的时光——阅读、学习、好奇、观察、做梦、想象、沉思里滋养出来的。**</p>
 <p>[Github]（https://github.com/https-github-com-mj521905）<br>
-<img src="http://mj5219054.github.io/.github.io//post-images/1616741309016.png" alt="" loading="lazy"><br>
+<img src="https://mj5219054.github.io/.github.io//post-images/1616741309016.png" alt="" loading="lazy"><br>
 🌱 当然 <strong>叶子</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃<br>
 未来，它一定会成为你离不开的伙伴<br>
 尽情发挥你的才华吧！<br>
 😘 ~</p>
 
             </div>
-            
-              <div class="tag-container">
-                
-                  <a href="http://mj5219054.github.io/.github.io/tag/cheng-chang-de-de-xuan-ze/" class="tag">
-                    成长的的选择
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="http://mj5219054.github.io/.github.io/post/4QaQ604j9/">
-                  <h3 class="post-title">
-                                                     岁月
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
-
-              
-            
-
-          </div>
-
+          </article>
         </div>
+        <div class="paper" data-aos="fade-in">
+          
+            <div class="next-post">
+              <div class="next">
+                下一篇
+              </div>
+              <a href="https://mj5219054.github.io/.github.io/post/4QaQ604j9/">
+                <h3 class="post-title">
+                                                   岁月
+                </h3>
+              </a>
+            </div>
+          
+        </div>
+        
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
+          
+
+          
+        
       </div>
+
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://mj5219054.github.io/.github.io//images/avatar.png?v=1619105130936" class="no-responsive avatar">
+    <div class="text-muted">个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</div>
+    <div class="social-container">
+      
+        
+          <a href="https://github.com/https-github-com-mj521905" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://mj5219054.github.io/.github.io/post/gong-zuo-xuan-ze/">   工作选择</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mj5219054.github.io/.github.io/post/4QaQ604j9/">                                 岁月</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mj5219054.github.io/.github.io/post/t8MYAq2EI/">                            商论</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mj5219054.github.io/.github.io/post/_cJ-expm3/">                                     日记</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mj5219054.github.io/.github.io/post/4/">                           烂尾工程</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mj5219054.github.io/.github.io/post/wen-ming-you-xi/">                                   文明游戏 </a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mj5219054.github.io/.github.io/post/da-/">                      打工是不可能富有的</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mj5219054.github.io/.github.io/post/ji-neng/">                                      技能</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mj5219054.github.io/.github.io/post/du-shi-tu-qing-xing-que-you-du-zui-zai-yi-xie-meng-zhong/">           都试图清醒，却又都醉在一些梦中。</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mj5219054.github.io/.github.io/post/ren-ji-guan-xi/">                              人际关系 </a>
+            </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+        <a href="https://mj5219054.github.io/.github.io/tag/cheng-chang-de-de-xuan-ze/" class="badge warning">
+          成长的的选择
+        </a>
+      
+        <a href="https://mj5219054.github.io/.github.io/tag/f7uvvrkDK/" class="badge secondary">
+          Gridea
+        </a>
+      
+        <a href="https://mj5219054.github.io/.github.io/tag/fan-nao-he-jue-ze/" class="badge secondary">
+          烦恼和抉择
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+    Powered by Gridea, © 2014 - 2021 Copyright 叶子. All Rights Reserved.  | <a class="rss" href="https://mj5219054.github.io/.github.io//atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
+
+
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
 <script type="application/javascript">
 
 AOS.init();
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+hljs.initHighlightingOnLoad()
 
 </script>
-
-
-  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad()
-  </script>
-
 
 
 
