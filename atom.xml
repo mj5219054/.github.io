@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mj5219054.github.io</id>
     <title>叶子</title>
-    <updated>2021-04-24T13:45:42.071Z</updated>
+    <updated>2021-04-25T15:28:31.468Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mj5219054.github.io"/>
     <link rel="self" href="https://mj5219054.github.io/atom.xml"/>
@@ -18,6 +18,13 @@
         <updated>2021-06-11T16:41:41.000Z</updated>
     </entry>
     <entry>
+        <title type="html"><![CDATA[                            管理与领导的艺术]]></title>
+        <id>https://mj5219054.github.io/post/guan-li-yu-4/</id>
+        <link href="https://mj5219054.github.io/post/guan-li-yu-4/">
+        </link>
+        <updated>2021-04-25T08:40:47.000Z</updated>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[                                 岁月]]></title>
         <id>https://mj5219054.github.io/post/4QaQ604j9/</id>
         <link href="https://mj5219054.github.io/post/4QaQ604j9/">
@@ -30,12 +37,5 @@
         <link href="https://mj5219054.github.io/post/t8MYAq2EI/">
         </link>
         <updated>2021-04-16T11:04:50.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[                                     日记]]></title>
-        <id>https://mj5219054.github.io/post/_cJ-expm3/</id>
-        <link href="https://mj5219054.github.io/post/_cJ-expm3/">
-        </link>
-        <updated>2021-04-16T08:54:06.000Z</updated>
     </entry>
 </feed>
