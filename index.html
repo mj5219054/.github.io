@@ -2,120 +2,621 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Gridea</title>
-<link rel="shortcut icon" href="https://https://mj5219054.github.io/usernam.GitHub.io-GitHub.io//favicon.ico?v=1616168828405">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://https://mj5219054.github.io/usernam.GitHub.io-GitHub.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Gridea - Atom Feed" href="https://https://mj5219054.github.io/usernam.GitHub.io-GitHub.io//atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+<title>叶子</title>
+<meta name="description" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。" />
+<link rel="shortcut icon" href="https://mj5219054.github.io/favicon.ico">
+<link rel="stylesheet" href="https://mj5219054.github.io/styles/main.css">
 
-
-
-    <meta name="description" content="温故而知新" />
+<script src="https://mj5219054.github.io/media/js/jquery.min.js"></script>
+<script src="https://mj5219054.github.io/media/js/masonry.pkgd.min.js"></script>
+<script src="https://mj5219054.github.io/media/js/aos.js"></script>
+<script src="https://mj5219054.github.io/media/js/pace.min.js"></script>
+<script src="https://mj5219054.github.io/media/js/view-image.min.js"></script>
+<script src="https://mj5219054.github.io/media/js/jquery.magnific-popup.min.js"></script>
+<script src="https://mj5219054.github.io/media/js/functions.js"></script>
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://https://mj5219054.github.io/usernam.GitHub.io-GitHub.io/">
-  <img class="avatar" src="https://https://mj5219054.github.io/usernam.GitHub.io-GitHub.io//images/avatar.png?v=1616168828405" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
+    <!-- start: #wrapper -->
+    <div class="wrapper">
       
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-</div>
+            <header id="header" class="grid-container">
+        <!-- start: .menu-wrapper -->
+        <div class="menu-mobile"> 
+          <i class="fa fa-reorder"></i>
+        </div>
+        <div class="menu-wrapper">
+          <div class="">
+            <div class="logo">
+              <a href="https://mj5219054.github.io"><img src="\media\images\custom-headerLogo.jpg" alt=""></a>
+            </div>
+            <!-- start: .main-nav -->
 
-    
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://https://mj5219054.github.io/usernam.GitHub.io-GitHub.io/post/hello-gridea/">
-        <h2 class="post-title">Hello Gridea</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2018-12-12
-        </span>
-        <span>
-          2 min read
-        </span>
+            <nav class="main-nav grid-container grid-parent">
+              <ul id="menu-header" class="menu gradient-effect">
+                <li class="current-menu-item"><a href="https://mj5219054.github.io" class="menu">首页</a></li>
+                
+                  <li class="" >
+                    <a href="https://mj5219054.github.io" class="menu">
+                      首页
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="https://mj5219054.github.io/archives" class="menu">
+                      归档
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="https://mj5219054.github.io/tags" class="menu">
+                      标签
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="https://mj5219054.github.io/post/about" class="menu">
+                      关于
+                    </a>
+                  </li>
+                
+                <li class="search-menu-item hide-on-mobile hide-on-tablet"><a href="#search-lightbox" class="lightbox mfp-inline"><i class="fa fa-search-line"></i></a></li>
+              </ul>
+            </nav>
+            <a href="#search-lightbox" class="lightbox epcl-search-button mfp-inline hide-on-tablet hide-on-desktop"><i class="fa fa-search-line"></i></a>
+            <!-- end: .main-nav -->
+            <div class="clear"></div>
+            <div class="border hide-on-tablet hide-on-mobile"></div>
+          </div>    
+          <div class="clear"></div>
+        </div>
+        <!-- end: .menu-wrapper -->
+        <div class="clear"></div>
+      </header>
+      <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
+        <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
+          <div class="search-wrapper section">
+            <form id="gridea-search-form" data-update="1620568509516" action="/search/index.html" class="search-form" _lpchecked="1">
+              <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
+              <button type="submit" class="submit" aria-label="Submit">
+                <i class="fa fa-search-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <main id="home" class="main">
+        <div class="grid-container module-wrapper enable-masonry aos-init aos-animate" data-aos="fade-up">
+        <div class="row">
+          <div class="content-wrapper grid-posts content">
+                
+            <!-- start: .articles -->
+            
+              
+              
+              <div class="articles columns-3">
+                
+                <article class="bgstyle grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry" style="">
+                  <div class="article-wrapper  cover" style="background-image: url('https://mj5219054.github.io/post-images/gong-zuo-xuan-ze.jpg');">
+                  <header>
+                    
+                      <div class="tags absolute">
+                        <a href="https://mj5219054.github.io/tag/cheng-chang-de-de-xuan-ze/" class="ctag ctag-0 ctag-cheng-chang-de-de-xuan-ze">成长的的选择</a>
+                      </div>
+                    
+                    <div class="meta">
+                      <time datetime="2021-06-12"><i class="fa fa-calendar"></i><span class="lately">1 个月内</span></time>
+                      <div class="clear"></div>
+                    </div>
+                    <h1 class="title main-title gradient-effect"><a href="https://mj5219054.github.io/post/gong-zuo-xuan-ze/">   工作选择</a></h1>
+                  </header>
+                  <footer class="author-meta">
+                    <a href="" class="author" title="">
+                      <span class="author-image cover" style="background-image: url('https://mj5219054.github.io/images/avatar.png');"></span>
+                      <span class="author-name">叶子</span>
+                    </a>
+                    
+                    <a href="https://mj5219054.github.io/post/gong-zuo-xuan-ze/#comments" class="comments meta-info alignright" title="">
+                      <span class="comment-count valine-comment-count" data-xid="/gong-zuo-xuan-ze/"> </span><i class="fa fa-comment"></i>
+                    </a>
+                    <div id="/gong-zuo-xuan-ze/" class="leancloud_visitors views-counter meta-info alignright" title=""><span class="leancloud-visitors-count" style="vertical-align: middle;"></span><i class="fa fa-leancloud"></i></div>
+                    
+                    <div class="clear"></div>
+                  </footer>
+                  <div class="overlay"></div>       
+                </div>
+              </article>
+                
+              
+              
+              
+              
+                
+                <article class="bgstyle grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry" style="">
+                  <div class="article-wrapper  cover" style="background-image: url('https://mj5219054.github.io/post-images/zhi-y.jpeg');">
+                  <header>
+                    
+                    <div class="meta">
+                      <time datetime="2021-05-01"><i class="fa fa-calendar"></i><span class="lately">9 天前</span></time>
+                      <div class="clear"></div>
+                    </div>
+                    <h1 class="title main-title gradient-effect"><a href="https://mj5219054.github.io/post/zhi-y/">                                     职业</a></h1>
+                  </header>
+                  <footer class="author-meta">
+                    <a href="" class="author" title="">
+                      <span class="author-image cover" style="background-image: url('https://mj5219054.github.io/images/avatar.png');"></span>
+                      <span class="author-name">叶子</span>
+                    </a>
+                    
+                    <a href="https://mj5219054.github.io/post/zhi-y/#comments" class="comments meta-info alignright" title="">
+                      <span class="comment-count valine-comment-count" data-xid="/zhi-y/"> </span><i class="fa fa-comment"></i>
+                    </a>
+                    <div id="/zhi-y/" class="leancloud_visitors views-counter meta-info alignright" title=""><span class="leancloud-visitors-count" style="vertical-align: middle;"></span><i class="fa fa-leancloud"></i></div>
+                    
+                    <div class="clear"></div>
+                  </footer>
+                  <div class="overlay"></div>       
+                </div>
+              </article>
+                
+              
+              
+              
+              
+                
+                <article class="bgstyle grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry" style="">
+                  <div class="article-wrapper  cover" style="background-image: url('https://mj5219054.github.io/post-images/fa-gui-ze.jpg');">
+                  <header>
+                    
+                    <div class="meta">
+                      <time datetime="2021-04-29"><i class="fa fa-calendar"></i><span class="lately">10 天前</span></time>
+                      <div class="clear"></div>
+                    </div>
+                    <h1 class="title main-title gradient-effect"><a href="https://mj5219054.github.io/post/fa-gui-ze/">                                          法+规则</a></h1>
+                  </header>
+                  <footer class="author-meta">
+                    <a href="" class="author" title="">
+                      <span class="author-image cover" style="background-image: url('https://mj5219054.github.io/images/avatar.png');"></span>
+                      <span class="author-name">叶子</span>
+                    </a>
+                    
+                    <a href="https://mj5219054.github.io/post/fa-gui-ze/#comments" class="comments meta-info alignright" title="">
+                      <span class="comment-count valine-comment-count" data-xid="/fa-gui-ze/"> </span><i class="fa fa-comment"></i>
+                    </a>
+                    <div id="/fa-gui-ze/" class="leancloud_visitors views-counter meta-info alignright" title=""><span class="leancloud-visitors-count" style="vertical-align: middle;"></span><i class="fa fa-leancloud"></i></div>
+                    
+                    <div class="clear"></div>
+                  </footer>
+                  <div class="overlay"></div>       
+                </div>
+              </article>
+                
+              
+              
+              
+              
+                
+                <article class="bgstyle grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry" style="">
+                  <div class="article-wrapper  cover" style="background-image: url('https://mj5219054.github.io/post-images/guan-li-yu-4.png');">
+                  <header>
+                    
+                    <div class="meta">
+                      <time datetime="2021-04-25"><i class="fa fa-calendar"></i><span class="lately">14 天前</span></time>
+                      <div class="clear"></div>
+                    </div>
+                    <h1 class="title main-title gradient-effect"><a href="https://mj5219054.github.io/post/guan-li-yu-4/">                            管理与领导的艺术</a></h1>
+                  </header>
+                  <footer class="author-meta">
+                    <a href="" class="author" title="">
+                      <span class="author-image cover" style="background-image: url('https://mj5219054.github.io/images/avatar.png');"></span>
+                      <span class="author-name">叶子</span>
+                    </a>
+                    
+                    <a href="https://mj5219054.github.io/post/guan-li-yu-4/#comments" class="comments meta-info alignright" title="">
+                      <span class="comment-count valine-comment-count" data-xid="/guan-li-yu-4/"> </span><i class="fa fa-comment"></i>
+                    </a>
+                    <div id="/guan-li-yu-4/" class="leancloud_visitors views-counter meta-info alignright" title=""><span class="leancloud-visitors-count" style="vertical-align: middle;"></span><i class="fa fa-leancloud"></i></div>
+                    
+                    <div class="clear"></div>
+                  </footer>
+                  <div class="overlay"></div>       
+                </div>
+              </article>
+                
+              
+              
+              
+              
+                
+                <article class="bgstyle grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry" style="">
+                  <div class="article-wrapper  cover" style="background-image: url('https://mj5219054.github.io/post-images/4QaQ604j9.png');">
+                  <header>
+                    
+                    <div class="meta">
+                      <time datetime="2021-04-19"><i class="fa fa-calendar"></i><span class="lately">20 天前</span></time>
+                      <div class="clear"></div>
+                    </div>
+                    <h1 class="title main-title gradient-effect"><a href="https://mj5219054.github.io/post/4QaQ604j9/">                                 岁月</a></h1>
+                  </header>
+                  <footer class="author-meta">
+                    <a href="" class="author" title="">
+                      <span class="author-image cover" style="background-image: url('https://mj5219054.github.io/images/avatar.png');"></span>
+                      <span class="author-name">叶子</span>
+                    </a>
+                    
+                    <a href="https://mj5219054.github.io/post/4QaQ604j9/#comments" class="comments meta-info alignright" title="">
+                      <span class="comment-count valine-comment-count" data-xid="/4QaQ604j9/"> </span><i class="fa fa-comment"></i>
+                    </a>
+                    <div id="/4QaQ604j9/" class="leancloud_visitors views-counter meta-info alignright" title=""><span class="leancloud-visitors-count" style="vertical-align: middle;"></span><i class="fa fa-leancloud"></i></div>
+                    
+                    <div class="clear"></div>
+                  </footer>
+                  <div class="overlay"></div>       
+                </div>
+              </article>
+                
+              
+              
+              
+              
+                
+                <article class="bgstyle grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry" style="">
+                  <div class="article-wrapper  cover" style="background-image: url('https://mj5219054.github.io/post-images/t8MYAq2EI.jpg');">
+                  <header>
+                    
+                    <div class="meta">
+                      <time datetime="2021-04-16"><i class="fa fa-calendar"></i><span class="lately">23 天前</span></time>
+                      <div class="clear"></div>
+                    </div>
+                    <h1 class="title main-title gradient-effect"><a href="https://mj5219054.github.io/post/t8MYAq2EI/">                            商论</a></h1>
+                  </header>
+                  <footer class="author-meta">
+                    <a href="" class="author" title="">
+                      <span class="author-image cover" style="background-image: url('https://mj5219054.github.io/images/avatar.png');"></span>
+                      <span class="author-name">叶子</span>
+                    </a>
+                    
+                    <a href="https://mj5219054.github.io/post/t8MYAq2EI/#comments" class="comments meta-info alignright" title="">
+                      <span class="comment-count valine-comment-count" data-xid="/t8MYAq2EI/"> </span><i class="fa fa-comment"></i>
+                    </a>
+                    <div id="/t8MYAq2EI/" class="leancloud_visitors views-counter meta-info alignright" title=""><span class="leancloud-visitors-count" style="vertical-align: middle;"></span><i class="fa fa-leancloud"></i></div>
+                    
+                    <div class="clear"></div>
+                  </footer>
+                  <div class="overlay"></div>       
+                </div>
+              </article>
+                
+              
+              
+              
+              
+                
+                <article class="bgstyle grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry" style="">
+                  <div class="article-wrapper  cover" style="background-image: url('https://mj5219054.github.io/post-images/_cJ-expm3.jpg');">
+                  <header>
+                    
+                    <div class="meta">
+                      <time datetime="2021-04-16"><i class="fa fa-calendar"></i><span class="lately">23 天前</span></time>
+                      <div class="clear"></div>
+                    </div>
+                    <h1 class="title main-title gradient-effect"><a href="https://mj5219054.github.io/post/_cJ-expm3/">                                     日记</a></h1>
+                  </header>
+                  <footer class="author-meta">
+                    <a href="" class="author" title="">
+                      <span class="author-image cover" style="background-image: url('https://mj5219054.github.io/images/avatar.png');"></span>
+                      <span class="author-name">叶子</span>
+                    </a>
+                    
+                    <a href="https://mj5219054.github.io/post/_cJ-expm3/#comments" class="comments meta-info alignright" title="">
+                      <span class="comment-count valine-comment-count" data-xid="/_cJ-expm3/"> </span><i class="fa fa-comment"></i>
+                    </a>
+                    <div id="/_cJ-expm3/" class="leancloud_visitors views-counter meta-info alignright" title=""><span class="leancloud-visitors-count" style="vertical-align: middle;"></span><i class="fa fa-leancloud"></i></div>
+                    
+                    <div class="clear"></div>
+                  </footer>
+                  <div class="overlay"></div>       
+                </div>
+              </article>
+                
+              
+              
+              
+              
+                
+                <article class="bgstyle grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry" style="">
+                  <div class="article-wrapper  cover" style="background-image: url('https://mj5219054.github.io/post-images/4.jpg');">
+                  <header>
+                    
+                    <div class="meta">
+                      <time datetime="2021-04-11"><i class="fa fa-calendar"></i><span class="lately">1 个月前</span></time>
+                      <div class="clear"></div>
+                    </div>
+                    <h1 class="title main-title gradient-effect"><a href="https://mj5219054.github.io/post/4/">                           烂尾工程</a></h1>
+                  </header>
+                  <footer class="author-meta">
+                    <a href="" class="author" title="">
+                      <span class="author-image cover" style="background-image: url('https://mj5219054.github.io/images/avatar.png');"></span>
+                      <span class="author-name">叶子</span>
+                    </a>
+                    
+                    <a href="https://mj5219054.github.io/post/4/#comments" class="comments meta-info alignright" title="">
+                      <span class="comment-count valine-comment-count" data-xid="/4/"> </span><i class="fa fa-comment"></i>
+                    </a>
+                    <div id="/4/" class="leancloud_visitors views-counter meta-info alignright" title=""><span class="leancloud-visitors-count" style="vertical-align: middle;"></span><i class="fa fa-leancloud"></i></div>
+                    
+                    <div class="clear"></div>
+                  </footer>
+                  <div class="overlay"></div>       
+                </div>
+              </article>
+                
+              
+              
+              
+              
+                
+                <article class="bgstyle grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry" style="">
+                  <div class="article-wrapper  cover" style="background-image: url('https://mj5219054.github.io/post-images/wen-ming-you-xi.jpg');">
+                  <header>
+                    
+                    <div class="meta">
+                      <time datetime="2021-04-10"><i class="fa fa-calendar"></i><span class="lately">1 个月前</span></time>
+                      <div class="clear"></div>
+                    </div>
+                    <h1 class="title main-title gradient-effect"><a href="https://mj5219054.github.io/post/wen-ming-you-xi/">                                   文明游戏 </a></h1>
+                  </header>
+                  <footer class="author-meta">
+                    <a href="" class="author" title="">
+                      <span class="author-image cover" style="background-image: url('https://mj5219054.github.io/images/avatar.png');"></span>
+                      <span class="author-name">叶子</span>
+                    </a>
+                    
+                    <a href="https://mj5219054.github.io/post/wen-ming-you-xi/#comments" class="comments meta-info alignright" title="">
+                      <span class="comment-count valine-comment-count" data-xid="/wen-ming-you-xi/"> </span><i class="fa fa-comment"></i>
+                    </a>
+                    <div id="/wen-ming-you-xi/" class="leancloud_visitors views-counter meta-info alignright" title=""><span class="leancloud-visitors-count" style="vertical-align: middle;"></span><i class="fa fa-leancloud"></i></div>
+                    
+                    <div class="clear"></div>
+                  </footer>
+                  <div class="overlay"></div>       
+                </div>
+              </article>
+                
+              
+              
+              
+              
+                
+              <article class="default grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry">
+                <div class="article-wrapper">
+                  <header>
+                    <div class="post-format-image post-format-wrapper">
+                      <div class="featured-image">
+                        <a href="https://mj5219054.github.io/post/da-/" class="thumb hover-effect">
+                          <span class="fullimage cover" role="img" aria-label="" style="background-image: url('https://mj5219054.github.io/post-images/da-.png');"></span>
+                        </a>
+                        
+                      </div>
+                    </div>                    
+                    <div class="meta">
+                      <time datetime="2021-04-10"><i class="fa fa-calendar"></i><span class="lately">1 个月前</span></time>
+                      <div class="clear"></div>
+                    </div>
+
+                    <h1 class="title main-title gradient-effect"><a href="https://mj5219054.github.io/post/da-/">                      打工是不可能富有的</a></h1>
+                  </header>
+
+                  <div class="post-excerpt">
+                      <p><img src="https://mj5219054.github.io/post-images/1618048239146.jpg" alt="" loading="lazy"><br>
+** 贫穷的悲哀在于，钱成为他生活的全部，没有温暖，没有人情味，更没有什么人文关怀，剩下的只有人与人之间的算计和揣度。  贫穷的悲哀在于，让人忘了生活的本质：钱的存在是为了让我们生活得更美好。贫穷最悲哀的地方，是总觉得什么事情，只能拿命挡，命比纸还贱**<br>
+<strong>“人跟人能比吗？比不赢的只有去一头碰死，谁叫他不当厅长？厅里是个好码头，人就是要停靠个好码头，不用说赤脚医生，我要是到人汽公司去开车，累了几倍，钱还要掉下来一大截！码头不同！厕所里的老鼠吃屎，见了人到处窜，仓库里的老鼠吃谷，见了人大摇大摆，码头不同！</strong><br>
+穷人不该以花钱的方式帮富人的忙，体弱的人不该以出力的方式帮强壮的人忙.穷就是穷。多数人的因穷而苦，只是为他自己的游移、愚昧、偏狭、盲从承受的必然代价而已。</p>
+
+                    <div class="clear"></div>
+                  </div>
+
+                  <footer class="author-meta">
+                    <a href="" class="author" title="">
+                      <span class="author-image cover" style="background-image: url('https://mj5219054.github.io/images/avatar.png');"></span>
+                      <span class="author-name">叶子</span>
+                    </a>
+                    
+                    <a href="https://mj5219054.github.io/post/da-/#comments" class="comments meta-info alignright" title="">
+                      <span class="comment-count valine-comment-count" data-xid="/da-/"> </span><i class="fa fa-comment"></i>
+                    </a>
+                    <div id="/da-/" class="leancloud_visitors views-counter meta-info alignright" title=""><span class="leancloud-visitors-count" style="vertical-align: middle;"></span><i class="fa fa-leancloud"></i></div>
+                    
+                    <div class="clear"></div>
+                  </footer>
+                  <div class="border"></div>       
+                </div>
+              </article>
+                
+              
+              
+              <div class="clear"></div>
+              <div class="separator last hide-on-tablet hide-on-mobile"></div>
+            </div>
+            <!-- end: .articles -->
+            
+                        <div class="epcl-pagination section">
+              <div class="nav">
+                
+                
+                  <a href="https://mj5219054.github.io/page/2" class="next button red">下一页</a>
+                
+              </div>
+            </div>
+
+            
+          </div>
+          </div>
+        </div>
+      </main>
+
+        <footer id="footer" class="grid-container">
+        <div class="widgets row gradient-effect">
+            <div class="default-sidebar border-effect">
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_epcl_posts_thumbs underline-effect">
+                  <h4 class="widget-title title white bordered">最新文章</h4>
+                  
+                  
+                  <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://mj5219054.github.io/post/gong-zuo-xuan-ze/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://mj5219054.github.io/post-images/gong-zuo-xuan-ze.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2021-06-12">2021-06-12</time>
+                      <h4 class="title usmall">
+                        <a href="https://mj5219054.github.io/post/gong-zuo-xuan-ze/">   工作选择</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://mj5219054.github.io/post/zhi-y/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://mj5219054.github.io/post-images/zhi-y.jpeg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2021-05-01">2021-05-01</time>
+                      <h4 class="title usmall">
+                        <a href="https://mj5219054.github.io/post/zhi-y/">                                     职业</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://mj5219054.github.io/post/fa-gui-ze/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://mj5219054.github.io/post-images/fa-gui-ze.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2021-04-29">2021-04-29</time>
+                      <h4 class="title usmall">
+                        <a href="https://mj5219054.github.io/post/fa-gui-ze/">                                          法+规则</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <div class="clear"></div>
+                </section>
+              </div>
+
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_tag_cloud underline-effect">
+                  <h4 class="widget-title title white bordered">标签云</h4>
+                  <div class="tagcloud">
+                    
+                      <a href="https://mj5219054.github.io/tag/cheng-chang-de-de-xuan-ze/" class="ctag ctag-0 ctag-cheng-chang-de-de-xuan-ze" aria-label="">成长的的选择</a>
+                    
+                      <a href="https://mj5219054.github.io/tag/f7uvvrkDK/" class="ctag ctag-1 ctag-f7uvvrkDK" aria-label="">Gridea</a>
+                    
+                      <a href="https://mj5219054.github.io/tag/fan-nao-he-jue-ze/" class="ctag ctag-2 ctag-fan-nao-he-jue-ze" aria-label="">烦恼和抉择</a>
+                    
+                  </div>
+                  <div class="clear"></div>
+                </section>
+              </div>
+
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="epcl_about-2" class="widget widget_epcl_about underline-effect">
+                  <h4 class="widget-title title white bordered">关于我</h4>
+                  <div class="avatar">
+                    <a href="" class="translate-effect thumb"><span class="fullimage cover" style="background-image: url(https://mj5219054.github.io/images/avatar.png);"></span></a>
+                  </div>
+                  <div class="info">
+                    <h4 class="title small author-name gradient-effect no-margin"><a href="">叶子</a></h4>
+                    <p class="founder">个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</p>
+                    <div class="social">
+                      
+                          
+                            <a href="https://github.com/mj5219054" class="translate-effect" target="_blank"><i class="fa fa-github"></i></a>
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                    </div> 
+                  </div>
+                  <div class="clear"></div>
+                  </section>
+              </div>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="logo">
+          <a href="https://mj5219054.github.io"><img src="\media\images\custom-footerLogo.jpg" alt=""></a>
+        </div>
+        <p class="published border-effect">
+          ©2019 共 22 篇文章
+          <br/>
+          Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
+        </p>
         
-          <a href="https://https://mj5219054.github.io/usernam.GitHub.io-GitHub.io/tag/f7uvvrkDK/" class="post-tag">
-            # Gridea
-          </a>
-        
-      </div>
-      
-        <a href="https://https://mj5219054.github.io/usernam.GitHub.io-GitHub.io/post/hello-gridea/" class="post-feature-image" style="background-image: url('https://https://mj5219054.github.io/usernam.GitHub.io-GitHub.io//post-images/hello-gridea.png')">
+        <a href="javascript:void(0)" id="back-to-top" class="epcl-button dark" style="display:none">
+          <i class="fa fa-arrow"></i>
         </a>
-      
-      <div class="post-abstract">
-        <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-
-      </div>
-    </article>
-  
-</div>
-
+    </footer>
     
-        <div class="pagination-container">
-  
-  
-</div>
+    <div class="clear"></div>
 
-    
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://https://mj5219054.github.io/usernam.GitHub.io-GitHub.io//atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
+        
 
-      </div>
     </div>
+    <!-- end: #wrapper -->
   </body>
 </html>

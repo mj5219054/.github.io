@@ -1,45 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://https://mj5219054.github.io/usernam.GitHub.io-GitHub.io/</id>
-    <title>Gridea</title>
-    <updated>2021-03-19T15:47:12.013Z</updated>
+    <id>https://mj5219054.github.io</id>
+    <title>叶子</title>
+    <updated>2021-05-09T13:55:16.912Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://https://mj5219054.github.io/usernam.GitHub.io-GitHub.io/"/>
-    <link rel="self" href="https://https://mj5219054.github.io/usernam.GitHub.io-GitHub.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
-    <logo>https://https://mj5219054.github.io/usernam.GitHub.io-GitHub.io/images/avatar.png</logo>
-    <icon>https://https://mj5219054.github.io/usernam.GitHub.io-GitHub.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Gridea</rights>
+    <link rel="alternate" href="https://mj5219054.github.io"/>
+    <link rel="self" href="https://mj5219054.github.io/atom.xml"/>
+    <subtitle>个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</subtitle>
+    <logo>https://mj5219054.github.io/images/avatar.png</logo>
+    <icon>https://mj5219054.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2021, 叶子</rights>
     <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://https://mj5219054.github.io/usernam.GitHub.io-GitHub.io/post/hello-gridea/</id>
-        <link href="https://https://mj5219054.github.io/usernam.GitHub.io-GitHub.io/post/hello-gridea/">
+        <title type="html"><![CDATA[   工作选择]]></title>
+        <id>https://mj5219054.github.io/post/gong-zuo-xuan-ze/</id>
+        <link href="https://mj5219054.github.io/post/gong-zuo-xuan-ze/">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
-]]></content>
+        <updated>2021-06-11T16:41:41.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[                                     职业]]></title>
+        <id>https://mj5219054.github.io/post/zhi-y/</id>
+        <link href="https://mj5219054.github.io/post/zhi-y/">
+        </link>
+        <updated>2021-04-30T18:09:41.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[                                          法+规则]]></title>
+        <id>https://mj5219054.github.io/post/fa-gui-ze/</id>
+        <link href="https://mj5219054.github.io/post/fa-gui-ze/">
+        </link>
+        <updated>2021-04-29T13:48:54.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[                            管理与领导的艺术]]></title>
+        <id>https://mj5219054.github.io/post/guan-li-yu-4/</id>
+        <link href="https://mj5219054.github.io/post/guan-li-yu-4/">
+        </link>
+        <updated>2021-04-25T08:40:47.000Z</updated>
     </entry>
 </feed>
