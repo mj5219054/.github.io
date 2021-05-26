@@ -1,101 +1,121 @@
-
-<!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>                                 岁月 | 叶子</title>
-<meta name="description" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://mj5219054.github.io/favicon.ico?v=1621945911645">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<meta name="description" content="个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。" />
+<link rel="shortcut icon" href="https://mj5219054.github.io/favicon.ico">
 <link rel="stylesheet" href="https://mj5219054.github.io/styles/main.css">
 
-
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
-
-  
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-
-
+<script src="https://mj5219054.github.io/media/js/jquery.min.js"></script>
+<script src="https://mj5219054.github.io/media/js/masonry.pkgd.min.js"></script>
+<script src="https://mj5219054.github.io/media/js/aos.js"></script>
+<script src="https://mj5219054.github.io/media/js/pace.min.js"></script>
+<script src="https://mj5219054.github.io/media/js/view-image.min.js"></script>
+<script src="https://mj5219054.github.io/media/js/jquery.magnific-popup.min.js"></script>
+<script src="https://mj5219054.github.io/media/js/functions.js"></script>
+    <meta name="referrer" content="never">
+    <meta name="description" content="夫君子之行，静以修身，俭以养德。非淡泊无以明志，非宁静无以致远。夫学须静也，才须学也，非学无以广才，非志无以成学。淫慢则不能励精，险躁则不能治性。年与时驰，意与日去，遂成枯落，多不接世，悲守穷庐，将复何及！· 凡事讲个度，命中有个缘
+** ..." />
+    <meta name="keywords" content="" />
+    <script src="https://mj5219054.github.io/media/js/waterfall.min.js"></script>
+    <script src="https://mj5219054.github.io/media/js/prism.min.js"></script>
   </head>
   <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://mj5219054.github.io">
-        <img class="avatar" src="https://mj5219054.github.io/images/avatar.png?v=1621945911645" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://mj5219054.github.io">
-        <h1 class="site-title">叶子</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="https://mj5219054.github.io" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="https://mj5219054.github.io/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="https://mj5219054.github.io/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="https://mj5219054.github.io/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-        <div class="post-detail">
-          
-            <div class="feature-container" style="background-image: url('https://mj5219054.github.io/post-images/4QaQ604j9.png')">
+            <header id="header" class="grid-container">
+        <!-- start: .menu-wrapper -->
+        <div class="menu-mobile"> 
+          <i class="fa fa-reorder"></i>
+        </div>
+        <div class="menu-wrapper">
+          <div class="">
+            <div class="logo">
+              <a href="https://mj5219054.github.io"><img src="\media\images\custom-headerLogo.jpg" alt=""></a>
             </div>
-          
-          <h2 class="post-title">                                 岁月</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2021-04-19</span>
-            
+            <!-- start: .main-nav -->
+
+            <nav class="main-nav grid-container grid-parent">
+              <ul id="menu-header" class="menu gradient-effect">
+                <li class=""><a href="https://mj5219054.github.io" class="menu">首页</a></li>
+                
+                  <li class="" >
+                    <a href="https://mj5219054.github.io" class="menu">
+                      首页
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="https://mj5219054.github.io/archives" class="menu">
+                      归档
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="https://mj5219054.github.io/tags" class="menu">
+                      标签
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="https://mj5219054.github.io/post/about" class="menu">
+                      关于
+                    </a>
+                  </li>
+                
+                <li class="search-menu-item hide-on-mobile hide-on-tablet"><a href="#search-lightbox" class="lightbox mfp-inline"><i class="fa fa-search-line"></i></a></li>
+              </ul>
+            </nav>
+            <a href="#search-lightbox" class="lightbox epcl-search-button mfp-inline hide-on-tablet hide-on-desktop"><i class="fa fa-search-line"></i></a>
+            <!-- end: .main-nav -->
+            <div class="clear"></div>
+            <div class="border hide-on-tablet hide-on-mobile"></div>
+          </div>    
+          <div class="clear"></div>
+        </div>
+        <!-- end: .menu-wrapper -->
+        <div class="clear"></div>
+      </header>
+      <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
+        <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
+          <div class="search-wrapper section">
+            <form id="gridea-search-form" data-update="1622006137545" action="/search/index.html" class="search-form" _lpchecked="1">
+              <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
+              <button type="submit" class="submit" aria-label="Submit">
+                <i class="fa fa-search-line"></i>
+              </button>
+            </form>
           </div>
-          <div class="post-content">
-            <p>夫君子之行，静以修身，俭以养德。非淡泊无以明志，非宁静无以致远。夫学须静也，才须学也，非学无以广才，非志无以成学。淫慢则不能励精，险躁则不能治性。年与时驰，意与日去，遂成枯落，多不接世，悲守穷庐，将复何及！· 凡事讲个度，命中有个缘</p>
+        </div>
+      </div>
+
+      <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
+
+        <div class="center content">
+          <div class="featured-image cover" style="background-image: url('https://mj5219054.github.io/post-images/4QaQ604j9.png');">
+            <div class="meta top"> 
+              <time class="meta-info" style="float:left;" datetime="2021-04-19"><i class="fa fa-calendar"></i><span class="lately">1 个月前</span></time>
+              
+              <a href="https://mj5219054.github.io/post/4QaQ604j9/#comments" class="comments meta-info" title="">
+                <i class="fa fa-comment remixicon"></i><span class="comment-count valine-comment-count" data-xid="/4QaQ604j9/"> </span>
+              </a>
+              <span id="/4QaQ604j9/" class="leancloud_visitors views-counter meta-info" title=""><i class="fa fa-leancloud remixicon"></i><span class="leancloud-visitors-count"></span></span>
+              
+            </div>
+            <div class="info">
+              <div class="tags ">
+                
+              </div>
+              <h1 class="title ularge white bold">                                 岁月</h1>
+            </div>
+          </div>
+        </div>  
+
+        <div class="epcl-page-wrapper">
+          <div class="left-content grid-70 np-mobile">
+            <article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <p>夫君子之行，静以修身，俭以养德。非淡泊无以明志，非宁静无以致远。夫学须静也，才须学也，非学无以广才，非志无以成学。淫慢则不能励精，险躁则不能治性。年与时驰，意与日去，遂成枯落，多不接世，悲守穷庐，将复何及！· 凡事讲个度，命中有个缘</p>
 <p>**   <strong>人的生命是理想，帆的生命是风，没有理想的生命，就像没有风的帆一样空虚</strong><br>
 <img src="https://mj5219054.github.io/post-images/1619706134955.jpg" alt="" loading="lazy"><br>
 中梁不正垮下来<br>
@@ -295,90 +315,246 @@
 圈子里就是这么回事，大家都练就了一身察言观色听话听音的绝技。人的原则就是明哲保身，这我理解。为了跟环境和平共处，他们真心话不敢说，却理直气<br>
 1.人就是要停靠个好码头；2.凡人的原则就是明哲保身；3.在大人物面前，一个人不做瞎子聋子，但是要做哑巴；4.现实从来不怕谁不服气，服，得服，不服，也得服；5.放下良知包袱才能成为能人；6.人们对事情的态度总是由自己的情感和利益决定的，没有什么客观性可言；7.道理是假的，利益是真的。道理随着利益转，因此各有各的说法；8.机会是等不来的；9.生存是硬道理，是归宿，是一切；10.原则是死的，人是活的，没有活人办不成的事，原则只能罩住不懂钻营的人；11.人把自尊放下的话，还是有很多机会的；12.清高和善良那是怯懦和无能的另外一种说法，好听的说法；13.为了拿到好东西，要心黑脸皮厚，要有心理承受能力，不能心慈手软；14.那些好听的话可以有效瓦解一个人的判断力，以后有什么奉承的话尽管说出来，不要怕肉麻，也不用担心被奉承者会承受不了；15.现实没有诗意的空间，只有真实到残忍的存在，只能直面不能躲避，这是唯一能够与生活发生有效联系的选择；16.一个人飞黄腾达或潦倒一生，就看上面的人愿意怎么说你；17.大人物是讲人情的，更是讲功利的，你支持了他，他必定会给你回报；18.聪明的人，倔强的人，都拗不过历史；19.现代也好，古代也好，碰了不该碰的东西，就要付出沉重的代价；20.世上的好东西你不去竭力争取你就得不到</p>
 
-          </div>
-        </div>
+                </div>
+                <div class="clear"></div>
+              </section>
+            </article>
+            <div class="clear"></div>
 
-        
-          <div class="next-post">
-            <a class="purple-link" href="https://mj5219054.github.io/post/t8MYAq2EI/">
-              <h3 class="post-title">
-                下一篇：                            商论
-              </h3>
-            </a>
-          </div>
-          
-      </div>
+            <section class="related section">
+              
+              <article class="prev grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://mj5219054.github.io/post-images/guan-li-yu-4.png');"></div>
+                 <a href="https://mj5219054.github.io/post/guan-li-yu-4/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2021-04-25">2021-04-25</time>
+                  <h4 class="title white no-margin">                            管理与领导的艺术</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://mj5219054.github.io/media/images/left-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+              
+              <article class="next grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://mj5219054.github.io/post-images/t8MYAq2EI.jpg');"></div>
+                 <a href="https://mj5219054.github.io/post/t8MYAq2EI/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2021-04-16">2021-04-16</time>
+                  <h4 class="title white no-margin">                            商论</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://mj5219054.github.io/media/images/right-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
 
-      
-        
-          <div id="gitalk-container"></div>
-        
+                <div class="clear"></div>
+            </section>
 
-        
-      
+              <div class="clear"></div>
+              
+            
+              <div id="comments" class="bg-white hosted ">
+                
+                  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
-      <div class="site-footer">
-  <div class="slogan">个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</div>
-  <div class="social-container">
-    
-      
-        <a href="https://github.com/https-github-com-mj521905" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by Gridea, © 2014 - 2021 Copyright 叶子. All Rights Reserved.  | <a class="rss" href="https://mj5219054.github.io/atom.xml" target="_blank">RSS</a>
-</div>
+<div id="gitalk-container"></div>
+<div class="clear"></div>
 
+<script>
+  var gitalk = new Gitalk({
+    clientID: 'c3ef8e97faf573382bad',
+    clientSecret: '0e5e937476a9a26a7074442cfad3178219fc88fe',
+    repo: '.github.io',
+    owner: '',
+    admin: [''],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
 
-    </div>
-    <script type="application/javascript">
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+  gitalk.render('gitalk-container')
 </script>
 
+                
+                
+              </div>
+            
 
+            </div>
+          </div>
+      </main>
 
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script>
+          <footer id="footer" class="grid-container">
+        <div class="widgets row gradient-effect">
+            <div class="default-sidebar border-effect">
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_epcl_posts_thumbs underline-effect">
+                  <h4 class="widget-title title white bordered">最新文章</h4>
+                  
+                  
+                  <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://mj5219054.github.io/post/gong-zuo-xuan-ze/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://mj5219054.github.io/post-images/gong-zuo-xuan-ze.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2021-06-12">2021-06-12</time>
+                      <h4 class="title usmall">
+                        <a href="https://mj5219054.github.io/post/gong-zuo-xuan-ze/">   工作选择</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://mj5219054.github.io/post/wen-/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://mj5219054.github.io/post-images/wen-.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2021-05-19">2021-05-19</time>
+                      <h4 class="title usmall">
+                        <a href="https://mj5219054.github.io/post/wen-/">                                 文化里的品</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://mj5219054.github.io/post/zhi-y/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://mj5219054.github.io/post-images/zhi-y.jpeg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2021-05-01">2021-05-01</time>
+                      <h4 class="title usmall">
+                        <a href="https://mj5219054.github.io/post/zhi-y/">                                     职业</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <div class="clear"></div>
+                </section>
+              </div>
 
-      var gitalk = new Gitalk({
-        clientID: 'c3ef8e97faf573382bad',
-        clientSecret: '0e5e937476a9a26a7074442cfad3178219fc88fe',
-        repo: '.github.io',
-        owner: '',
-        admin: [''],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_tag_cloud underline-effect">
+                  <h4 class="widget-title title white bordered">标签云</h4>
+                  <div class="tagcloud">
+                    
+                      <a href="https://mj5219054.github.io/tag/cheng-chang-de-de-xuan-ze/" class="ctag ctag-0 ctag-cheng-chang-de-de-xuan-ze" aria-label="">成长的的选择</a>
+                    
+                      <a href="https://mj5219054.github.io/tag/f7uvvrkDK/" class="ctag ctag-1 ctag-f7uvvrkDK" aria-label="">Gridea</a>
+                    
+                      <a href="https://mj5219054.github.io/tag/fan-nao-he-jue-ze/" class="ctag ctag-2 ctag-fan-nao-he-jue-ze" aria-label="">烦恼和抉择</a>
+                    
+                  </div>
+                  <div class="clear"></div>
+                </section>
+              </div>
 
-      gitalk.render('gitalk-container')
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="epcl_about-2" class="widget widget_epcl_about underline-effect">
+                  <h4 class="widget-title title white bordered">关于我</h4>
+                  <div class="avatar">
+                    <a href="" class="translate-effect thumb"><span class="fullimage cover" style="background-image: url(https://mj5219054.github.io/images/avatar.png);"></span></a>
+                  </div>
+                  <div class="info">
+                    <h4 class="title small author-name gradient-effect no-margin"><a href="">叶子</a></h4>
+                    <p class="founder">个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</p>
+                    <div class="social">
+                      
+                          
+                            <a href="https://github.com/mj5219054" class="translate-effect" target="_blank"><i class="fa fa-github"></i></a>
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                    </div> 
+                  </div>
+                  <div class="clear"></div>
+                  </section>
+              </div>
 
-    </script>
-  
+            </div>
+            <div class="clear"></div>
+        </div>
 
-  
+        <div class="logo">
+          <a href="https://mj5219054.github.io"><img src="\media\images\custom-footerLogo.jpg" alt=""></a>
+        </div>
+        <p class="published border-effect">
+          ©2019 共 23 篇文章
+          <br/>
+          Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
+        </p>
+        
+        <a href="javascript:void(0)" id="back-to-top" class="epcl-button dark" style="display:none">
+          <i class="fa fa-arrow"></i>
+        </a>
+    </footer>
+    
+    <div class="clear"></div>
 
+        
 
+      
+    <script src="https://mj5219054.github.io/media/js/functions-post.js"></script>
 
-
+    </div>
+    <!-- end: #wrapper -->
   </body>
 </html>
